@@ -1,0 +1,5 @@
+# Fichiers internes — non publiés sur le site
+00_README.md
+SETUP_HEBERGEMENT_CLOUDFLARE.md
+publish.sh
+.DS_Store

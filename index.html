@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabatier Formation — Intelligence métier</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --ink: #1a1f2b;
+    --muted: #667085;
+    --line: #e6e8ec;
+    --brand: #1d4e89;
+    --hi-haute: #d92d20;
+    --hi-moyenne: #b5760a;
+    --hi-surv: #667085;
+    --hi-cas: #6a4c93;
+    --recent: #027a48;
+    --recent-bg: #ecfdf3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px; line-height: 1.5;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
+  header.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; border-bottom: 2px solid var(--brand); padding-bottom: 14px; margin-bottom: 18px; }
+  header.top h1 { font-size: 22px; margin: 0; color: var(--brand); letter-spacing: -.2px; }
+  header.top .sub { color: var(--muted); font-size: 13px; }
+  header.top .maj { margin-left: auto; color: var(--muted); font-size: 12.5px; }
+
+  .tabs { display: flex; gap: 4px; margin-bottom: 16px; }
+  .tab { padding: 8px 16px; border: 1px solid var(--line); background: var(--card); border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 14px; color: var(--muted); }
+  .tab.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+  .search { flex: 1 1 240px; min-width: 200px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; background: var(--card); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); cursor: pointer; font-size: 12.5px; color: var(--muted); user-select: none; display: inline-flex; align-items: center; gap: 6px; }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  .chip.on { color: #fff; border-color: transparent; }
+  .chip.priochip.on { background: var(--ink); }
+
+  .count { color: var(--muted); font-size: 13px; margin: 4px 0 14px; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin-bottom: 12px; box-shadow: 0 1px 2px rgba(16,24,40,.04); }
+  .card.recent { border-left: 4px solid var(--recent); }
+  .card .row1 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .badge { font-size: 11.5px; font-weight: 700; color: #fff; padding: 3px 9px; border-radius: 6px; }
+  .prio { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; border: 1px solid; text-transform: uppercase; letter-spacing: .3px; }
+  .prio.haute { color: var(--hi-haute); border-color: var(--hi-haute); }
+  .prio.moyenne { color: var(--hi-moyenne); border-color: var(--hi-moyenne); }
+  .prio.surveillance { color: var(--hi-surv); border-color: var(--hi-surv); }
+  .prio.cas { color: var(--hi-cas); border-color: var(--hi-cas); }
+  .recent-tag { font-size: 11px; font-weight: 700; color: var(--recent); background: var(--recent-bg); padding: 3px 8px; border-radius: 6px; }
+  .date { color: var(--muted); font-size: 12.5px; margin-left: auto; }
+  .card h3 { font-size: 16px; margin: 2px 0 6px; }
+  .card .resume { color: #344054; font-size: 14px; }
+  .card .stat { color: var(--muted); font-size: 12.5px; font-style: italic; margin-top: 6px; }
+  details.more { margin-top: 8px; }
+  details.more summary { cursor: pointer; color: var(--brand); font-size: 13px; font-weight: 600; }
+  details.more .grid { margin-top: 8px; display: grid; gap: 6px; font-size: 13.5px; }
+  details.more .grid div b { color: var(--ink); }
+  .links { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; }
+  .links a { color: var(--brand); text-decoration: none; font-weight: 600; }
+  .links a:hover { text-decoration: underline; }
+  .filepath { color: var(--muted); font-weight: 500; }
+
+  .agentblock { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
+  .agentblock > summary { list-style: none; cursor: pointer; padding: 14px 18px; display: flex; align-items: center; gap: 10px; font-weight: 700; }
+  .agentblock > summary::-webkit-details-marker { display: none; }
+  .agentblock .acount { margin-left: auto; color: var(--muted); font-weight: 600; font-size: 13px; }
+  .agentblock .inner { padding: 0 18px 14px; }
+  .arch-item { padding: 10px 0; border-top: 1px solid var(--line); }
+  .arch-item .ai1 { display: flex; gap: 8px; align-items: baseline; }
+  .arch-item .ai-date { color: var(--muted); font-size: 12px; min-width: 86px; }
+  .arch-item .ai-title { font-weight: 600; font-size: 14px; }
+  .arch-item .ai-res { color: #475467; font-size: 13px; margin: 3px 0 0 94px; }
+  .empty { color: var(--muted); font-size: 13px; font-style: italic; padding: 6px 0; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Sabatier Formation — Intelligence métier</h1>
+    <span class="sub" id="sub"></span>
+    <span class="maj" id="maj"></span>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-view="feed" id="tab-feed">Fil d'actualité</div>
+    <div class="tab" data-view="archive" id="tab-archive">Archives par agent</div>
+  </div>
+
+  <!-- FEED VIEW -->
+  <section id="view-feed">
+    <div class="controls">
+      <input class="search" id="search" type="text" placeholder="Rechercher (titre, résumé, source…)">
+    </div>
+    <div class="chips" id="agentchips"></div>
+    <div class="chips" id="priochips" style="margin-top:8px"></div>
+    <div class="count" id="count"></div>
+    <div id="feedlist"></div>
+  </section>
+
+  <!-- ARCHIVE VIEW -->
+  <section id="view-archive" class="hidden">
+    <div class="count" id="archcount"></div>
+    <div id="archlist"></div>
+  </section>
+</div>
+
+<script>
+const DATA = {
+  "meta": {
+    "titre": "Sabatier Formation — Intelligence métier",
+    "derniere_maj": "2026-06-16",
+    "agents": {
+      "veille-reglementaire":      { "num": 1, "label": "Veille réglementaire",      "couleur": "#1d4e89" },
+      "veille-formation":          { "num": 2, "label": "Veille formation",          "couleur": "#2a9d8f" },
+      "veille-concurrentielle":    { "num": 3, "label": "Veille concurrentielle",    "couleur": "#e76f51" },
+      "observation-metiers":       { "num": 4, "label": "Observation des métiers",   "couleur": "#8a5a44" },
+      "detection-opportunites":    { "num": 5, "label": "Détection d'opportunités",  "couleur": "#c9a227" },
+      "veille-ia":                 { "num": 6, "label": "Veille IA",                 "couleur": "#6a4c93" },
+      "editorial":                 { "num": 7, "label": "Éditorial",                 "couleur": "#b5179e" },
+      "actualite-banque-assurance":{ "num": 8, "label": "Actualité banque-assurance","couleur": "#118ab2" },
+      "memoire-sabatier":          { "num": 9, "label": "Mémoire Sabatier",          "couleur": "#3a5a40" }
+    }
+  },
+  "items": [
+    {
+      "id": "regl-20260616-01", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Retail Investment Strategy — durcissement des inducements et du value for money",
+      "resume": "Paquet modifiant MIF II, Solvabilité II, UCITS, AIFMD et PRIIPs : démonstration d'un « bénéfice tangible » client, divulgation séparée des coûts, tests d'inducements renforcés, comparaisons par groupe de pairs, simplification du test d'adéquation pour produits non complexes.",
+      "priorite": "haute",
+      "statut": "Accord politique Conseil/Parlement 18/12/2025 ; finalisation des textes en cours, pas encore publié au JOUE.",
+      "impact": "Refonte des pratiques de commercialisation et de conseil en assurance vie et instruments financiers ; documentation précontractuelle à revoir. Transposition 24 mois, application 30 mois (18 mois pour PRIIPs).",
+      "populations": "Conseillers clientèle banque/patrimoine, CGP, intermédiaires d'assurance, conformité, contrôle interne.",
+      "besoin_formation": "Nouvelles obligations inducements / VFM / adéquation ; impact sur l'argumentaire de vente.",
+      "opportunite": "Module « RIS : se préparer 2 ans avant » — fort différenciant premium.",
+      "source_label": "Conseil de l'UE — Retail Investment Strategy (18/12/2025)",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/retail-investment-strategy-council-and-parliament-agree-on-package-to-empower-consumers-while-boosting-markets/",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260616-02", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "EIOPA — 3e rapport sur l'application de la directive distribution (IDD)",
+      "resume": "Examen de la structure du marché des intermédiaires, du transfrontalier, de la qualité du conseil et des méthodes de vente. Doutes sur la proportionnalité des exigences ; risques persistants pour la protection du client en assurance vie et assurance emprunteur (CPI). Angles morts sur l'IA générative.",
+      "priorite": "haute",
+      "statut": "Publié le 30/03/2026.",
+      "impact": "Pression accrue sur le devoir de conseil, le value for money et la distribution d'assurance emprunteur.",
+      "populations": "Réseaux de distribution assurance, bancassurance, courtiers, conformité.",
+      "besoin_formation": "Qualité du conseil IDD, gouvernance produit (POG), VFM en assurance vie/emprunteur.",
+      "opportunite": "Capsule « VFM et devoir de conseil » adossée aux constats EIOPA.",
+      "source_label": "EIOPA — 3e rapport IDD (30/03/2026)",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-publishes-third-report-application-insurance-distribution-directive-2026-03-30_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260616-03", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "AMF — produits structurés : 7 informations clés en première page",
+      "resume": "Chaque brochure d'un produit structuré devrait afficher en première page : accès au DIC, durée, protection du capital, rémunération, risque émetteur, sortie anticipée, sous-jacent. Issu des travaux du Pôle commun ACPR-AMF.",
+      "priorite": "moyenne",
+      "statut": "Bonnes pratiques publiées le 03/02/2026 (non contraignant).",
+      "impact": "Mise à jour des supports commerciaux et du discours sur produits structurés.",
+      "populations": "Conseillers patrimoniaux, marketing produit, conformité.",
+      "besoin_formation": "Lisibilité et commercialisation des produits structurés ; bonnes pratiques AMF 2026.",
+      "opportunite": "Atelier court « produits structurés : vendre clair, vendre conforme ».",
+      "source_label": "ACPR/AMF — analyse marché produits structurés (Pôle commun)",
+      "source_url": "https://acpr.banque-france.fr/fr/communiques-de-presse/le-pole-commun-de-lacpr-et-de-lamf-publie-son-analyse-du-marche-francais-des-produits-structures",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260616-04", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Transfert des mandats LCB-FT de l'EBA vers l'AMLA",
+      "resume": "L'EBA et l'AMLA ont achevé le transfert des mandats LCB-FT (dont la base EuReCa). Les orientations EBA restent en vigueur jusqu'à remplacement par l'AMLA, qui supervisera directement ~40 institutions et coordonnera les CRF.",
+      "priorite": "moyenne",
+      "statut": "Transfert finalisé le 01/01/2026 ; AMLA en montée en puissance.",
+      "impact": "Nouvelle architecture de supervision LCB-FT européenne ; harmonisation à venir des obligations.",
+      "populations": "Conformité LCB-FT, RCSI, direction des risques.",
+      "besoin_formation": "Cartographie du nouveau cadre AMLA et calendrier d'harmonisation.",
+      "opportunite": "Brief « AMLA : ce qui change pour vos équipes conformité ».",
+      "source_label": "AMLA — communiqué transfert des mandats",
+      "source_url": "https://www.amla.europa.eu/eba-and-amla-complete-handover-amlcft-mandates_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260616-05", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Programmes de supervision 2026 ACPR et AMF",
+      "resume": "ACPR : vulnérabilités/risques, gouvernance et fonctions clés, mise en œuvre de DORA, préparation supervision IA et tokenisation, simplification (DORA, IA, VFM, LCB-FT au menu). AMF : supervision renforcée SGP/PSI, DORA, simplification finance durable, stress test système.",
+      "priorite": "moyenne",
+      "statut": "Programmes de travail publiés début 2026.",
+      "impact": "Priorités de contrôle 2026 connues → anticipation des contrôles.",
+      "populations": "Conformité, contrôle interne, dirigeants, fonctions clés.",
+      "besoin_formation": "DORA (résilience opérationnelle), gouvernance des fonctions clés, supervision de l'IA.",
+      "opportunite": "Parcours « se préparer aux contrôles ACPR/AMF 2026 ».",
+      "source_label": "ACPR — programme de travail 2026",
+      "source_url": "https://acpr.banque-france.fr/en/press-release/autorite-de-controle-prudentiel-et-de-resolution-prudential-supervision-and-resolution-authority",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260616-06", "agent": "veille-reglementaire", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "À vérifier — sanction ACPR visant la Société Générale comme intermédiaire d'assurance",
+      "resume": "Mentionnée dans la presse spécialisée comme récente (2026) mais date et portée exactes à confirmer sur le site ACPR avant exploitation.",
+      "priorite": "surveillance",
+      "statut": "Non confirmé — à vérifier sur source officielle ACPR.",
+      "impact": "Potentiel cas pédagogique LCB-FT / intermédiation, sous réserve de confirmation.",
+      "populations": "Conformité, intermédiaires d'assurance.",
+      "besoin_formation": "À déterminer après vérification.",
+      "opportunite": "À déterminer après vérification.",
+      "source_label": "À confirmer (presse spécialisée)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20231012-01", "agent": "veille-reglementaire", "date": "2023-10-12", "ajout": "2026-06-16",
+      "titre": "Cas pédagogique — Sanction ACPR Abeille Vie (blâme + 3,5 M€, carences LCB-FT)",
+      "resume": "Décision de la Commission des sanctions du 12/10/2023 (contrôle 2020-2021) : carences sur connaissance client, détection des PPE, vigilance renforcée, détection des opérations atypiques, délai des déclarations de soupçon, contrôle des activités externalisées. NON daté de 2026.",
+      "priorite": "cas",
+      "statut": "Décision du 12/10/2023 (cas pédagogique daté, hors actualité).",
+      "impact": "Illustration concrète des attentes du régulateur en LCB-FT assurance vie.",
+      "populations": "Conformité LCB-FT, réseaux assurance vie.",
+      "besoin_formation": "Cas concret en formation LCB-FT assurance vie.",
+      "opportunite": "Étude de cas dans les modules LCB-FT, présentée avec sa date réelle.",
+      "source_label": "ACPR — Commission des sanctions, Abeille Vie (12/10/2023)",
+      "source_url": "https://acpr.banque-france.fr/fr/communiques-de-presse/la-commission-des-sanctions-de-lacpr-sanctionne-la-societe-abeille-vie",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-16_Veille-reglementaire_Synthese.md"
+    },
+
+    {
+      "id": "form-20260616-01", "agent": "veille-formation", "date": "2025-05-01", "ajout": "2026-06-16",
+      "titre": "Récupération espacée + testing effect — efficacité prouvée",
+      "resume": "Méta-analyse (mai 2025) confirmant un effet robuste de la pratique distribuée : la récupération active et l'espacement renforcent durablement la mémoire.",
+      "priorite": "haute",
+      "statut": "Efficacité prouvée.",
+      "impact": "À intégrer comme colonne vertébrale de l'ancrage (quiz espacés J+1/J+7/J+30, tests de récupération), pas comme option.",
+      "populations": "Tous publics banque-assurance.",
+      "besoin_formation": "Former les concepteurs à scénariser des séquences de rappel espacées plutôt que de la relecture.",
+      "opportunite": "Garantie premium de rétention mesurable (avant/après).",
+      "source_label": "PMC — méta-analyse Distributed Practice Effect (05/2025)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189222/",
+      "fichier": "Base_de_connaissances/09_Veille/formation/2026-06-16_Veille-formation_Synthese.md"
+    },
+    {
+      "id": "form-20260616-02", "agent": "veille-formation", "date": "2025-01-01", "ajout": "2026-06-16",
+      "titre": "Microlearning ciblé sur le bon niveau cognitif",
+      "resume": "Taux de complétion jusqu'à 80 % (vs 20-30 % en e-learning classique), mais opère sur les premiers niveaux de Bloom : ancre du factuel et diffuse des MAJ, sans transformer une posture.",
+      "priorite": "haute",
+      "statut": "Efficacité prouvée sur usages ciblés (mémoriser/appliquer).",
+      "impact": "Réserver aux MAJ produits/réglementaires et à la consolidation post-formation.",
+      "populations": "Conseillers réseau, salariés assureurs vie/IARD.",
+      "besoin_formation": "Cartographier chaque objectif sur la taxonomie de Bloom avant de choisir la modalité.",
+      "opportunite": "Discours d'ingénierie « la bonne modalité au bon niveau » justifiant le premium.",
+      "source_label": "Lefebvre Dalloz Compétences (2025)",
+      "source_url": "https://formation.lefebvre-dalloz.fr/actualite/microlearning-jeux-immersive-learning-comment-choisir-la-bonne-modalite-selon-lobjectif-pedagogique",
+      "fichier": "Base_de_connaissances/09_Veille/formation/2026-06-16_Veille-formation_Synthese.md"
+    },
+    {
+      "id": "form-20260616-03", "agent": "veille-formation", "date": "2025-01-01", "ajout": "2026-06-16",
+      "titre": "Classe inversée (flipped classroom)",
+      "resume": "Méta-analyses récentes (médecine, pharmacie) montrant un avantage sur les résultats d'examen vs cours magistral, dépendant de la qualité de mise en œuvre.",
+      "priorite": "moyenne",
+      "statut": "Efficacité prouvée, dépend de la mise en œuvre.",
+      "impact": "Théorie en amont (asynchrone), présentiel premium réservé aux cas pratiques et au coaching.",
+      "populations": "CGP et profils experts à forte valeur ajoutée en présentiel.",
+      "besoin_formation": "Former les formateurs à animer du présentiel actif (cas, jeux de rôle).",
+      "opportunite": "Valoriser le présentiel comme moment haut de gamme.",
+      "source_label": "JMIR — Flipped Classroom meta-analysis (2025)",
+      "source_url": "https://www.jmir.org/2025/1/e60757",
+      "fichier": "Base_de_connaissances/09_Veille/formation/2026-06-16_Veille-formation_Synthese.md"
+    },
+    {
+      "id": "form-20260616-04", "agent": "veille-formation", "date": "2025-01-01", "ajout": "2026-06-16",
+      "titre": "IA tutorale / apprentissage adaptatif (ITS) — émergent",
+      "resume": "Méta-analyse 2025 (30 études, effet global ~0,86) : gains sur attitudes et scores, mais effets moins concluants sur l'acquisition de connaissances et la résolution de problèmes. IA utilisée comme modalité par 12 % des décideurs formation.",
+      "priorite": "surveillance",
+      "statut": "Tendance émergente, preuves prometteuses mais hétérogènes.",
+      "impact": "Expérimenter en pilote avant déploiement large.",
+      "populations": "Cohortes hétérogènes nécessitant une personnalisation du rythme.",
+      "besoin_formation": "Conception de parcours adaptatifs et supervision pédagogique de l'IA.",
+      "opportunite": "Se positionner tôt et mesuré, sans gadget.",
+      "source_label": "Int. J. of Distance Education Technologies, ITS meta-analysis (2025) via ERIC",
+      "source_url": "https://eric.ed.gov/?q=source:%22International+Journal+of+Distance+Education+Technologies%22&id=EJ1462151",
+      "fichier": "Base_de_connaissances/09_Veille/formation/2026-06-16_Veille-formation_Synthese.md"
+    },
+
+    {
+      "id": "conc-20260616-01", "agent": "veille-concurrentielle", "date": "2025-09-01", "ajout": "2026-06-16",
+      "titre": "ESBanque lance deux formations IA pour conseillers bancaires",
+      "resume": "L'ESBanque (ex-CFPB) ajoute « IA : optimiser votre quotidien professionnel » et « Conseiller avec l'IA dans le secteur bancaire », en classes virtuelles.",
+      "priorite": "haute",
+      "statut": "Confirmé (catalogue ESBanque). Baseline — concurrents non encore fournis.",
+      "impact": "L'acteur de référence occupe le terrain IA appliquée au conseil, cœur de cible Sabatier.",
+      "populations": "Conseillers clientèle particuliers/pro, chargés de clientèle.",
+      "besoin_formation": "Modules « conseiller augmenté par l'IA » sécurisés (RGPD, conformité).",
+      "opportunite": "Différenciation par format premium présentiel/coaching, cas réels et ancrage conformité.",
+      "source_label": "ESBanque — catalogue 2024-2025",
+      "source_url": "https://www.esbanque.fr/actualites/intelligence-artificielle-deux-nouvelles-formations",
+      "fichier": "Base_de_connaissances/09_Veille/concurrence/2026-06-16_Veille-concurrentielle_Synthese.md"
+    },
+    {
+      "id": "conc-20260616-02", "agent": "veille-concurrentielle", "date": "2025-01-01", "ajout": "2026-06-16",
+      "titre": "First Finance structure une gamme « IA pour la finance »",
+      "resume": "Pôle « Agents IA pour la finance », « IA appliquée à la finance », « IA générative pour la finance de marché », « IA pour la gestion d'actifs », sessions présentiel programmées.",
+      "priorite": "haute",
+      "statut": "Confirmé (catalogue First Finance). Baseline.",
+      "impact": "Montée en gamme technique orientée finance de marché.",
+      "populations": "Finance de marché, gestion d'actifs, profils techniques.",
+      "besoin_formation": "Contenus IA agentique/RAG appliqués aux métiers.",
+      "opportunite": "Sabatier peut capter banque de détail/assurance avec une IA « métier conseil » plus accessible et premium.",
+      "source_label": "First Finance — catalogue Formations IA",
+      "source_url": "https://www.first-finance.fr/catalogue/agents-ia-pour-la-finance/",
+      "fichier": "Base_de_connaissances/09_Veille/concurrence/2026-06-16_Veille-concurrentielle_Synthese.md"
+    },
+    {
+      "id": "conc-20260616-03", "agent": "veille-concurrentielle", "date": "2026-02-01", "ajout": "2026-06-16",
+      "titre": "Lefebvre Dalloz Compétences : IA + catalogue banque-assurance 2026",
+      "resume": "IA appliquée à la gestion-finance, partenariats (Dauphine-PSL, Ensae, Bärchen), catalogue banque-assurance 2026 publié.",
+      "priorite": "moyenne",
+      "statut": "Confirmé (site et catalogue). Baseline.",
+      "impact": "Concurrent multi-secteur à forte légitimité réglementaire/juridique.",
+      "populations": "Compliance, audit/risques, finance d'entreprise, banque-assurance.",
+      "besoin_formation": "Couplage IA + conformité/réglementaire.",
+      "opportunite": "Différenciation par spécialisation pure banque-assurance et suivi premium.",
+      "source_label": "Lefebvre Dalloz Compétences — IA gestion-finance",
+      "source_url": "https://formation.lefebvre-dalloz.fr/formation/ia-gestion-finance",
+      "fichier": "Base_de_connaissances/09_Veille/concurrence/2026-06-16_Veille-concurrentielle_Synthese.md"
+    },
+
+    {
+      "id": "met-20260616-01", "agent": "observation-metiers", "date": "2025-03-01", "ajout": "2026-06-16",
+      "titre": "IA générative : transformation maîtrisée des métiers bancaires (étude interbranche)",
+      "resume": "Étude Observatoire des métiers de la banque + BPCE (Roland Berger/Diot-Siaci, OPCO Atlas) : l'IAG transforme l'exercice des métiers sans les remplacer ; forte attente de formation pour superviser et fiabiliser les productions IA.",
+      "priorite": "haute",
+      "statut": "Étude publiée (03/2025).",
+      "impact": "Justifie une offre « IA appliquée au métier bancaire » (supervision, esprit critique, conformité).",
+      "populations": "Conseillers clientèle, chargés d'affaires, métiers data et risque.",
+      "besoin_formation": "Usage encadré de l'IAG, vérification des outputs, double compétence métier+IA, éthique/conformité.",
+      "opportunite": "Positionnement premium « expertise humaine augmentée ».",
+      "source_label": "Observatoire des métiers de la banque (03/2025)",
+      "source_url": "https://www.observatoire-metiers-banque.fr/etudes/etude-interbranche-sur-les-impacts-de-lintelligence-artificielle-generative-au-sein-du-secteur-bancaire/",
+      "fichier": "Base_de_connaissances/09_Veille/metiers/2026-06-16_Observation-metiers_Synthese.md"
+    },
+    {
+      "id": "met-20260616-02", "agent": "observation-metiers", "date": "2025-05-26", "ajout": "2026-06-16",
+      "titre": "Baromètre prospectif OEMA 2025 & référentiel métiers horizon 2030",
+      "resume": "L'OEMA publie son Baromètre prospectif 2025 et lance un référentiel prévisionnel des métiers à horizon 2030 (impact des systèmes d'IA sur organisation, compétences, conditions de travail).",
+      "priorite": "haute",
+      "statut": "Baromètre publié / référentiel prospectif lancé (26/05/2025).",
+      "impact": "Cadre pour aligner l'offre assurance sur les compétences anticipées par la branche.",
+      "populations": "Assureurs vie & IARD, conseillers commerciaux, gestionnaires de contrats/sinistres.",
+      "besoin_formation": "Intégration des SIA, montée en compétences data, hybridation conseil-digital.",
+      "opportunite": "Parcours « métiers 2030 » pré-alignés = crédibilité en appels d'offres.",
+      "source_label": "OEMA — Baromètre prospectif 2025",
+      "source_url": "https://www.metiers-assurance.org/wp-content/uploads/2025/05/BAROMETRE_PROSPECTIF_2025_vF.pdf",
+      "fichier": "Base_de_connaissances/09_Veille/metiers/2026-06-16_Observation-metiers_Synthese.md"
+    },
+    {
+      "id": "met-20260616-03", "agent": "observation-metiers", "date": "2025-09-01", "ajout": "2026-06-16",
+      "titre": "ROMA 2025 — effectifs, recrutements, mobilité, formation (assurance)",
+      "resume": "Édition refondue du Rapport de l'Observatoire des Métiers de l'Assurance : vision actualisée des flux d'emploi de la branche.",
+      "priorite": "moyenne",
+      "statut": "Rapport publié.",
+      "impact": "Source chiffrée pour cibler les segments en tension et dimensionner l'offre.",
+      "populations": "Salariés de l'assurance, focus distribution et relation client.",
+      "besoin_formation": "Requalification, mobilité interne, intégration des nouveaux entrants.",
+      "opportunite": "Dispositifs d'onboarding et de mobilité pour assureurs en tension de recrutement.",
+      "source_label": "OEMA — ROMA 2025",
+      "source_url": "https://www.metiers-assurance.org/roma-2025/",
+      "fichier": "Base_de_connaissances/09_Veille/metiers/2026-06-16_Observation-metiers_Synthese.md"
+    },
+    {
+      "id": "met-20260616-04", "agent": "observation-metiers", "date": "2025-12-01", "ajout": "2026-06-16",
+      "titre": "Nouvelles compétences RSE/ESG dans la banque",
+      "resume": "Étude de l'Observatoire des métiers de la banque sur les compétences RSE et leurs enjeux : la durabilité/ESG monte comme axe de compétences à part entière.",
+      "priorite": "surveillance",
+      "statut": "Étude publiée (12/2025).",
+      "impact": "Ouvre un créneau « finance durable / ESG appliqué au conseil » encore peu couvert.",
+      "populations": "Conseillers clientèle, chargés d'affaires, CGP.",
+      "besoin_formation": "Intégration ESG au devoir de conseil, produits durables, reporting durabilité.",
+      "opportunite": "Module premium « conseil patrimonial et ESG ».",
+      "source_label": "Observatoire des métiers de la banque (12/2025)",
+      "source_url": "https://www.observatoire-metiers-banque.fr/etudes/les-nouvelles-competences-rse-quels-enjeux-pour-le-secteur-bancaire/",
+      "fichier": "Base_de_connaissances/09_Veille/metiers/2026-06-16_Observation-metiers_Synthese.md"
+    },
+
+    {
+      "id": "ia-20260616-01", "agent": "veille-ia", "date": "2025-09-01", "ajout": "2026-06-16",
+      "titre": "Generali France — agents IA en gestion des sinistres IARD",
+      "resume": "Agents IA (CESAR, GAIA) pour analyse documentaire, tri d'e-mails (~1 M traités) et synthèse de rapports de sinistres ; l'ensemble des 17 agents résout 30 % des demandes en 24/7.",
+      "priorite": "haute",
+      "statut": "Déploiement confirmé.",
+      "impact": "Accélération de l'indemnisation IARD et de l'analyse de courriers.",
+      "populations": "Gestionnaires sinistres, souscripteurs, indemnisation, anti-fraude.",
+      "besoin_formation": "Lecture critique des synthèses IA, supervision humaine, articulation IA/décision réglementée.",
+      "opportunite": "Module « IA appliquée à la gestion des sinistres IARD ».",
+      "source_label": "News Assurances Pro (2025)",
+      "source_url": "https://www.newsassurancespro.com/ia-et-transformation-digitale-chez-generali-france-des-initiatives-concretes-pour-lassurance-de-demain/01691675370",
+      "fichier": "Base_de_connaissances/09_Veille/ia/2026-06-16_Veille-IA_Synthese.md"
+    },
+    {
+      "id": "ia-20260616-02", "agent": "veille-ia", "date": "2024-06-01", "ajout": "2026-06-16",
+      "titre": "Crédit Mutuel Alliance Fédérale — analyseur de mails + assistant virtuel",
+      "resume": "Outils IA utilisés par 25 000-35 000 collaborateurs ; ~1 M d'heures administratives libérées en 2023 ; 35 cas d'usage ; 94 % des pilotes recommandent l'assistant, 87 % l'analyseur de mails.",
+      "priorite": "haute",
+      "statut": "Déploiement confirmé.",
+      "impact": "Gain de temps commercial, réponses client personnalisées, recherche accélérée.",
+      "populations": "Conseillers bancaires (particuliers et pros), relation client.",
+      "besoin_formation": "Usage quotidien d'un assistant IA métier, « humain dans la boucle ».",
+      "opportunite": "Formation « Conseiller augmenté par l'IA » pour réseaux bancaires.",
+      "source_label": "Newsroom IBM / Crédit Mutuel (2024)",
+      "source_url": "https://fr.newsroom.ibm.com/Credit-Mutuel-Alliance-Federale-accelere-le-deploiement-de-lIA-generative",
+      "fichier": "Base_de_connaissances/09_Veille/ia/2026-06-16_Veille-IA_Synthese.md"
+    },
+    {
+      "id": "ia-20260616-03", "agent": "veille-ia", "date": "2025-11-19", "ajout": "2026-06-16",
+      "titre": "Groupe BPCE — IA générative « MAiA » à grande échelle",
+      "resume": ">50 % des collaborateurs utilisent l'IA au quotidien, ~45 000 formés ; 7 cas d'usage en production (voicebots : 1 M d'appels traités, comptes rendus d'appels automatisés) ; accord social (GEPP) encadrant l'IA.",
+      "priorite": "haute",
+      "statut": "Déploiement confirmé (19/11/2025).",
+      "impact": "Automatisation des comptes rendus, voicebots, libération de temps conseillers.",
+      "populations": "Conseillers réseau, relation client, fonctions support.",
+      "besoin_formation": "Acculturation de masse, usages métiers de l'IA, cadre éthique/social.",
+      "opportunite": "Programme d'acculturation IA à grande échelle + accompagnement du dialogue social IA.",
+      "source_label": "Newsroom Groupe BPCE (19/11/2025)",
+      "source_url": "https://newsroom.groupebpce.fr/actualites/le-groupe-bpce-accelere-l-adoption-de-l-intelligence-artificielle-generative-au-service-des-clients-des-conseillers-de-tous-les-collaborateurs-et-franchit-le-seuil-d-un-collaborateur-sur-deux-utilisant-l-ia-au-quotidien-dc22f-7b707.html",
+      "fichier": "Base_de_connaissances/09_Veille/ia/2026-06-16_Veille-IA_Synthese.md"
+    },
+    {
+      "id": "ia-20260616-04", "agent": "veille-ia", "date": "2025-10-01", "ajout": "2026-06-16",
+      "titre": "HSBC — IA pour le screening LCB-FT (réduction des faux positifs)",
+      "resume": "Réduction d'environ 20 % des faux positifs de screening LCB-FT (estimation rapportée par un éditeur, non auditée), libérant des heures d'analyse. Sujet porté par le Forum Fintech ACPR-AMF 2025.",
+      "priorite": "moyenne",
+      "statut": "Déploiement (acteur identifié) / sujet de place ACPR. Chiffre à présenter comme estimation.",
+      "impact": "Priorisation des alertes, baisse du stock — sous contrainte d'explicabilité réglementaire.",
+      "populations": "Analystes conformité/LCB-FT, KYC, contrôle interne.",
+      "besoin_formation": "IA explicable en conformité, attentes ACPR, supervision des modèles.",
+      "opportunite": "Formation « IA & LCB-FT conforme » (explicabilité, gouvernance modèle).",
+      "source_label": "ComplyAdvantage / Forum Fintech ACPR-AMF (10/2025)",
+      "source_url": "https://acpr.banque-france.fr/system/files/2025-10/Forum_Fintech_ACPR-AMF_2025_Atelier_LCB-FT.pdf",
+      "fichier": "Base_de_connaissances/09_Veille/ia/2026-06-16_Veille-IA_Synthese.md"
+    },
+
+    {
+      "id": "actu-20260616-01", "agent": "actualite-banque-assurance", "date": "2026-04-30", "ajout": "2026-06-16",
+      "titre": "Résultats T1 2026 des grandes banques françaises mal accueillis en Bourse",
+      "resume": "BNP Paribas (RNPG 3 217 M€, +9 %), Société Générale (1,7 Md€, +11,3 %, CET1 13,5 %), Crédit Agricole : malgré des hausses, les actions chutent, le marché jugeant l'environnement de taux peu favorable.",
+      "priorite": "haute",
+      "statut": "Publié (CP T1 2026, 30/04/2026).",
+      "impact": "Décalage solidité/perception → sujet pour contextualiser les formations réseaux et pilotage commercial.",
+      "populations": "Banques de détail / réseaux, encadrement commercial.",
+      "besoin_formation": "Leviers de PNB en environnement de taux contraint, marge nette d'intérêt, pilotage rentabilité.",
+      "opportunite": "Module « Lire et expliquer les résultats bancaires à ses équipes » ; décryptage trimestriel.",
+      "source_label": "BNP Paribas — CP T1 2026 (30/04/2026)",
+      "source_url": "https://invest.bnpparibas/document/1t26-cp",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-16_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260616-02", "agent": "actualite-banque-assurance", "date": "2026-05-01", "ajout": "2026-06-16",
+      "titre": "Assurance vie en collecte record, Livret A en décrochage",
+      "resume": "57 Md€ de cotisations assurance vie au T1 2026 (+14 % vs T1 2025), collecte nette record 5,2 Md€ en avril ; Livret A (1,5 % depuis le 01/02/2026) en pire décollecte depuis 2009. Arbitrage vers assurance vie, UC/ETF.",
+      "priorite": "haute",
+      "statut": "Publié (avril-mai 2026).",
+      "impact": "Basculement net de l'épargne réglementée vers l'assurance vie → argumentaire commercial direct.",
+      "populations": "Assureurs vie, réseaux bancaires, CGP.",
+      "besoin_formation": "Argumentaire arbitrage Livret A / assurance vie, fonds euros vs UC/ETF, devoir de conseil.",
+      "opportunite": "Formation « Réorienter l'épargne client en 2026 » ; webinaire taux et collecte.",
+      "source_label": "France-Épargne (avril-mai 2026)",
+      "source_url": "https://www.france-epargne.fr/news/assurance-vie-collecte-nette-record-en-avril-2026-le-livret-a-decroche",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-16_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260616-03", "agent": "actualite-banque-assurance", "date": "2026-01-01", "ajout": "2026-06-16",
+      "titre": "Financiarisation et consolidation du marché des CGP",
+      "resume": "~3 200 cabinets, >5 900 CIF-CGP (AMF), encours adhérents >110 Md€ ; nouveau cycle LBO après Cyrus-Herez, Crystal-Primonial ; structuration autour de marques nationales et plateformes digitales.",
+      "priorite": "moyenne",
+      "statut": "Publié (2026).",
+      "impact": "Segment CGP en professionnalisation → demande de standardisation des pratiques.",
+      "populations": "Conseillers en gestion de patrimoine (CGP/CGPI).",
+      "besoin_formation": "Conformité CIF/AMF, architecture ouverte, outils d'agrégation, posture conseil haut de gamme.",
+      "opportunite": "Parcours certifiant CGP ; offre intra pour réseaux consolidateurs.",
+      "source_label": "Profession CGP (2026)",
+      "source_url": "https://www.professioncgp.com/article/les-acteurs/actu/une-nouvelle-ere-pour-la-gestion-de-patrimoine.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-16_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260616-04", "agent": "actualite-banque-assurance", "date": "2026-01-01", "ajout": "2026-06-16",
+      "titre": "Industrialisation de l'IA dans la distribution d'assurance",
+      "resume": "Passage de l'expérimentation à l'industrialisation en 2026 ; premier agent de souscription 100 % IA en conditions réelles (courtiers grossistes/MGA, IARD) ; marché IARD en détente tarifaire.",
+      "priorite": "moyenne",
+      "statut": "Publié (2026).",
+      "impact": "Recomposition des métiers de souscription/distribution → besoin d'accompagnement humain.",
+      "populations": "Assureurs IARD, courtiers, MGA, souscripteurs.",
+      "besoin_formation": "IA appliquée à la souscription, qualité des données, repositionnement du rôle conseil.",
+      "opportunite": "Formation « L'assureur à l'ère de l'IA » ; atelier souscription augmentée.",
+      "source_label": "L'Argus de l'assurance / Smartpoint (2026)",
+      "source_url": "https://www.argusdelassurance.com/tech/assurtech/distribution-dassurance-la-souscription-100-geree-par-lia-devient-une-realite-en-france.D62BTTC5AFABPIQZRZ7MGYWW24.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-16_Actualite-banque-assurance_Synthese.md"
+    },
+
+    {
+      "id": "opp-20260616-01", "agent": "detection-opportunites", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Offre phare « Professionnel augmenté par l'IA — conforme et premium »",
+      "resume": "Signaux convergents : déploiements massifs côté clients (BPCE, Crédit Mutuel, Generali, HSBC), transformation des métiers documentée (étude IAG banque, référentiel OEMA 2030), supervision IA aux priorités ACPR/AMF 2026, concurrents déjà positionnés mais génériques.",
+      "priorite": "haute",
+      "statut": "Opportunité — urgence élevée (fenêtre d'avance courte).",
+      "impact": "Parcours « Conseiller / Gestionnaire augmenté par l'IA » par métier, avec garde-fous (supervision humaine, RGPD, explicabilité, devoir de conseil).",
+      "populations": "Réseaux bancaires, assureurs (sinistres/souscription), conformité.",
+      "besoin_formation": "IA métier + conformité, cas réels banque-assurance.",
+      "opportunite": "Différenciation premium là où la concurrence reste générique.",
+      "source_label": "Synthèse agent 5 (croisement agents 1,3,4,6)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/10_Opportunites/2026-06-16_Detection-opportunites_Synthese.md"
+    },
+    {
+      "id": "opp-20260616-02", "agent": "detection-opportunites", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "« Réorienter l'épargne 2026 » + devoir de conseil renforcé",
+      "resume": "Croisement : collecte assurance vie record / décrochage Livret A (marché) et durcissement devoir de conseil + value for money (RIS, 3e rapport IDD EIOPA).",
+      "priorite": "haute",
+      "statut": "Opportunité — timing de marché idéal.",
+      "impact": "Module reliant argumentaire commercial (arbitrage Livret A → assurance vie, UC/ETF) et conformité (VFM, adéquation, justification du conseil).",
+      "populations": "Réseaux bancaires, assureurs vie, CGP.",
+      "besoin_formation": "Argumentaire d'arbitrage + conformité du conseil.",
+      "opportunite": "Webinaire « Taux, collecte et conseil conforme ».",
+      "source_label": "Synthèse agent 5 (croisement agents 1,8)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/10_Opportunites/2026-06-16_Detection-opportunites_Synthese.md"
+    },
+    {
+      "id": "opp-20260616-03", "agent": "detection-opportunites", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "« LCB-FT 2026 : nouvelle ère AMLA + IA explicable »",
+      "resume": "Croisement : transfert des mandats vers l'AMLA, IA appliquée au screening LCB-FT (HSBC), cas pédagogique Abeille Vie.",
+      "priorite": "moyenne",
+      "statut": "Opportunité — créneau premium peu couvert.",
+      "impact": "Formation couplant nouveau cadre AMLA, IA explicable dans le filtrage des alertes, étude de cas de sanction.",
+      "populations": "Conformité, RCSI, contrôle interne.",
+      "besoin_formation": "Cadre AMLA + IA explicable + analyse de cas.",
+      "opportunite": "Offre conformité différenciante.",
+      "source_label": "Synthèse agent 5 (croisement agents 1,6)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/10_Opportunites/2026-06-16_Detection-opportunites_Synthese.md"
+    },
+    {
+      "id": "opp-20260616-04", "agent": "detection-opportunites", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "« Conseil patrimonial & ESG » (à mûrir)",
+      "resume": "Croisement : montée des compétences RSE dans la banque et ESG à impact opérationnel suivi côté superviseur.",
+      "priorite": "moyenne",
+      "statut": "Opportunité — à mûrir.",
+      "impact": "Module intégrant l'ESG au devoir de conseil patrimonial.",
+      "populations": "Conseillers clientèle, CGP.",
+      "besoin_formation": "ESG appliqué au conseil, produits durables.",
+      "opportunite": "Créneau différenciant, fort potentiel d'appels d'offres.",
+      "source_label": "Synthèse agent 5 (croisement agents 1,4)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/10_Opportunites/2026-06-16_Detection-opportunites_Synthese.md"
+    },
+
+    {
+      "id": "edito-20260616-01", "agent": "editorial", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Brouillon — Post LinkedIn « Réorienter l'épargne 2026 et devoir de conseil »",
+      "resume": "Contenu premium prêt à valider : relie le mouvement de marché (collecte assurance vie record, décrochage Livret A) au durcissement réglementaire (RIS, VFM) pour positionner Sabatier sur le nouveau standard du conseil.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider ; revérifier les chiffres avant publication.",
+      "impact": "Contenu de notoriété premium, sourcé.",
+      "populations": "Réseaux bancaires, assureurs vie, CGP, conformité.",
+      "besoin_formation": "—",
+      "opportunite": "Variante « Lettre réglementaire du mois » possible à partir du même matériau.",
+      "source_label": "Production agent 7 (éditorial)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-06-16_Editorial_Reorienter-epargne-2026.md"
+    },
+
+    {
+      "id": "mem-20260616-01", "agent": "memoire-sabatier", "date": "2026-06-16", "ajout": "2026-06-16",
+      "titre": "Base de connaissances initialisée — en attente de documents",
+      "resume": "Structure de la base opérationnelle (dossiers 01-11, index, config). Les dossiers 01 à 08 sont vides : l'ingestion ne peut pas démarrer tant que 5 à 10 documents représentatifs (appels d'offres, propositions, programmes…) ne sont pas déposés.",
+      "priorite": "surveillance",
+      "statut": "En attente d'action de William (dépôt de documents tests).",
+      "impact": "Le socle mémoire alimente les agents 5 (opportunités) et 7 (éditorial) ; sa valeur croît avec le patrimoine ingéré.",
+      "populations": "—",
+      "besoin_formation": "—",
+      "opportunite": "Déposer 5-10 documents dans Base_de_connaissances/01 à 08 pour amorcer l'ingestion.",
+      "source_label": "Agent 9 (mémoire) — contrôle de la base",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/_index/INDEX.md"
+    }
+  ]
+};
+
+const AGENTS = DATA.meta.agents;
+const ITEMS = (DATA.items || []).slice().sort((a,b)=> ((b.ajout||b.date)+b.date).localeCompare((a.ajout||a.date)+a.date));
+const PRIOS = {
+  haute: "Priorité haute", moyenne: "Priorité moyenne",
+  surveillance: "À surveiller", cas: "Cas pédagogique"
+};
+
+const DAY = 86400000;
+const now = new Date();
+function isRecent(d){ const t = new Date(d+"T00:00:00"); return (now - t) <= 7*DAY && (now - t) >= -DAY; }
+function fmtDate(d){ const [y,m,da]=d.split("-"); return da+"/"+m+"/"+y; }
+function esc(s){ return (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c])); }
+
+const state = { view:"feed", q:"", agents:new Set(), prios:new Set() };
+
+// header
+document.getElementById("sub").textContent = "9 agents · " + ITEMS.length + " éléments";
+document.getElementById("maj").textContent = "Mise à jour : " + fmtDate(DATA.meta.derniere_maj);
+
+// agent chips
+const ac = document.getElementById("agentchips");
+Object.entries(AGENTS).forEach(([key,a])=>{
+  const c = document.createElement("span");
+  c.className = "chip"; c.dataset.agent = key;
+  c.innerHTML = '<span class="dot" style="background:'+a.couleur+'"></span>'+esc(a.label);
+  c.onclick = ()=>{ toggle(state.agents, key, c, a.couleur); render(); };
+  ac.appendChild(c);
+});
+// prio chips
+const pc = document.getElementById("priochips");
+Object.entries(PRIOS).forEach(([key,label])=>{
+  const c = document.createElement("span");
+  c.className = "chip priochip"; c.dataset.prio = key; c.textContent = label;
+  c.onclick = ()=>{ toggle(state.prios, key, c, null); render(); };
+  pc.appendChild(c);
+});
+function toggle(set, key, el, color){
+  if(set.has(key)){ set.delete(key); el.classList.remove("on"); el.style.background=""; }
+  else { set.add(key); el.classList.add("on"); if(color) el.style.background=color; }
+}
+
+document.getElementById("search").addEventListener("input", e=>{ state.q = e.target.value.toLowerCase().trim(); render(); });
+
+document.querySelectorAll(".tab").forEach(t=>{
+  t.onclick = ()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");
+    state.view = t.dataset.view;
+    document.getElementById("view-feed").classList.toggle("hidden", state.view!=="feed");
+    document.getElementById("view-archive").classList.toggle("hidden", state.view!=="archive");
+  };
+});
+
+function matches(it){
+  if(state.agents.size && !state.agents.has(it.agent)) return false;
+  if(state.prios.size && !state.prios.has(it.priorite)) return false;
+  if(state.q){
+    const hay = (it.titre+" "+it.resume+" "+(it.source_label||"")+" "+(it.impact||"")+" "+(it.opportunite||"")).toLowerCase();
+    if(!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function cardHTML(it){
+  const a = AGENTS[it.agent] || {label:it.agent, couleur:"#888"};
+  const rec = isRecent(it.ajout || it.date);
+  return '<div class="card'+(rec?' recent':'')+'">'
+    + '<div class="row1">'
+      + '<span class="badge" style="background:'+a.couleur+'">'+esc(a.label)+'</span>'
+      + '<span class="prio '+it.priorite+'">'+esc(PRIOS[it.priorite]||it.priorite)+'</span>'
+      + (rec?'<span class="recent-tag">Récent</span>':'')
+      + '<span class="date">'+fmtDate(it.date)+'</span>'
+    + '</div>'
+    + '<h3>'+esc(it.titre)+'</h3>'
+    + '<div class="resume">'+esc(it.resume)+'</div>'
+    + (it.statut?'<div class="stat">Statut : '+esc(it.statut)+'</div>':'')
+    + '<details class="more"><summary>Impact, populations, opportunité</summary><div class="grid">'
+      + (it.impact?'<div><b>Impact :</b> '+esc(it.impact)+'</div>':'')
+      + (it.populations?'<div><b>Populations :</b> '+esc(it.populations)+'</div>':'')
+      + (it.besoin_formation?'<div><b>Besoin de formation :</b> '+esc(it.besoin_formation)+'</div>':'')
+      + (it.opportunite?'<div><b>Opportunité Sabatier :</b> '+esc(it.opportunite)+'</div>':'')
+    + '</div></details>'
+    + '<div class="links">'
+      + (it.source_url?'<a href="'+esc(it.source_url)+'" target="_blank" rel="noopener">Source : '+esc(it.source_label||"lien")+' ↗</a>':'')
+      + (it.fichier?'<span class="filepath">Synthèse : '+esc(it.fichier)+'</span>':'')
+    + '</div>'
+  + '</div>';
+}
+
+function render(){
+  const list = ITEMS.filter(matches);
+  document.getElementById("count").textContent = list.length + " élément" + (list.length>1?"s":"") + " affiché" + (list.length>1?"s":"");
+  document.getElementById("feedlist").innerHTML = list.length ? list.map(cardHTML).join("") : '<div class="empty">Aucun élément ne correspond aux filtres.</div>';
+}
+
+function renderArchive(){
+  const cont = document.getElementById("archlist");
+  document.getElementById("archcount").textContent = "Archives complètes — "+ITEMS.length+" éléments répartis sur 9 agents.";
+  let html = "";
+  Object.entries(AGENTS).sort((a,b)=>a[1].num-b[1].num).forEach(([key,a])=>{
+    const its = ITEMS.filter(i=>i.agent===key);
+    html += '<details class="agentblock"'+(its.length?' open':'')+'>'
+      + '<summary><span class="dot" style="width:11px;height:11px;border-radius:50%;display:inline-block;background:'+a.couleur+'"></span>'
+      + a.num+'. '+esc(a.label)+'<span class="acount">'+its.length+' élément'+(its.length>1?"s":"")+'</span></summary>'
+      + '<div class="inner">';
+    if(!its.length){ html += '<div class="empty">Aucune actualité pour l\'instant.</div>'; }
+    else {
+      its.forEach(it=>{
+        html += '<div class="arch-item"><div class="ai1"><span class="ai-date">'+fmtDate(it.date)+'</span>'
+          + '<span class="ai-title">'+esc(it.titre)+'</span></div>'
+          + '<div class="ai-res">'+esc(it.resume)+'</div></div>';
+      });
+    }
+    html += '</div></details>';
+  });
+  cont.innerHTML = html;
+}
+
+render();
+renderArchive();
+</script>
+</body>
+</html>
