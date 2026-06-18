@@ -190,7 +190,7 @@
     {
       "id": "form-20260616-01",
       "agent": "veille-formation",
-      "date": "2025-05-01",
+      "date": "2025-05",
       "ajout": "2026-06-16",
       "titre": "Récupération espacée + testing effect — efficacité prouvée",
       "resume": "Méta-analyse (mai 2025) confirmant un effet robuste de la pratique distribuée : la récupération active et l'espacement renforcent durablement la mémoire.",
@@ -207,7 +207,7 @@
     {
       "id": "form-20260616-02",
       "agent": "veille-formation",
-      "date": "2025-01-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "Microlearning ciblé sur le bon niveau cognitif",
       "resume": "Taux de complétion jusqu'à 80 % (vs 20-30 % en e-learning classique), mais opère sur les premiers niveaux de Bloom : ancre du factuel et diffuse des MAJ, sans transformer une posture.",
@@ -224,7 +224,7 @@
     {
       "id": "form-20260616-03",
       "agent": "veille-formation",
-      "date": "2025-01-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "Classe inversée (flipped classroom)",
       "resume": "Méta-analyses récentes (médecine, pharmacie) montrant un avantage sur les résultats d'examen vs cours magistral, dépendant de la qualité de mise en œuvre.",
@@ -241,7 +241,7 @@
     {
       "id": "form-20260616-04",
       "agent": "veille-formation",
-      "date": "2025-01-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "IA tutorale / apprentissage adaptatif (ITS) — émergent",
       "resume": "Méta-analyse 2025 (30 études, effet global ~0,86) : gains sur attitudes et scores, mais effets moins concluants sur l'acquisition de connaissances et la résolution de problèmes. IA utilisée comme modalité par 12 % des décideurs formation.",
@@ -258,7 +258,7 @@
     {
       "id": "conc-20260616-01",
       "agent": "veille-concurrentielle",
-      "date": "2025-09-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "ESBanque lance deux formations IA pour conseillers bancaires",
       "resume": "L'ESBanque (ex-CFPB) ajoute « IA : optimiser votre quotidien professionnel » et « Conseiller avec l'IA dans le secteur bancaire », en classes virtuelles.",
@@ -275,7 +275,7 @@
     {
       "id": "conc-20260616-02",
       "agent": "veille-concurrentielle",
-      "date": "2025-01-01",
+      "date": "",
       "ajout": "2026-06-16",
       "titre": "First Finance structure une gamme « IA pour la finance »",
       "resume": "Pôle « Agents IA pour la finance », « IA appliquée à la finance », « IA générative pour la finance de marché », « IA pour la gestion d'actifs », sessions présentiel programmées.",
@@ -292,7 +292,7 @@
     {
       "id": "conc-20260616-03",
       "agent": "veille-concurrentielle",
-      "date": "2026-02-01",
+      "date": "2026",
       "ajout": "2026-06-16",
       "titre": "Lefebvre Dalloz Compétences : IA + catalogue banque-assurance 2026",
       "resume": "IA appliquée à la gestion-finance, partenariats (Dauphine-PSL, Ensae, Bärchen), catalogue banque-assurance 2026 publié.",
@@ -309,7 +309,7 @@
     {
       "id": "met-20260616-01",
       "agent": "observation-metiers",
-      "date": "2025-03-01",
+      "date": "2025-03",
       "ajout": "2026-06-16",
       "titre": "IA générative : transformation maîtrisée des métiers bancaires (étude interbranche)",
       "resume": "Étude Observatoire des métiers de la banque + BPCE (Roland Berger/Diot-Siaci, OPCO Atlas) : l'IAG transforme l'exercice des métiers sans les remplacer ; forte attente de formation pour superviser et fiabiliser les productions IA.",
@@ -343,7 +343,7 @@
     {
       "id": "met-20260616-03",
       "agent": "observation-metiers",
-      "date": "2025-09-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "ROMA 2025 — effectifs, recrutements, mobilité, formation (assurance)",
       "resume": "Édition refondue du Rapport de l'Observatoire des Métiers de l'Assurance : vision actualisée des flux d'emploi de la branche.",
@@ -360,7 +360,7 @@
     {
       "id": "met-20260616-04",
       "agent": "observation-metiers",
-      "date": "2025-12-01",
+      "date": "2025-12",
       "ajout": "2026-06-16",
       "titre": "Nouvelles compétences RSE/ESG dans la banque",
       "resume": "Étude de l'Observatoire des métiers de la banque sur les compétences RSE et leurs enjeux : la durabilité/ESG monte comme axe de compétences à part entière.",
@@ -377,7 +377,7 @@
     {
       "id": "ia-20260616-01",
       "agent": "veille-ia",
-      "date": "2025-09-01",
+      "date": "2025",
       "ajout": "2026-06-16",
       "titre": "Generali France — agents IA en gestion des sinistres IARD",
       "resume": "Agents IA (CESAR, GAIA) pour analyse documentaire, tri d'e-mails (~1 M traités) et synthèse de rapports de sinistres ; l'ensemble des 17 agents résout 30 % des demandes en 24/7.",
@@ -394,7 +394,7 @@
     {
       "id": "ia-20260616-02",
       "agent": "veille-ia",
-      "date": "2024-06-01",
+      "date": "2024",
       "ajout": "2026-06-16",
       "titre": "Crédit Mutuel Alliance Fédérale — analyseur de mails + assistant virtuel",
       "resume": "Outils IA utilisés par 25 000-35 000 collaborateurs ; ~1 M d'heures administratives libérées en 2023 ; 35 cas d'usage ; 94 % des pilotes recommandent l'assistant, 87 % l'analyseur de mails.",
@@ -428,7 +428,7 @@
     {
       "id": "ia-20260616-04",
       "agent": "veille-ia",
-      "date": "2025-10-01",
+      "date": "2025-10",
       "ajout": "2026-06-16",
       "titre": "HSBC — IA pour le screening LCB-FT (réduction des faux positifs)",
       "resume": "Réduction d'environ 20 % des faux positifs de screening LCB-FT (estimation rapportée par un éditeur, non auditée), libérant des heures d'analyse. Sujet porté par le Forum Fintech ACPR-AMF 2025.",
@@ -462,7 +462,7 @@
     {
       "id": "actu-20260616-02",
       "agent": "actualite-banque-assurance",
-      "date": "2026-05-01",
+      "date": "2026-05",
       "ajout": "2026-06-16",
       "titre": "Assurance vie en collecte record, Livret A en décrochage",
       "resume": "57 Md€ de cotisations assurance vie au T1 2026 (+14 % vs T1 2025), collecte nette record 5,2 Md€ en avril ; Livret A (1,5 % depuis le 01/02/2026) en pire décollecte depuis 2009. Arbitrage vers assurance vie, UC/ETF.",
@@ -479,7 +479,7 @@
     {
       "id": "actu-20260616-03",
       "agent": "actualite-banque-assurance",
-      "date": "2026-01-01",
+      "date": "2026",
       "ajout": "2026-06-16",
       "titre": "Financiarisation et consolidation du marché des CGP",
       "resume": "~3 200 cabinets, >5 900 CIF-CGP (AMF), encours adhérents >110 Md€ ; nouveau cycle LBO après Cyrus-Herez, Crystal-Primonial ; structuration autour de marques nationales et plateformes digitales.",
@@ -496,7 +496,7 @@
     {
       "id": "actu-20260616-04",
       "agent": "actualite-banque-assurance",
-      "date": "2026-01-01",
+      "date": "2026",
       "ajout": "2026-06-16",
       "titre": "Industrialisation de l'IA dans la distribution d'assurance",
       "resume": "Passage de l'expérimentation à l'industrialisation en 2026 ; premier agent de souscription 100 % IA en conditions réelles (courtiers grossistes/MGA, IARD) ; marché IARD en détente tarifaire.",
