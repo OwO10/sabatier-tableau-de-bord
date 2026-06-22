@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-06-21",
+    "derniere_maj": "2026-06-22",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -51,6 +51,23 @@
     }
   },
   "items": [
+    {
+      "id": "regl-20260622-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-15",
+      "ajout": "2026-06-22",
+      "titre": "AMF — Synthèse des contrôles LCB-FT (2022-2025) : manquements récurrents sanctionnés",
+      "resume": "L'AMF publie (15/06/2026) la synthèse de ses contrôles LCB-FT et EAI ayant donné lieu à des suites entre 2022 et 2025 : 8,79 M€ de sanctions/engagements cumulés (5,76 M€ SGP, 3,03 M€ CIF). Constats de manquements récurrents traduisant des dispositifs non opérationnels : défaillances de formalisation, de mise en œuvre et de traçabilité des diligences, procédures non opérationnelles, et qualité insuffisante des échanges avec le superviseur.",
+      "priorite": "haute",
+      "statut": "Document de synthèse publié le 15/06/2026 (non contraignant).",
+      "impact": "Le régulateur expose publiquement les défaillances types qu'il sanctionne (formalisation, mise en œuvre, traçabilité, échanges avec l'AMF) : grille d'auto-évaluation directe pour les dispositifs LCB-FT. Se combine avec le décret 2026-310 (formation LCB-FT obligatoire et tracée).",
+      "populations": "Conformité / RCSI, CIF-CGP et SGP, contrôle interne ; transposable aux réseaux bancaires et assurance vie.",
+      "besoin_formation": "Construire un dispositif LCB-FT opérationnel ET traçable (pas seulement formel) ; cartographie des manquements récurrents ; qualité des échanges avec le superviseur ; articulation avec l'obligation de formation tracée du décret 2026-310.",
+      "opportunite": "Capsule « Ce que l'AMF sanctionne vraiment en LCB-FT (2022-2025) » sur cas réels chiffrés ; atelier « rendre mon dispositif LCB-FT opérationnel et tracé » pour CGP/CIF ; brique de l'offre LCB-FT clé en main.",
+      "source_label": "AMF — Synthèse des contrôles LCB-FT et EAI (2022-2025), publiée le 15/06/2026",
+      "source_url": "https://www.amf-france.org/sites/institutionnel/files/private/2026-06/Synth%C3%A8se%20des%20contr%C3%B4les%20AMF%20en%20mati%C3%A8re%20de%20LCB-FT%20et%20d%E2%80%99EAI%20(2022-2025)_1.pdf",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-22_Veille-reglementaire_Synthese.md"
+    },
     {
       "id": "regl-20260619-01",
       "agent": "veille-reglementaire",
