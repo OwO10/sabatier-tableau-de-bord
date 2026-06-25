@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-06-24",
+    "derniere_maj": "2026-06-25",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -900,6 +900,23 @@
       "source_label": "Magnolia — Crédit immobilier juin 2026 / étude Groupe BPCE",
       "source_url": "https://www.magnolia.fr/actualites/assurance-emprunteur/credit-immobilier-juin-2026-taux-emprunt-assurance",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-24_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260625-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-06-22",
+      "ajout": "2026-06-25",
+      "titre": "Produits structurés : l'AMF et l'ACPR épinglent la distribution (collecte record en assurance vie)",
+      "resume": "Étude du Pôle commun AMF-ACPR (22/06/2026) : 66 Md€ versés sur produits structurés en 2025, dont 80 % via l'assurance vie UC (52,8 Md€), un record. Deux tiers des offres ne respectent pas la réglementation sur le marché cible négatif (reco ACPR 2024-R-01). Alerte sur l'empilement et l'opacité des frais, les sous-jacents à décrément et des ratios rendement/risque faibles.",
+      "priorite": "haute",
+      "statut": "Étude publiée (seconde partie), 22/06/2026.",
+      "impact": "Signal de durcissement de la supervision des pratiques commerciales sur les UC complexes : risque de sanction et de réclamation pour les distributeurs (bancassurance, réseaux, CGP). Enjeu direct de devoir de conseil, d'adéquation profil/produit et de value for money.",
+      "populations": "Bancassurance, conseillers réseaux, CGP / gestion de patrimoine, conformité / contrôle interne.",
+      "besoin_formation": "Marché cible et marché cible négatif sur UC complexes (reco ACPR 2024-R-01), devoir de conseil et adéquation, lecture critique du DIC et des frais, pédagogie des produits structurés et sous-jacents à décrément.",
+      "opportunite": "Module « Distribuer un produit structuré en conformité » ; capsule express « Ce que l'étude AMF-ACPR 2026 change pour vos conseillers » ; atelier value for money sur les UC complexes.",
+      "source_label": "FranceTransactions / Étude Pôle commun AMF-ACPR (22/06/2026)",
+      "source_url": "https://www.francetransactions.com/actus/news-epargne/produits-structures-rapport-amf-acpr-2026.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-25_Actualite-banque-assurance_Synthese.md"
     }
   ]
 }
