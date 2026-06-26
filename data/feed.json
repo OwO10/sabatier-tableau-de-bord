@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-06-25",
+    "derniere_maj": "2026-06-26",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -917,6 +917,57 @@
       "source_label": "FranceTransactions / Étude Pôle commun AMF-ACPR (22/06/2026)",
       "source_url": "https://www.francetransactions.com/actus/news-epargne/produits-structures-rapport-amf-acpr-2026.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-25_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "regl-20260626-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-30",
+      "ajout": "2026-06-26",
+      "titre": "MiCA — fin de la période transitoire le 30/06/2026 ; nouvelle version du Règlement général de l'AMF en vigueur",
+      "resume": "La période transitoire des prestataires de services sur crypto-actifs s'achève le 30/06/2026 : à compter du 01/07/2026, les ex-PSAN (art. L. 54-10-3 et L. 54-10-5 CMF) doivent être agréés au titre de MiCA pour poursuivre. Une nouvelle version du RG de l'AMF entre en vigueur le 30/06/2026 (dispositions crypto-actifs ; fin d'application des art. 721-1 à 721-5 aux PSAN). L'AMF en fait une priorité de supervision 2026.",
+      "priorite": "surveillance",
+      "statut": "Adopté / entrée en vigueur du RG AMF au 30/06/2026 ; fin de la période transitoire MiCA au 30/06/2026.",
+      "impact": "Sujet centré sur les PSCA, hors segments prioritaires stricts. Pertinence indirecte : crypto-actifs dans certaines offres de réseaux de détail et chez des CGP ; besoin de cadrage conformité/devoir de conseil lorsqu'un crypto-actif est présenté à un particulier.",
+      "populations": "PSCA/PSAN (premier rang) ; à titre indirect : CGP / banque privée et réseaux de détail exposés à la distribution de crypto-actifs.",
+      "besoin_formation": "Module de cadrage « crypto-actifs & MiCA » pour CGP / banque privée : régime d'agrément, obligations d'information, posture de conseil et vigilance face aux risques pour le client particulier.",
+      "opportunite": "Capsule courte « MiCA en pratique : ce qui change au 1er juillet 2026 » ; brique « crypto-actifs & devoir de conseil » intégrable à un parcours CGP / banque privée.",
+      "source_label": "AMF — Règlement général en vigueur au 30/06/2026 ; Priorités d'action et de supervision 2026 (fin de la période transitoire MiCA)",
+      "source_url": "https://www.amf-france.org/fr/eli/fr/aai/amf/rg/20260630/notes",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-26_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260626-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-05",
+      "ajout": "2026-06-26",
+      "titre": "Épargne réglementée : décollecte confirmée, Livret A et LEP boudés (mai 2026)",
+      "resume": "Livret A à 1,50 % et LEP à 2,50 % depuis le 1er février 2026. En mai 2026, les épargnants continuent de bouder le Livret A/LDDS ; décollecte cumulée du Livret A ~5 Md€ sur 2026 ; LEP en collecte négative (-0,03 Md€ en mai, -290 M€ cumulés janvier-mai). Arbitrage vers l'assurance vie (collecte record) et les comptes à terme.",
+      "priorite": "moyenne",
+      "statut": "Données de flux mensuelles, mai 2026.",
+      "impact": "Mouvement de fond commercial pour les réseaux et la bancassurance : opportunité de réallocation d'épargne, mais exigence renforcée de devoir de conseil et d'adéquation lors d'un arbitrage livret -> assurance vie / UC.",
+      "populations": "Conseillers clientèle particuliers, bancassurance, CGP / gestion de patrimoine, directions épargne.",
+      "besoin_formation": "Pédagogie de l'épargne réglementée 2026 (taux, rendement réel), conduite d'un entretien de réallocation, devoir de conseil et adéquation sur arbitrage livret -> assurance vie / UC.",
+      "opportunite": "Capsule « Épargne réglementée 2026 : ce que vos clients doivent comprendre » ; atelier « Réorienter l'épargne dormante dans le respect du devoir de conseil ».",
+      "source_label": "FranceTransactions / Journal de l'économie (mai 2026)",
+      "source_url": "https://www.francetransactions.com/actus/news-epargne/livret-a-ldds-boudes-fonds-euros-mai-2026.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-26_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260626-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026",
+      "ajout": "2026-06-26",
+      "titre": "Assurance IARD : hausses tarifaires 2026 auto/habitation très dispersées selon le risque",
+      "resume": "Baromètre Facts & Figures : +4 à +6 % en MRH et +4 à +5 % en auto en 2026. Pleine application en 2026 de la surprime CatNat (passée de 12 % à 20 % au 1er janvier 2025). Hausses de plus en plus dispersées d'un assuré à l'autre (exposition climatique, type de bien, localisation, ancienneté) et segmentation tarifaire renforcée.",
+      "priorite": "haute",
+      "statut": "Baromètre annuel du marché de l'assurance de dommages (Facts & Figures), 2026.",
+      "impact": "La dispersion des tarifs et la segmentation territoriale obligent les conseillers IARD à expliquer la hausse sans dégrader la relation client et à maîtriser le devoir d'information et de conseil. Enjeu de rétention et de traitement des réclamations.",
+      "populations": "Conseillers et chargés de clientèle IARD, bancassurance dommages, souscription, relation client / réclamations.",
+      "besoin_formation": "Comprendre et expliquer les mécanismes de hausse (surprime CatNat, sinistralité climatique, segmentation), pédagogie de l'augmentation tarifaire en entretien, devoir d'information et de conseil en assurance de dommages, gestion de l'objection.",
+      "opportunite": "Module « Expliquer la hausse des tarifs IARD 2026 sans casser la relation client » ; capsule « Surprime CatNat et segmentation : ce qui change pour vos assurés ».",
+      "source_label": "L'Argus de l'assurance — baromètre Facts & Figures (2026)",
+      "source_url": "https://www.argusdelassurance.com/assurance-dommages/auto/assurances-auto-et-habitation-les-hausses-de-tarifs-en-2026-varient-tres-fortement-d-un-assure-a-l-autre.237711",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-26_Actualite-banque-assurance_Synthese.md"
     }
   ]
 }
