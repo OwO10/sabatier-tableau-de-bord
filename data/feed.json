@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-06-28",
+    "derniere_maj": "2026-06-30",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1002,6 +1002,57 @@
       "source_label": "L'Argus de l'assurance — Classement 2026 de l'assurance vie (bancassureurs)",
       "source_url": "https://www.argusdelassurance.com/data/classements-de-l-argus/classements-epargne-retraite/exclusif-decouvrez-le-classement-largus-2026-de-lassurance-vie-toujours-domine-par-les-bancassureurs.JNJHSIFJWZHINPJLFOQVHMYM5Q.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-27_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "regl-20260630-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-01",
+      "ajout": "2026-06-30",
+      "titre": "Taux d'usure — nouveaux seuils crédit immobilier au 1er juillet 2026",
+      "resume": "Nouveaux plafonds de taux d'usure (3e trim. 2026) en vigueur le 01/07/2026 après publication au JORF : 20 ans et plus 5,19%→5,29% ; 10 à <20 ans 4,48%→4,57% ; <10 ans 4,00%→4,07%. Le taux d'usure plafonne le TAEG (taux + assurance + frais).",
+      "priorite": "moyenne",
+      "statut": "en vigueur au 01/07/2026 (avis trimestriel Banque de France / JORF)",
+      "impact": "Léger relèvement des plafonds : marge élargie sur les dossiers dont le TAEG frôle la limite ; à intégrer aux outils de simulation et au discours conseiller dès le 1er juillet.",
+      "populations": "Conseillers particuliers des réseaux, chargés de crédit immobilier, courtiers IOBSP, conformité crédit.",
+      "besoin_formation": "Calcul du TAEG et périmètre d'usure (assurance emprunteur incluse) ; gestion d'un dossier proche du plafond ; pédagogie client sur le refus pour dépassement d'usure.",
+      "opportunite": "Brique d'actualisation trimestrielle 'Taux d'usure & TAEG' dans les parcours crédit immobilier / DCI ; capsule 'Pourquoi un bon dossier peut être refusé'.",
+      "source_label": "Banque de France (taux de l'usure) / Meilleurtaux, 29/06/2026",
+      "source_url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-juin/credit-immo-nouveaux-taux-dusure-des-le-1er-juillet.html",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260630-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-23",
+      "ajout": "2026-06-30",
+      "titre": "AMF — Bourse Direct sanctionné (800 000 €) : reporting des transactions et surveillance des marchés",
+      "resume": "Décision de la commission des sanctions de l'AMF du 23/06/2026 : 800 000 € pour Bourse Direct (PSI) et 50 000 € pour sa présidente. 96 000 transactions non déclarées (2021-2023, ~2,6 Md€), ~40% de déclarations erronées, dispositif de détection des abus de marché jugé insuffisant.",
+      "priorite": "surveillance",
+      "statut": "décision de la commission des sanctions de l'AMF (susceptible de recours)",
+      "impact": "Rappel de l'exigence de complétude/exactitude du reporting des transactions (MiFIR/RDT) et de robustesse des dispositifs de détection des abus de marché (MAR).",
+      "populations": "Conformité / RCSI, contrôle interne, middle/back-office des PSI et teneurs de comptes-conservateurs.",
+      "besoin_formation": "Obligations de reporting MiFIR/RDT ; conception et calibrage d'un dispositif de détection des abus de marché (MAR) ; documentation de la sensibilité client.",
+      "opportunite": "Cas pédagogique daté 'Sanction Bourse Direct 2026' pour un module conformité marchés / abus de marché (priorité surveillance).",
+      "source_label": "Gestion de Fortune, juin 2026",
+      "source_url": "https://www.gestiondefortune.com/banque-cgp/rubriques-banque-privee/actualites/13206-le-courtier-bourse-direct-ecope-de-800-000-eur-damende.html",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-06-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260630-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-06",
+      "ajout": "2026-06-30",
+      "titre": "Crédit immobilier : la production repart à la hausse début 2026 malgré la remontée des taux",
+      "resume": "Les analyses de marché de juin 2026 font état d'une reprise de la production de crédit immobilier au T1 2026 (~+6 à +10% sur un an) malgré des barèmes tendus (≈3,39-3,47% sur 20 ans) et la hausse BCE du 17/06. Signal qui nuance le 'coup de frein' attendu sur 2026.",
+      "priorite": "surveillance",
+      "statut": "données de marché (analyses de courtiers, juin 2026), à confirmer sur la durée",
+      "impact": "Demande de crédit soutenue malgré des taux plus hauts : le crédit immobilier reste produit d'appel et porte d'entrée de la relation client pour les réseaux de détail.",
+      "populations": "Conseillers particuliers des réseaux, chargés de crédit immobilier, courtiers IOBSP.",
+      "besoin_formation": "Montage de dossiers en environnement de taux tendus (TAEG proche de l'usure révisée au 01/07) ; argumentaire conseiller 'acheter malgré des taux plus hauts'.",
+      "opportunite": "Actualisation des formations crédit immobilier / DCI ; accompagnement commercial des conseillers réseau.",
+      "source_label": "Pretto / Cafpi, juin 2026",
+      "source_url": "https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-juin-2026/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-06-30_Brief-actualite.md"
     }
   ]
 }
