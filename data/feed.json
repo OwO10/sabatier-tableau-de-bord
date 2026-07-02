@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-01",
+    "derniere_maj": "2026-07-02",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1308,6 +1308,91 @@
       "source_label": "Meilleurtaux Banques, 04/2026",
       "source_url": "https://banque.meilleurtaux.com/banque-en-ligne/actualites/2026-avril/sia-lassistant-ia-de-sumeria-lance-en-fevrier-2026.html",
       "fichier": "Base_de_connaissances/09_Veille/ia/2026-07-01_Veille-IA_Cas-usage.md"
+    },
+    {
+      "id": "regl-20260702-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-11-20",
+      "ajout": "2026-07-02",
+      "titre": "Réforme du crédit à la consommation — entrée en application le 20/11/2026 (ordonnance n° 2025-880)",
+      "resume": "L'ordonnance n° 2025-880 du 03/09/2025 (transposition directive UE 2023/2225) entre en application le 20/11/2026. Élargit le crédit conso réglementé aux crédits gratuits, mini-crédits (<200€), paiement fractionné/différé (BNPL), crédit conso 75-100k€ et LOA. Nouvelles obligations : mention publicitaire renforcée, fiche d'information standardisée, consultation facultative du fichier des incidents de remboursement, orientation gratuite vers les points conseil budget.",
+      "priorite": "haute",
+      "statut": "adopté (ordonnance du 03/09/2025), entrée en application le 20/11/2026",
+      "impact": "Le paiement fractionné/différé (BNPL) entre pour la première fois clairement dans le crédit conso réglementé ; échéance à moins de 5 mois pour les réseaux et acteurs du BNPL.",
+      "populations": "Banques de détail/réseaux (crédit conso), établissements de crédit spécialisés, acteurs du paiement fractionné (BNPL), conformité crédit.",
+      "besoin_formation": "Nouveau périmètre du crédit conso réglementé (mini-crédits, BNPL, LOA) ; fiche d'information standardisée ; usage du fichier des incidents de remboursement ; nouvelle mention publicitaire obligatoire.",
+      "opportunite": "Module « Crédit à la consommation : se mettre en conformité avant le 20 novembre 2026 » — check-list opérationnelle pour réseaux et acteurs du paiement fractionné.",
+      "source_label": "Service-public.fr / Légifrance — Ordonnance n° 2025-880 du 3 septembre 2025 relative au crédit à la consommation",
+      "source_url": "https://www.legifrance.gouv.fr/eli/ordonnance/2025/9/3/ECOT2515537R/jo/texte",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-02_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260702-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-30",
+      "ajout": "2026-07-02",
+      "titre": "EBA — révision des lignes directrices POG : intégration ESG et lutte contre le greenwashing",
+      "resume": "Le 30/06/2026, l'EBA a publié ses lignes directrices révisées sur la gouvernance et la surveillance des produits bancaires de détail (POG), précisant les exigences pour les produits à caractéristiques ESG et visant à limiter le greenwashing (marché cible, contrôle interne du concepteur, information aux distributeurs). Application à partir du 11/01/2027.",
+      "priorite": "moyenne",
+      "statut": "adopté (lignes directrices finales publiées le 30/06/2026), application au 11/01/2027",
+      "impact": "Structurant pour toute offre bancaire « verte » ou durable ; échéance encore lointaine (6 mois) mais à anticiper côté gouvernance produit.",
+      "populations": "Gouvernance produit, conformité/marketing produit des banques de détail, fonctions de contrôle interne des concepteurs de produits.",
+      "besoin_formation": "Intégration des critères ESG dans le processus POG ; identification et prévention du greenwashing ; documentation du marché cible pour les produits ESG.",
+      "opportunite": "Brique courte « Gouvernance produit et ESG : ce que change l'EBA au 11 janvier 2027 » à intégrer dans un parcours conformité produit / finance durable (à mûrir).",
+      "source_label": "EBA — The EBA clarifies its Product Oversight and Governance Guidelines which address greenwashing risks in ESG products (30/06/2026)",
+      "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-clarifies-its-product-oversight-and-governance-guidelines-which-address-greenwashing-risks-esg",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-02_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260702-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-01",
+      "ajout": "2026-07-02",
+      "titre": "Baromètre épargne juillet : hausse du Livret A confirmée pour le 1er août, fonds euros à 2,63% en 2025",
+      "resume": "Le ministre de l'Économie a confirmé le 30/06/2026 la hausse du Livret A au 1er août 2026 (niveau exact mi-juillet ; projections 1,6-1,8% contre 1,5% actuellement). Le baromètre MoneyVox (01/07/2026) confirme le rendement moyen des fonds euros assurance vie 2025 à 2,63% (ACPR), face à une inflation 2026 estimée à 2% par l'Insee.",
+      "priorite": "haute",
+      "statut": "Hausse du Livret A confirmée (niveau exact à venir mi-juillet) ; données ACPR/Insee publiées.",
+      "impact": "Argumentaire de base chiffré pour tout entretien de réallocation d'épargne cet été ; consolide les items déjà suivis sur l'arbitrage Livret A / assurance vie.",
+      "populations": "Conseillers clientèle particuliers, bancassurance, CGP.",
+      "besoin_formation": "Actualiser le discours chiffré (rendement net après prélèvements, comparaison à l'inflation) pour les entretiens d'été.",
+      "opportunite": "Alimente le module déjà identifié « Réorienter l'épargne 2026 » — mise à jour des chiffres de référence.",
+      "source_label": "MoneyVox — Taux du LEP, du Livret A, assurance vie... Ce qui change pour votre épargne sans risque en juillet (01/07/2026)",
+      "source_url": "https://www.moneyvox.fr/placement/actualites/109512/taux-du-lep-du-livret-a-assurance-vie-ce-qui-change-pour-votre-epargne-sans-risque-en-juillet",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-02_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260702-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-06-30",
+      "ajout": "2026-07-02",
+      "titre": "PER : fin de la déductibilité fiscale des versements après 70 ans, plafond cumulable porté à 5 ans",
+      "resume": "Depuis le 01/01/2026 (loi de finances 2026), les versements volontaires effectués après 70 ans sur un PER ne sont plus déductibles du revenu imposable ; en contrepartie, le plafond annuel de déduction non utilisé est reportable sur 5 ans (au lieu de 3).",
+      "priorite": "moyenne",
+      "statut": "En vigueur depuis le 01/01/2026 (loi de finances 2026).",
+      "impact": "Mesure concrète pour les clients patrimoniaux proches ou au-delà de 70 ans ; impose de revoir la stratégie de versement en entretien de conseil.",
+      "populations": "CGP / gestion de patrimoine, conseillers banque privée, conseillers retraite en réseau.",
+      "besoin_formation": "Nouvelle mécanique de déductibilité par tranche d'âge, optimisation du plafond cumulé sur 5 ans en restant à TMI constante.",
+      "opportunite": "Capsule courte « PER après 70 ans : ce qui change pour vos clients patrimoniaux » intégrable à l'offre retraite/patrimoine existante.",
+      "source_label": "MoneyVox — PER après 70 ans : fin de la déduction fiscale (30/06/2026)",
+      "source_url": "https://www.moneyvox.fr/placement/actualites/109478/per-apres-70-ans-fin-de-la-deduction-fiscale-quelles-consequences-sur-votre-strategie-epargne-retraite",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-02_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260702-03",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-06-30",
+      "ajout": "2026-07-02",
+      "titre": "Crédit immobilier : pause estivale des barèmes, recul progressif des offres promotionnelles",
+      "resume": "Les courtiers relèvent une stabilisation des taux moyens en juillet 2026 (≈3,30% sur 15 ans, 3,40-3,50% sur 20 ans, 3,50-3,60% sur 25 ans). Point de vigilance : la disparition progressive des offres promotionnelles pourrait renchérir le coût de certains crédits dans les prochains mois.",
+      "priorite": "surveillance",
+      "statut": "Tendance de marché (courtiers, juillet 2026).",
+      "impact": "Complète les items déjà suivis sur le crédit immobilier ; angle nouveau = fin annoncée des promotions bancaires, à surveiller pour l'argumentaire de rentrée.",
+      "populations": "Conseillers crédit immobilier, courtiers IOBSP.",
+      "besoin_formation": "Pas de besoin nouveau autonome ; à intégrer à l'actualisation trimestrielle des modules crédit immobilier existants.",
+      "opportunite": "Point de vigilance pour la prochaine mise à jour du module crédit immobilier.",
+      "source_label": "MoneyVox / CAFPI — Crédit immobilier : taux 15-20-25 ans en juillet (30/06/2026)",
+      "source_url": "https://www.moneyvox.fr/credit/actualites/109488/credit-immobilier-voici-les-taux-sur-15-20-et-25-ans-au-mois-de-juillet",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-02_Brief-actualite.md"
     }
   ]
 }
