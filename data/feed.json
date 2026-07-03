@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-02",
+    "derniere_maj": "2026-07-03",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1393,6 +1393,57 @@
       "source_label": "MoneyVox / CAFPI — Crédit immobilier : taux 15-20-25 ans en juillet (30/06/2026)",
       "source_url": "https://www.moneyvox.fr/credit/actualites/109488/credit-immobilier-voici-les-taux-sur-15-20-et-25-ans-au-mois-de-juillet",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-02_Brief-actualite.md"
+    },
+    {
+      "id": "edito-20260702-01",
+      "agent": "editorial",
+      "date": "2026-07-02",
+      "ajout": "2026-07-02",
+      "titre": "Brouillon — Post LinkedIn « Le paiement fractionné entre dans le crédit conso réglementé (échéance 20/11/2026) »",
+      "resume": "Contenu premium prêt à valider : explique l'entrée du BNPL et des mini-crédits dans le crédit conso réglementé (ordonnance n° 2025-880) et l'échéance de conformité du 20/11/2026, avec angle distinct du post du 16/06/2026.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider ; revérifier l'échéance et les chiffres avant publication.",
+      "impact": "Contenu de notoriété premium, sourcé, sur un sujet réglementaire à échéance courte.",
+      "populations": "Banques de détail/réseaux (crédit conso), acteurs du paiement fractionné (BNPL), conformité crédit.",
+      "besoin_formation": "—",
+      "opportunite": "Variante « check-list conformité BNPL avant le 20 novembre » possible pour la lettre réglementaire mensuelle.",
+      "source_label": "Production agent 7 (éditorial)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-07-02_Editorial_Credit-conso-BNPL-2026.md"
+    },
+    {
+      "id": "regl-20260703-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-24",
+      "ajout": "2026-07-03",
+      "titre": "Pôle commun ACPR-AMF — Rapport annuel 2025 : lutte anti-arnaque renforcée et guide sur les préférences de durabilité",
+      "resume": "Publié le 24/06/2026, le rapport annuel 2025 du Pôle commun indique plus de 1 300 nouveaux noms de sites/acteurs non autorisés ajoutés aux listes noires et plus de 4 500 publicités analysées (plus du double de 2024). Il met en avant un guide de novembre 2025 outillant le recueil des préférences de durabilité (MIF 2/DDA) et identifie l'Union de l'épargne et des investissements et la simplification du parcours client comme chantiers prioritaires.",
+      "priorite": "moyenne",
+      "statut": "Rapport annuel d'activité publié (non contraignant en tant que tel ; rappelle des obligations MIF 2/DDA déjà applicables).",
+      "impact": "Complète les chantiers déjà suivis (produits structurés, distribution) avec un angle encore peu couvert : l'opérationnalisation du recueil des préférences de durabilité en entretien de conseil, et la sensibilisation anti-arnaque.",
+      "populations": "Conseillers clientèle réseaux bancaires et assurance vie, CGP/CIF, conformité/marketing produit.",
+      "besoin_formation": "Intégration opérationnelle des préférences de durabilité en entretien de conseil (outils, formulation des questions) ; sensibilisation à la détection des arnaques financières.",
+      "opportunite": "Capsule « Recueillir les préférences de durabilité sans complexifier l'entretien de conseil » ; module de sensibilisation réseau « Repérer une arnaque financière ».",
+      "source_label": "ACPR-AMF — Le Pôle commun publie son rapport annuel 2025 (24/06/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/communiques-de-presse/le-pole-commun-de-lacpr-et-de-lamf-publie-son-rapport-annuel-2025",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-03_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260703-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-06",
+      "ajout": "2026-07-03",
+      "titre": "Assurance vie : collecte confirmée en mai 2026, encours >2 162 Md€ et mobilisation « Tibi III » (5,3 Md€) pour l'économie productive",
+      "resume": "France Assureurs (01/07/2026) : cotisations stables à 14,0 Md€ en mai 2026, collecte nette +4,0 Md€ (portée par les UC), encours à 2 162 Md€ (+5,7 % sur un an) ; collecte nette cumulée +28,7 Md€ depuis janvier. Le communiqué souligne la mobilisation des assureurs à hauteur de 5,3 Md€ dans l'initiative « Tibi III » de financement des entreprises innovantes.",
+      "priorite": "moyenne",
+      "statut": "Communiqué officiel publié le 01/07/2026 (données de mai 2026).",
+      "impact": "Prolonge le narratif de collecte déjà suivi et ajoute un argument de conviction nouveau : l'assurance vie finance aussi l'économie productive française (Tibi III), complémentaire au seul argument de rendement.",
+      "populations": "Assureurs vie, conseillers bancassurance, CGP / gestion de patrimoine.",
+      "besoin_formation": "Argumentaire « l'épargne des Français finance l'économie » (Tibi III) ; lecture des publications mensuelles France Assureurs.",
+      "opportunite": "Mise à jour de la capsule « Réorienter l'épargne 2026 » avec l'argument Tibi III et les chiffres d'encours à jour.",
+      "source_label": "France Assureurs — communiqué de presse, cotisations assurance vie mai 2026 (01/07/2026)",
+      "source_url": "https://www.franceassureurs.fr/espace-presse/les-communiques-de-presse/chiffres-assurance-vie-mai2026-epargne-long-terme-stabilite-fiscale-reglementaire/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-03_Brief-actualite.md"
     }
   ]
 }
