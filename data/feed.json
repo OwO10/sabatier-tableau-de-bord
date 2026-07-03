@@ -1444,6 +1444,23 @@
       "source_label": "France Assureurs — communiqué de presse, cotisations assurance vie mai 2026 (01/07/2026)",
       "source_url": "https://www.franceassureurs.fr/espace-presse/les-communiques-de-presse/chiffres-assurance-vie-mai2026-epargne-long-terme-stabilite-fiscale-reglementaire/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-03_Brief-actualite.md"
+    },
+    {
+      "id": "edito-20260703-01",
+      "agent": "editorial",
+      "date": "2026-07-03",
+      "ajout": "2026-07-03",
+      "titre": "Brouillon — Post LinkedIn « L'assurance vie ne finance pas que votre retraite » (Tibi III)",
+      "resume": "Contenu premium prêt à valider : relie la collecte assurance vie de mai 2026 (encours 2 162 Md€) à la mobilisation de 5,3 Md€ des assureurs dans l'initiative Tibi III de financement des entreprises innovantes, pour muscler l'argumentaire de conseil au-delà du seul rendement.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider ; revérifier les chiffres avant publication.",
+      "impact": "Contenu de notoriété premium, sourcé, angle distinct des posts du 16/06 et du 02/07.",
+      "populations": "Réseaux bancassurance, assureurs vie, CGP, conformité.",
+      "besoin_formation": "—",
+      "opportunite": "Argument réutilisable en entretien de conseil pour la capsule « Réorienter l'épargne 2026 ».",
+      "source_label": "Production agent 7 (éditorial)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-07-03_Editorial_Assurance-vie-Tibi-III.md"
     }
   ]
 }
