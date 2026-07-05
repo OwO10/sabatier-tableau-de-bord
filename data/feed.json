@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-03",
+    "derniere_maj": "2026-07-05",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1461,6 +1461,23 @@
       "source_label": "Production agent 7 (éditorial)",
       "source_url": "",
       "fichier": "Base_de_connaissances/11_Editorial/2026-07-03_Editorial_Assurance-vie-Tibi-III.md"
+    },
+    {
+      "id": "regl-20260705-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-01",
+      "ajout": "2026-07-05",
+      "titre": "ACPR — Lancement du registre public unique banque-assurance REGAFI.FR",
+      "resume": "Le 01/07/2026, l'ACPR a mis en ligne REGAFI.FR, registre public unique fusionnant REGAFI (banque/finance) et REFASSU (assurance). Gratuit, mis à jour quotidiennement, il recense les acteurs autorisés à exercer en France avec leur périmètre d'agrément.",
+      "priorite": "moyenne",
+      "statut": "Mesure opérationnelle en vigueur (site en ligne depuis le 01/07/2026), pas un texte normatif nouveau.",
+      "impact": "S'inscrit dans le prolongement de la priorité anti-arnaque du rapport annuel 2025 du Pôle commun ACPR-AMF (couvert le 03/07/2026) : un point d'entrée unique pour vérifier l'habilitation d'un interlocuteur bancaire ou assurantiel.",
+      "populations": "Conseillers clientèle réseaux bancaires et assurance, CGP/CIF, conformité et lutte anti-arnaque, back-office vérification des intermédiaires.",
+      "besoin_formation": "Intégrer REGAFI.FR comme réflexe de vérification dans les parcours conformité/LCB-FT et les modules de sensibilisation aux arnaques financières.",
+      "opportunite": "Capsule courte « Vérifier un acteur financier en 30 secondes avec REGAFI.FR », mutualisable avec le module de sensibilisation anti-arnaque déjà envisagé le 03/07/2026.",
+      "source_label": "ACPR — Lancement du nouveau registre public unique banque et assurance : REGAFI.FR (01/07/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/lancement-du-nouveau-registre-public-unique-banque-et-assurance-regafifr",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-05_Veille-reglementaire_Synthese.md"
     }
   ]
 }
