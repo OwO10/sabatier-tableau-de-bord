@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-06",
+    "derniere_maj": "2026-07-07",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1597,6 +1597,91 @@
       "source_label": "Synthèse détection d'opportunités Sabatier (agent 5), 06/07/2026",
       "source_url": "",
       "fichier": "Base_de_connaissances/10_Opportunites/2026-07-06_Detection-opportunites_Synthese.md"
+    },
+    {
+      "id": "edito-20260706-01",
+      "agent": "editorial",
+      "date": "2026-07-06",
+      "ajout": "2026-07-06",
+      "titre": "Brouillon — Post LinkedIn « Vérifier un interlocuteur financier en 30 secondes : le nouveau réflexe REGAFI.FR »",
+      "resume": "Contenu premium prêt à valider : relie le lancement de REGAFI.FR (01/07/2026) au rapport anti-arnaque du Pôle commun ACPR-AMF (24/06) et à la cartographie 2026 de l'AMF sur la fraude par IA/deepfakes, avec un angle distinct des posts du 16/06, du 02/07 et du 03/07.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider ; revérifier les chiffres avant publication.",
+      "impact": "Contenu de notoriété premium, sourcé, sur la protection de la clientèle et la fraude assistée par IA.",
+      "populations": "Réseaux bancaires, assureurs, CGP, conformité anti-arnaque.",
+      "besoin_formation": "—",
+      "opportunite": "Réutilisable comme accroche pour le futur module « Repérer l'arnaque financière » (opp-20260706-02).",
+      "source_label": "Production agent 7 (éditorial)",
+      "source_url": "",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-07-06_Editorial_Regafi-anti-arnaque-IA.md"
+    },
+    {
+      "id": "regl-20260707-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-01",
+      "ajout": "2026-07-07",
+      "titre": "EIOPA — Consultation sur la révision des indicateurs de durabilité (Taxonomie) pour les assureurs",
+      "resume": "Consultation lancée le 1er juillet 2026 sur la révision des obligations de publication Taxonomie (art. 8) des assureurs : refonte du KPI de souscription, standardisation du ratio d'éligibilité, nouveau « Green Insured Activities KPI ». Audition publique le 16/07, réponses attendues avant le 12/08/2026.",
+      "priorite": "moyenne",
+      "statut": "consultation",
+      "impact": "Simplification à moyen terme des obligations de reporting Taxonomie des (ré)assureurs ; pas d'effet direct sur les réseaux commerciaux.",
+      "populations": "Fonctions conformité et reporting extra-financier des assureurs.",
+      "besoin_formation": "Actualisation sur les KPI Taxonomie verte assurance (public technique/conformité).",
+      "opportunite": "Module court « Taxonomie verte assurance : ce qui change », après clôture de la consultation.",
+      "source_label": "EIOPA — communiqué du 01/07/2026",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-consults-enhancements-insurance-corporate-disclosures-under-eu-taxonomy-environmentally-2026-07-01_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-07_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260707-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-01",
+      "ajout": "2026-07-07",
+      "titre": "Fin de la période transitoire MiCA — agrément obligatoire pour les prestataires crypto depuis le 1er juillet 2026",
+      "resume": "La période transitoire nationale accordée aux anciens PSAN a pris fin fin juin/1er juillet 2026 : tout prestataire de services sur crypto-actifs doit désormais détenir un agrément MiCA. Seules 14 entreprises l'avaient obtenu en France sur une centaine d'acteurs actifs.",
+      "priorite": "haute",
+      "statut": "en vigueur",
+      "impact": "Vigilance LCB-FT renforcée pour les établissements en relation avec des prestataires crypto ; risque de relations d'affaires avec des acteurs non conformes.",
+      "populations": "Fonctions conformité / LCB-FT des banques et assureurs, équipes en lien avec des partenariats crypto-actifs.",
+      "besoin_formation": "Sensibilisation MiCA/PSAN et vigilance LCB-FT associée pour les équipes conformité.",
+      "opportunite": "Capsule « MiCA : fin de la période transitoire, ce que la conformité bancaire doit vérifier ».",
+      "source_label": "AMF — page MiCA ; presse : moneyvox.fr (01/07/2026)",
+      "source_url": "https://www.amf-france.org/en/news-publications/depth/mica",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-07_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260707-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-07",
+      "ajout": "2026-07-07",
+      "titre": "Nouveaux ADAS obligatoires sur les véhicules neufs (règlement GSR2) — impact sur l'assurance auto",
+      "resume": "Depuis le 7 juillet 2026, tout véhicule neuf immatriculé dans l'UE doit embarquer l'ensemble des ADAS prévus par le règlement 2019/2144 (freinage d'urgence automatique, assistant de vitesse, boîte noire, etc.). Effet limité sur les primes à ce stade mais coût moyen des sinistres en hausse (recalibrage capteurs/caméras).",
+      "priorite": "moyenne",
+      "statut": "en vigueur",
+      "impact": "Hausse du coût moyen des sinistres auto liée au remplacement/recalibrage des capteurs et caméras après un choc mineur.",
+      "populations": "Réseaux commerciaux assurance auto/IARD, gestionnaires de sinistres, experts.",
+      "besoin_formation": "Sensibilisation aux nouveaux enjeux d'expertise et de coût des sinistres liés aux ADAS.",
+      "opportunite": "Module « Sinistres auto et ADAS : nouveaux enjeux d'expertise et de coût ».",
+      "source_label": "votre-assurance.fr (07/07/2026)",
+      "source_url": "https://www.votre-assurance.fr/auto-moto/equipements-de-securite-obligatoires-le-7-juillet-2026-quel-impact-sur-votre-assurance-auto.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-07_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260707-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07",
+      "ajout": "2026-07-07",
+      "titre": "Baromètre CORUM L'Épargne 2026 — les jeunes préfèrent le CGP à l'IA pour les conseils financiers",
+      "resume": "Un jeune actif sur deux solliciterait un CGP plutôt qu'un outil d'IA pour placer 50 000 €. Le conseil humain reste privilégié malgré la diffusion des outils d'IA en gestion de patrimoine.",
+      "priorite": "surveillance",
+      "statut": "cas",
+      "impact": "Signal positif pour le positionnement commercial des CGP et conseillers patrimoniaux face à la concurrence de l'IA.",
+      "populations": "CGP, conseillers en gestion de patrimoine, banque privée.",
+      "besoin_formation": "Argumentaire de valorisation du conseil humain face à l'IA dans la relation client.",
+      "opportunite": "Contenu marketing « Le CGP face à l'IA : ce que veulent vraiment les clients ».",
+      "source_label": "FranceTransactions.com (juillet 2026)",
+      "source_url": "https://www.francetransactions.com/actus/news-epargne/confiance-conseils-finance-cgp-ia.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-07_Brief-actualite.md"
     }
   ]
 }
