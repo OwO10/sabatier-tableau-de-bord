@@ -119,7 +119,7 @@
 const DATA = {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-08",
+    "derniere_maj": "2026-07-09",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1817,9 +1817,44 @@ const DATA = {
       "source_label": "ESRB (07/07/2026) ; EBA au nom des ESAs (08/07/2026)",
       "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/esas-support-esrb-warning-systemic-cyber-risks-frontier-ai-models",
       "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-08_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260709-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026",
+      "ajout": "2026-07-09",
+      "titre": "Assurance vie : 2026 s'annonce comme la meilleure collecte de la décennie, rendement fonds euros attendu à 2,90 %",
+      "resume": "Le baromètre de l'épargne individuelle (17e édition, Facts & Figures / Good Value for Money) anticipe pour 2026 la meilleure collecte brute d'assurance vie de la décennie. Rendement moyen des fonds euros attendu à 2,90 % (contre 2,65 % en 2025), meilleurs contrats au-delà de 5,5 %. Écart qui se creuse avec le Livret A (1,50-1,70 %).",
+      "priorite": "haute",
+      "statut": "Étude/baromètre publié (projection année pleine 2026).",
+      "impact": "Renforce l'argument commercial de l'assurance vie face à l'épargne réglementée ; accroît la pression concurrentielle entre réseaux, assureurs et CGP pour la collecte de rentrée.",
+      "populations": "Conseillers clientèle banque de détail, conseillers assurance vie, CGP/gestion de patrimoine, banque privée.",
+      "besoin_formation": "Argumentaire commercial épargne (assurance vie vs Livret A/PER), pédagogie de l'allocation fonds euros/UC, devoir de conseil sur l'orientation client.",
+      "opportunite": "Module/atelier « argumentaire commercial rentrée 2026 assurance vie » ; vient enrichir la capsule « Réorienter l'épargne 2026 » déjà identifiée.",
+      "source_label": "Argus de l'assurance (baromètre Facts & Figures / Good Value for Money)",
+      "source_url": "https://www.argusdelassurance.com/epargne/assurance-vie-la-collecte-sannonce-exceptionnelle-et-le-rendement-du-fonds-euros-pourrait-nettement-progresser-au-titre-de-lannee-2026-selon-facts-figures.H43VF4FECJG5NAPUQQNDWJYBSU.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-09_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260709-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-08",
+      "ajout": "2026-07-09",
+      "titre": "AG2R La Mondiale entre en négociations exclusives pour prendre le contrôle de CFDP (protection juridique)",
+      "resume": "AG2R La Mondiale a annoncé le 8 juillet 2026 être entré en négociations exclusives en vue d'une prise de participation majoritaire au capital de CFDP, acteur de la protection juridique, dans le cadre de son plan stratégique.",
+      "priorite": "moyenne",
+      "statut": "Négociations exclusives annoncées (opération non finalisée, pas de closing annoncé).",
+      "impact": "Mouvement de consolidation sur le marché de la protection juridique/assurance de personnes.",
+      "populations": "Réseaux assurance de personnes, courtage, distribution protection juridique.",
+      "besoin_formation": "Aucun à ce stade ; à réévaluer en cas de closing.",
+      "opportunite": "À surveiller, pas d'action immédiate.",
+      "source_label": "News Assurances Pro",
+      "source_url": "https://www.newsassurancespro.com/ag2r-la-mondialecfdp-une-prise-de-participation-strategique/01691689090",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-09_Brief-actualite.md"
     }
   ]
 };
+
     const AGENTS = DATA.meta.agents;
 const ITEMS = (DATA.items || []).slice().sort((a,b)=> ((b.ajout||b.date)+b.date).localeCompare((a.ajout||a.date)+a.date));
 const PRIOS = {
