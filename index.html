@@ -119,7 +119,7 @@
 const DATA = {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-11",
+    "derniere_maj": "2026-07-12",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -1902,10 +1902,26 @@ const DATA = {
       "source_label": "Pretto.fr, CAFPI.fr — barèmes de juillet 2026",
       "source_url": "https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-juillet-2026/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-10_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260712-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-08",
+      "ajout": "2026-07-12",
+      "titre": "BPCE en négociations exclusives avec Crédit Mutuel Arkéa pour racheter Izimmo et Liberkeys",
+      "resume": "Le Groupe BPCE a annoncé le 08/07/2026 l'ouverture de négociations exclusives avec le Crédit Mutuel Arkéa pour acquérir Izimmo (investissement/épargne immobilière) et Liberkeys (réseau d'agents spécialisés dans la transaction sur l'ancien). Objectif affiché : renforcer l'offre d'épargne immobilière dédiée aux clientèles banque privée et gestion de patrimoine, et développer la présence de BPCE sur la transaction immobilière ancienne. Finalisation visée au T4 2026, sous réserve d'aboutissement des négociations.",
+      "priorite": "moyenne",
+      "statut": "négociations exclusives annoncées, opération non finalisée (finalisation visée T4 2026)",
+      "impact": "Renforcement de l'offre d'épargne/investissement immobilier intégrée pour la clientèle banque privée et gestion de patrimoine chez un grand réseau bancaire ; signal de la montée en gamme des offres immobilières patrimoniales proposées par les banques de détail.",
+      "populations": "Conseillers en gestion de patrimoine, banque privée, CGP, conseillers clientèle haut de gamme des réseaux BPCE.",
+      "besoin_formation": "Repères sur l'intégration de l'immobilier patrimonial (SCPI, investissement locatif, transaction) dans l'offre de conseil banque privée/CGP.",
+      "opportunite": "Module ou brève « Immobilier patrimonial et conseil en gestion de patrimoine : les banques élargissent leur offre » pour les publics banque privée/CGP.",
+      "source_label": "Espace Presse BPCE (08/07/2026)",
+      "source_url": "https://newsroom.groupebpce.fr/actualites/le-groupe-bpce-entre-en-negociations-exclusives-avec-le-credit-mutuel-arkea-en-vue-de-l-acquisition-d-izimmo-et-de-liberkeys-5e0b7-7b707.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-12_Brief-actualite.md"
     }
   ]
 };
-
     const AGENTS = DATA.meta.agents;
 const ITEMS = (DATA.items || []).slice().sort((a,b)=> ((b.ajout||b.date)+b.date).localeCompare((a.ajout||a.date)+a.date));
 const PRIOS = {
