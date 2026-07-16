@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-15",
+    "derniere_maj": "2026-07-16",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -2007,10 +2007,10 @@
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-14_Brief-actualite.md"
     },
     {
-      "id": "regl-20260715-01",
+      "id": "regl-20260716-01",
       "agent": "veille-reglementaire",
-      "date": "2026-07-15",
-      "ajout": "2026-07-15",
+      "date": "2026-07-16",
+      "ajout": "2026-07-16",
       "titre": "IRRD — Cadre européen de redressement et de résolution en assurance : normes techniques en voie de finalisation",
       "resume": "EIOPA finalise par lots les orientations et normes techniques d'application de la directive sur le redressement et la résolution des assureurs (IRRD) : premier lot le 16/02/2026, projets de RTS/ITS sur les collèges de résolution et le reporting le 24/04/2026, dernier lot (contenu des plans de résolution) attendu d'ici le 29/07/2026. L'ACPR a inscrit ce cadre à ses priorités de supervision 2026. Logique inspirée de la BRRD bancaire : plans préventifs de rétablissement, planification de la résolution, gouvernance des risques.",
       "priorite": "surveillance",
@@ -2021,7 +2021,7 @@
       "opportunite": "Note de cadrage « IRRD : ce que les assureurs doivent préparer avant 2027 » ; module dirigeants/fonctions clés ; atelier « plan préventif de rétablissement » pour directions des risques ; capsule de veille réactualisée à chaque lot EIOPA.",
       "source_label": "EIOPA — Insurance Recovery and Resolution Directive (IRRD) ; communiqués EIOPA du 16/02/2026 et 24/04/2026 ; ACPR — programme de travail 2026",
       "source_url": "https://www.eiopa.europa.eu/browse/regulation-and-policy/insurance-recovery-and-resolution-directive-irrd_en",
-      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-15_Veille-reglementaire_Synthese.md"
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-16_Veille-reglementaire_Synthese.md"
     }
   ]
 }
