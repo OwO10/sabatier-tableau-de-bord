@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-22",
+    "derniere_maj": "2026-07-23",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -2345,6 +2345,40 @@
       "source_label": "Zonebourse — « Crédit Agricole Assurances accélère le développement de ses partenariats de distribution avec le lancement de Crédit Agricole Insurance Partners » (21/07/2026)",
       "source_url": "https://www.zonebourse.com/actualite-bourse/credit-agricole-s-a-credit-agricole-assurances-accelere-le-developpement-de-ses-partenariats-de-di-ce7f51d8d88dff21",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-22_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260723-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-17",
+      "ajout": "2026-07-23",
+      "titre": "EBA — Normes techniques finales sur les opérations « matérielles » des banques (CRD VI) : acquisitions, transferts, fusions, scissions",
+      "resume": "L'EBA a publié le 17/07/2026 ses projets finaux de RTS et ITS sur les opérations prudentiellement significatives des établissements de crédit et compagnies financières (mixtes) au titre de la directive CRD VI (UE) 2024/1619 : acquisitions matérielles, transferts d'actifs/passifs, fusions et scissions. Les RTS précisent, par type d'opération, la liste minimale d'informations, la méthodologie d'évaluation et le processus de notification ; les ITS fixent procédures, formulaires et modèles de consultation entre autorités. Objectif : soutenir la consolidation bancaire et harmoniser l'évaluation prudentielle dans l'UE.",
+      "priorite": "surveillance",
+      "statut": "Projets de normes techniques finaux transmis à la Commission européenne (adoption à décider) ; pas encore en vigueur ; transposition CRD VI.",
+      "impact": "Cadre prudentiel/structurel de supervision des opérations de M&A bancaires ; faible impact direct sur la formation des réseaux de détail, à conserver au radar pour les directions, la conformité prudentielle et les risques des groupes bancaires.",
+      "populations": "Directions générales et stratégie, fonctions conformité prudentielle, risques et M&A des établissements de crédit et holdings financières.",
+      "besoin_formation": "À ce stade limité : brique de veille « cadre CRD VI : nouvelles obligations sur les opérations matérielles » pour publics dirigeants/conformité, si demande.",
+      "opportunite": "Faible en direct ; à mobiliser dans un panorama « CRD VI : ce qui change pour les banques » (culture réglementaire).",
+      "source_label": "EBA — « The EBA publishes its final draft technical standards on material acquisitions, material transfers, mergers and divisions under the Capital Requirements Directive » (17/07/2026)",
+      "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-draft-technical-standards-material-acquisitions-material-transfers-mergers",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-23_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260723-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-23",
+      "ajout": "2026-07-23",
+      "titre": "BNP Paribas — résultats S1 2026 : bénéfice net +33 % au T2, banque de détail et bancassurance en soutien",
+      "resume": "BNP Paribas a publié le 23/07/2026 ses comptes T2/S1 2026. Résultat net part du groupe de 4 345 M€ au T2 (+33,4 % sur un an, au-dessus du consensus ~4,21 Md€) ; PNB +12 % à 14 091 M€ (CPBS +4,8 %, CIB +12,7 %, IPS/assurance +27,3 %) ; RBE 6 105 M€ (+14,1 %) ; ROTE 13,3 % ; CET1 13,0 % au 30/06 (objectif 2027 déjà atteint). Acompte sur dividende de 3,23 €/action en septembre (~+25 %), intégrant une plus-value exceptionnelle liée à l'opération Ageas / AG Insurance (1,9 Md€).",
+      "priorite": "moyenne",
+      "statut": "Communiqué de résultats publié le 23/07/2026 (données au 30/06/2026).",
+      "impact": "Signal de marché pour les banques de détail/réseaux et la bancassurance : la banque de détail (CPBS) et l'assurance/épargne (IPS) tirent la croissance, dans un contexte de réorientation de l'épargne réglementée vers l'assurance vie ; l'opération Ageas/AG Insurance illustre la recomposition de la bancassurance européenne.",
+      "populations": "Conseillers et managers de réseau bancaire et bancassurance ; publics culture économique/sectorielle ; directions.",
+      "besoin_formation": "Culture économique et sectorielle : comprendre les moteurs de performance (marge nette d'intérêt, commissions, assurance/IPS) et les dynamiques de bancassurance.",
+      "opportunite": "Capsule d'actualité « saison des résultats S1 2026 : ce que révèlent les comptes des banques » ; illustration des dynamiques bancassurance / distribution d'assurance.",
+      "source_label": "Boursorama — « BNP Paribas accroît d'un tiers son résultat net au 2e trimestre » (23/07/2026), d'après le communiqué de résultats BNP Paribas",
+      "source_url": "https://www.boursorama.com/bourse/actualites/bnp-paribas-accroit-d-un-tiers-son-resultat-net-au-2e-trimestre-d0b535935a05e8e3afd22cce26bce015",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-23_Brief-actualite.md"
     }
   ]
 }
