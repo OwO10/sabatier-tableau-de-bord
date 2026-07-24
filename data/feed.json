@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-23",
+    "derniere_maj": "2026-07-24",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -2379,6 +2379,57 @@
       "source_label": "Boursorama — « BNP Paribas accroît d'un tiers son résultat net au 2e trimestre » (23/07/2026), d'après le communiqué de résultats BNP Paribas",
       "source_url": "https://www.boursorama.com/bourse/actualites/bnp-paribas-accroit-d-un-tiers-son-resultat-net-au-2e-trimestre-d0b535935a05e8e3afd22cce26bce015",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-23_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260724-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-15",
+      "ajout": "2026-07-24",
+      "titre": "EIOPA — Achèvement du mandat de révision de Solvabilité II : guidelines finales et projets de normes techniques (application 30/01/2027)",
+      "resume": "Le 15/07/2026, l'EIOPA a publié huit jeux de lignes directrices et de projets de normes techniques clôturant son mandat de révision de Solvabilité II : nouvelles lignes directrices sur les vulnérabilités de liquidité, RTS sur le calcul simplifié de la marge de risque, et révisions portant notamment sur la valorisation des provisions techniques et l'ajustement égalisateur. L'ensemble s'appliquera à partir du 30 janvier 2027, avec le cadre Solvabilité II révisé.",
+      "priorite": "moyenne",
+      "statut": "Lignes directrices finales + projets de normes techniques (RTS/ITS) transmis ; entrée en application au 30/01/2027 ; pas encore en vigueur.",
+      "impact": "Cadre prudentiel structurant pour les assureurs vie & IARD (marge de risque, provisions techniques, gestion du risque de liquidité, ajustement égalisateur). S'articule avec le nouveau régime de proportionnalité ACPR (même échéance 30/01/2027).",
+      "populations": "Directions actuariat, risques, ALM, conformité et reporting prudentiel des compagnies d'assurance et mutuelles.",
+      "besoin_formation": "Brique de mise à niveau « Solvabilité II révisé : ce qui change au 30/01/2027 » (marge de risque simplifiée, risque de liquidité, proportionnalité) pour publics actuariat/risques/conformité.",
+      "opportunite": "Parcours « Solvabilité II révisé » couplé à la proportionnalité ACPR, positionnable auprès des directions techniques d'assureurs vie/IARD.",
+      "source_label": "EIOPA — « EIOPA completes Solvency II Review mandate with final guidelines and draft technical standards before revised framework takes effect early next year » (15/07/2026)",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-completes-solvency-ii-review-mandate-final-guidelines-and-draft-technical-standards-revised-2026-07-15_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-24_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260724-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-20",
+      "ajout": "2026-07-24",
+      "titre": "AMF — Sanction d'une société de gestion de portefeuille (Uzès Gestion) et de deux dirigeants (cas pédagogique conformité)",
+      "resume": "Par décision du 20/07/2026, la Commission des sanctions de l'AMF a sanctionné la société de gestion Uzès Gestion (350 000 €) et deux dirigeants (30 000 € et 40 000 €), chacun assorti d'un avertissement ; deux autres dirigeants ont été mis hors de cause. Manquements reprochés : non-respect du dossier d'agrément, organisation interne, gestion des conflits d'intérêts, information des porteurs et dispositif de valorisation. Sanctions inférieures aux demandes du Collège à l'audience de mai (500 000 € contre la société).",
+      "priorite": "moyenne",
+      "statut": "Décision de la Commission des sanctions du 20/07/2026 (voie de recours ouverte).",
+      "impact": "Cas concret directement exploitable en pédagogie conformité/RCCI pour les sociétés de gestion et l'écosystème gestion de patrimoine (organisation, conflits d'intérêts, information, valorisation).",
+      "populations": "RCCI/déontologues, dirigeants de SGP, gérants, back/middle-office valorisation ; par extension CGP et banque privée.",
+      "besoin_formation": "Illustration « conformité SGP » : respect du programme d'activité/dossier d'agrément, dispositif de gestion des conflits d'intérêts, information des porteurs, contrôle de la valorisation.",
+      "opportunite": "Enrichir le catalogue « cas de sanctions AMF » (aux côtés de Bourse Direct, contrôles LCB-FT 2022-2025) pour les modules conformité destinés aux SGP/CGP.",
+      "source_label": "AMF — « La Commission des sanctions de l'AMF sanctionne une société de gestion de portefeuille et deux de ses dirigeants… » (20/07/2026)",
+      "source_url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-une-societe-de-gestion-de-portefeuille-et-deux-de-ses",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-24_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260724-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-23",
+      "ajout": "2026-07-24",
+      "titre": "BCE — taux directeurs maintenus inchangés le 23/07/2026 (dépôt 2,25 %, refi 2,40 %, prêt marginal 2,65 %)",
+      "resume": "Le 23/07/2026, le Conseil des gouverneurs de la BCE a laissé ses trois taux directeurs inchangés (facilité de dépôt 2,25 %, opérations principales de refinancement 2,40 %, facilité de prêt marginal 2,65 %), après un relèvement de +25 pb en juin 2026 (premier resserrement en trois ans) lié aux tensions inflationnistes sur l'énergie. La BCE surveille l'intensité et la durée du choc énergétique et ses effets de second tour.",
+      "priorite": "moyenne",
+      "statut": "Décision de politique monétaire du 23/07/2026 (en vigueur).",
+      "impact": "Stabilisation des taux à un niveau élevé : conditionne la marge nette d'intérêt et la production de crédit des banques de détail (taux d'usure déjà relevés au 01/07), soutient le rendement des fonds euros 2026 et l'arbitrage épargne réglementée / assurance vie ; l'€STR alimente la formule du Livret A.",
+      "populations": "Réseaux bancaires (conseillers particuliers/pro, crédit immobilier), assureurs vie & CGP (discours épargne), directions financières.",
+      "besoin_formation": "Actualiser les modules « environnement de taux & conseil épargne/crédit » pour réoutiller le discours commercial des conseillers (rentrée 2026).",
+      "opportunite": "Point d'actualité mobilisable en capsule/microlearning « lecture de la décision BCE pour le conseiller » (épargne réglementée vs assurance vie vs crédit).",
+      "source_label": "BCE — « Décisions de politique monétaire » (23/07/2026)",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.fr.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-24_Brief-actualite.md"
     }
   ]
 }
