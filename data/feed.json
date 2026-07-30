@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-29",
+    "derniere_maj": "2026-07-30",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -2651,6 +2651,40 @@
       "source_label": "CAFPI — Baromètre taux juillet 2026 ; CreditNews — taux d'usure T3",
       "source_url": "https://www.cafpi.fr/credit-immobilier/barometre-taux/actualites-taux/les-taux-de-credit-immobilier-en-juillet-2026",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-29_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260730-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-06-30",
+      "ajout": "2026-07-30",
+      "titre": "EIOPA — Rapport de suivi de la revue par les pairs sur la gouvernance des produits (POG) : supervision plus mature mais encore hétérogène",
+      "resume": "EIOPA a publié le 30 juin 2026 le rapport de suivi de sa peer review sur la gouvernance et la surveillance des produits (POG), évaluant les progrès des autorités nationales dans la mise en œuvre des actions recommandées. Environ la moitié des autorités ont développé des méthodologies structurées (manuels, checklists, outils value for money pour les IBIP), mais l'application reste hétérogène. EIOPA prévient que la proportionnalité ne peut justifier des capacités de supervision sous-développées.",
+      "priorite": "moyenne",
+      "statut": "rapport de suivi publié (non contraignant ; cadre DDA/IDD et orientations POG existantes)",
+      "impact": "Durcissement attendu de la supervision conduite sur la conception/distribution des produits (IBIP, assurance vie UC) : marché cible, value for money, suivi produit. L'ACPR étant couverte, montée en exigence probable côté France.",
+      "populations": "Compagnies vie & IARD, bancassurance, concepteurs de produits, conformité/contrôle interne, réseaux distributeurs (conseillers, CGP).",
+      "besoin_formation": "POG opérationnelle : gouvernance produit, définition et test du marché cible, dispositif value for money, articulation concepteur/distributeur, traçabilité et revue produit.",
+      "opportunite": "Module \"POG & value for money en assurance vie/IBIP : de la conformité formelle à la preuve opérationnelle\", en lien avec l'offre DDA/devoir de conseil existante.",
+      "source_label": "EIOPA — Peer Review on Product Oversight and Governance (POG), rapport de suivi (30/06/2026)",
+      "source_url": "https://www.eiopa.europa.eu/publications/peer-review-product-oversight-and-governance-pog_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260730-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-30",
+      "ajout": "2026-07-30",
+      "titre": "Société Générale — S1 2026 record : la banque de détail et la bancassurance portent le groupe (RN ~3,5 Md€, ROTE 12,0 %)",
+      "resume": "Résultats publiés le 30/07/2026 : résultat net part du groupe record au S1 à ~3,5 Md€ (+13,9 % vs S1 2025), T2 à 1,79 Md€ (+23,2 %). ROTE S1 12,0 %, PNB S1 14,2 Md€ (+2,4 %), coûts -5,0 %. La banque de détail et la bancassurance compensent le repli des activités de marché. Cibles 2026 relevées (ROTE ~11 %), rachat d'actions exceptionnel de 1,5 Md€ et acompte sur dividende de 0,75 €/action (+23 %).",
+      "priorite": "moyenne",
+      "statut": "résultats publiés (communiqué officiel, CA du 29/07/2026)",
+      "impact": "Confirme la vigueur de la banque de détail/réseaux et le rôle moteur de la bancassurance dans un marché volatil ; performance tirée par la maîtrise des coûts et la profondeur du fonds de commerce retail.",
+      "populations": "Réseaux d'agences, conseillers clientèle particuliers et pro, bancassurance, direction commerciale.",
+      "besoin_formation": "Montée en compétence des conseillers sur épargne et bancassurance (arbitrage Livret A 1,7 % au 1er août vs assurance vie), efficacité commerciale et devoir de conseil.",
+      "opportunite": "Argumentaire \"réseaux performants = conseillers formés\" pour l'offre banque de détail/bancassurance ; capsules épargne & arbitrage 2026.",
+      "source_label": "Société Générale — Résultats T2 et S1 2026 (30/07/2026) ; relais Boursorama",
+      "source_url": "https://www.societegenerale.com/en/news/press-release/results-q2-2026",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-30_Brief-actualite.md"
     }
   ]
 }
