@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-07-30",
+    "derniere_maj": "2026-07-31",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -2685,6 +2685,74 @@
       "source_label": "Société Générale — Résultats T2 et S1 2026 (30/07/2026) ; relais Boursorama",
       "source_url": "https://www.societegenerale.com/en/news/press-release/results-q2-2026",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-30_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260731-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-31",
+      "ajout": "2026-07-31",
+      "titre": "Épargne réglementée — parution au JO de l'arrêté fixant les taux au 1er août 2026 (Livret A/LDDS 1,70 %, LEP 2,50 %, CEL 1,25 %)",
+      "resume": "L'arrêté du 28 juillet 2026 a été publié au Journal officiel (JORF n° 0177 du 31/07/2026). Il entérine juridiquement, à compter du 1er août 2026, le Livret A et le LDDS à 1,70 % (contre 1,5 %), le LEP maintenu à 2,50 % (au-dessus de la formule) et le CEL à 1,25 %. Le taux avait été annoncé par le ministre le 15/07 ; c'est ici la publication au JO (entrée en vigueur) qui constitue le fait réglementaire nouveau. Première hausse du Livret A depuis février 2023.",
+      "priorite": "moyenne",
+      "statut": "adopté et publié au JO — en vigueur au 1er août 2026",
+      "impact": "Modifie les arbitrages d'épargne en réseau (liquidité réglementée vs assurance vie/fonds euros ~2,63 % en 2025) ; mise à jour des supports et du discours de conseil, information client.",
+      "populations": "Conseillers clientèle particuliers, chargés d'accueil, réseaux bancassurance, CGP.",
+      "besoin_formation": "Actualisation « épargne réglementée 2026 » : nouveaux barèmes, argumentaire d'arbitrage liquidité/assurance vie, cadrage du devoir de conseil.",
+      "opportunite": "Capsule flash « Taux d'épargne au 1er août 2026 : ce qui change pour le conseil » (mise à jour express des supports réseau).",
+      "source_label": "Légifrance — Arrêté du 28 juillet 2026 (JORF n° 0177 du 31/07/2026)",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054541376",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-31_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260731-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-07-30",
+      "ajout": "2026-07-31",
+      "titre": "ACPR — Analyses et Synthèses : le financement de l'immobilier commercial par les banques françaises en 2025",
+      "resume": "L'ACPR a publié le 30/07/2026 une étude (collection Analyses et Synthèses) sur l'exposition des banques françaises à l'immobilier commercial (CRE) en 2025 : exposition globalement contenue et risque maîtrisé au niveau agrégé, mais poches de vulnérabilité identifiées (actifs en construction, marchands de biens, actifs hors d'Europe) et hausse du risque de crédit sur les professionnels de l'immobilier.",
+      "priorite": "surveillance",
+      "statut": "étude/publication prudentielle (non contraignante)",
+      "impact": "Pertinence indirecte pour les segments cœur (retail/assurance) ; utile aux filières risque de crédit et financements aux professionnels de l'immobilier. Signal de vigilance à suivre.",
+      "populations": "Analystes/gestionnaires risque de crédit, financements professionnels/corporate, conformité.",
+      "besoin_formation": "Risque de crédit CRE : lecture des expositions, segments à risque, dispositifs de suivi.",
+      "opportunite": "Module de niche « Risque de crédit immobilier commercial : lire et challenger une exposition CRE » (public risque/engagements).",
+      "source_label": "ACPR — Analyses et Synthèses, financement de l'immobilier commercial (30/07/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/analyses-et-syntheses-le-financement-de-limmobilier-commercial",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-07-31_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260731-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-30",
+      "ajout": "2026-07-31",
+      "titre": "Assurance vie — collecte nette semestrielle record depuis 20 ans (données France Assureurs, juin 2026)",
+      "resume": "France Assureurs (fin juillet 2026) : 19,3 Md€ de cotisations en juin 2026 (+12 %, record pour un mois de juin), collecte nette de +6,7 Md€ sur le mois. Sur le S1 2026, la collecte nette atteint +36,5 Md€, un niveau inédit depuis le S1 2006 (40,2 Md€) et +8,9 Md€ de plus qu'au S1 2025 ; cotisations S1 à 108,8 Md€ (+10 %). Les unités de compte restent en tête (versements UC +15 % vs +10 % pour les fonds euros).",
+      "priorite": "moyenne",
+      "statut": "donnée de marché confirmée (France Assureurs)",
+      "impact": "Dynamique commerciale exceptionnelle de l'assurance vie et bascule structurelle vers les UC, alors que le Livret A remonte à 1,7 % (concurrence sur l'épargne liquide). Enjeux d'arbitrage et de devoir de conseil sur les UC.",
+      "populations": "Réseaux bancassurance, conseillers patrimoniaux, CGP, back-office épargne.",
+      "besoin_formation": "Conseil en assurance vie / UC : allocation, profil de risque et horizon, devoir de conseil, arbitrage vs épargne réglementée revalorisée.",
+      "opportunite": "Actualiser le module « Vendre et conseiller l'assurance vie en 2026 : UC, arbitrage et conformité », en lien avec la revalorisation du Livret A.",
+      "source_label": "France Assureurs — Assurance vie, chiffres de juin 2026 (fin juillet 2026)",
+      "source_url": "https://www.franceassureurs.fr/espace-presse/les-communiques-de-presse/assurance-vie-juin-2026/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-31_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260731-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-07-31",
+      "ajout": "2026-07-31",
+      "titre": "Crédit Agricole S.A. — résultats T2/S1 2026 : activité dynamique et accélération de la transformation IA",
+      "resume": "Crédit Agricole S.A. a publié fin juillet 2026 ses résultats T2/S1. RNPG du T2 à 2,05 Md€ : +1,4 % hors effet de base, mais −11,9 % en publié face à un T2 2025 gonflé par une plus-value exceptionnelle de 304 M€ (Amundi US). RBE +11,4 % à 3,49 Md€, coefficient d'exploitation 52,6 % (−1,6 pt), coût du risque +5,6 % à 466 M€. Le groupe met en avant l'accélération de sa transformation par l'IA. Au niveau du Groupe Crédit Agricole : RNPG S1 4 875 M€ (+6,8 %), PNB 20 880 M€ (+7,8 %).",
+      "priorite": "moyenne",
+      "statut": "résultats financiers publiés",
+      "impact": "Confirme que banque de détail et bancassurance portent les résultats ; l'affichage d'une accélération IA par un acteur cœur de cible valide la priorité acculturation/déploiement IA dans les réseaux.",
+      "populations": "Réseaux banque de détail, bancassurance, fonctions transformation/IA, managers de proximité.",
+      "besoin_formation": "IA générative appliquée aux métiers bancaires : cas d'usage réseau, conformité et supervision, conduite du changement.",
+      "opportunite": "Positionner l'offre « Déployer l'IA générative à l'échelle » auprès des réseaux mutualistes ; capsules d'acculturation IA pour conseillers.",
+      "source_label": "Crédit Agricole — Résultats du 2e trimestre et 1er semestre 2026",
+      "source_url": "https://www.credit-agricole.com/finance/communiques-de-presse-financiers/resultats-du-2e-trimestre-et-1er-semestre-2026",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-07-31_Brief-actualite.md"
     }
   ]
 }
