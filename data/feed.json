@@ -3569,6 +3569,23 @@
    "source_label": "Pretto — analyse taux août 2026",
    "source_url": "https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-aout-2026/",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-13_Actualite-banque-assurance_Synthese.md"
+  },
+  {
+   "id": "editorial-20260813-01",
+   "agent": "editorial",
+   "date": "2026-08-13",
+   "ajout": "2026-08-13",
+   "titre": "Post LinkedIn — Crédit conso : la réforme CCD2 entre en vigueur le 20 novembre 2026",
+   "resume": "Brouillon LinkedIn/note d'analyse à partir du décret n° 2026-719 du 1er août 2026 : évaluation de solvabilité traçable, dossier digitalisé (open banking), accompagnement obligatoire des emprunteurs en difficulté. Angle formation des réseaux avant l'échéance. À valider avant publication.",
+   "priorite": "moyenne",
+   "statut": "brouillon — à valider",
+   "impact": "Contenu marketing/expertise prêt à relecture, adossé à un texte adopté.",
+   "populations": "Réseaux bancaires, sociétés de crédit conso, prospects Sabatier.",
+   "besoin_formation": "—",
+   "opportunite": "Accroche commerciale « mise en conformité CCD2 avant le 20/11 ».",
+   "source_label": "Légifrance — JORF n° 0179 du 2 août 2026",
+   "source_url": "https://www.legifrance.gouv.fr/jorf/jo/2026/08/02/0179",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-08-13_Post-LinkedIn_Credit-conso-CCD2.md"
   }
  ]
 }
