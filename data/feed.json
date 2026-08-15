@@ -3705,6 +3705,23 @@
       "source_label": "Presse spécialisée assurance — relèvement surprime CatNat / effet plein 2026, 08/2026",
       "source_url": "https://www.votre-assurance.fr/maison/surprime-catastrophe-naturelle-pourquoi-votre-assurance-habitation-pese-plus-lourd-en-2026.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-15_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20260815-01",
+      "agent": "editorial",
+      "date": "2026-08-15",
+      "ajout": "2026-08-15",
+      "titre": "Post LinkedIn — AI Act : le report des obligations « haut risque » n'est pas un feu vert",
+      "resume": "Brouillon de post LinkedIn (à valider) exploitant l'actu réglementaire du jour : le « Digital Omnibus IA » (JOUE 24/07/2026) reporte les obligations haut risque de l'AI Act (scoring de crédit, tarification assurance) au 2/12/2027 (annexe III) et 2/08/2028 (annexe I), tandis que la transparence de l'article 50 s'applique dès le 2/08/2026. Angle : distinguer ce qui est reporté de ce qui s'applique, et transformer le sursis en avance.",
+      "priorite": "moyenne",
+      "statut": "Brouillon éditorial (à relire/valider avant publication)",
+      "impact": "Contenu de notoriété positionnant Sabatier sur l'accompagnement conformité IA banque-assurance ; corrige une idée reçue sur l'échéance du 2 août 2026.",
+      "populations": "Prospects et clients : fonctions conformité, risques, métiers (crédit, actuariat), dirigeants.",
+      "besoin_formation": "AI Act post-Omnibus : calendrier réel, cartographie des cas d'usage annexe III, transparence art. 50.",
+      "opportunite": "Amorce commerciale du module « AI Act pour la banque-assurance : ce qui s'applique vraiment en 2026-2028 ».",
+      "source_label": "Éditorial Sabatier — s'appuie sur regl-20260815-01 (Digital Omnibus IA, JOUE 24/07/2026)",
+      "source_url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-08-15_PostLinkedIn_AI-Act-report-haut-risque.md"
     }
   ]
 }
