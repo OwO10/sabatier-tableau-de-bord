@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-08-17",
+    "derniere_maj": "2026-08-18",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -3841,6 +3841,74 @@
       "source_label": "Lefebvre Dalloz — GenIA-L & agenda (consulté 17/08/2026) — déclencheur conc-20260817-01",
       "source_url": "https://formation.lefebvre-dalloz.fr/nos-formations-avec-genia-l-assistant",
       "fichier": "Base_de_connaissances/10_Opportunites/2026-08-17_Opportunites_Backlog.md"
+    },
+    {
+      "id": "editorial-20260817-01",
+      "agent": "editorial",
+      "date": "2026-08-17",
+      "ajout": "2026-08-17",
+      "titre": "Post LinkedIn — Crédit immobilier : la reprise se confirme (taux stable à 3,22 %)",
+      "resume": "Brouillon de post LinkedIn (à valider) sur la stabilisation du crédit immobilier : 12 Md€ de production, taux moyen 3,22 % stable, 99,5 % à taux fixe. Angle : la stabilité rend le projet pilotable ; le conseiller sécurise un projet redevenu lisible avant la rentrée. Chiffres à revérifier (données Banque de France).",
+      "priorite": "moyenne",
+      "statut": "brouillon éditorial (à valider) — données de marché Banque de France",
+      "impact": "Contenu prêt à relecture pour animer les réseaux à la rentrée sur le conseil crédit.",
+      "populations": "Conseillers clientèle particuliers, chargés de crédit, managers réseaux, courtiers.",
+      "besoin_formation": "Conseil crédit en phase de reprise ; argumentaire taux fixe / capacité d'emprunt.",
+      "opportunite": "Amorce de la capsule « Crédit immobilier 2026 » (opp-20260817-01).",
+      "source_label": "Banque de France (via Actual Immo), 17 août 2026",
+      "source_url": "https://www.actual-immo.fr/credit-immobilier-marche-stabilisation-taux-2026/",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-08-17_PostLinkedIn_Credit-immobilier-reprise.md"
+    },
+    {
+      "id": "regl-20260818-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-02-25",
+      "ajout": "2026-08-18",
+      "titre": "EBA/ESMA — « Suitability Package » : révision des orientations sur l'aptitude des dirigeants et responsables de fonctions clés",
+      "resume": "Dans le cadre de la révision CRD (grands établissements) et de MiFID II, l'EBA et l'ESMA ont mené une consultation (25/02→25/05/2026) sur des orientations communes révisées relatives à l'aptitude (« suitability ») des membres de l'organe de direction et des responsables de fonctions clés. Le paquet prévoit des évaluations d'aptitude obligatoires par les autorités pour certaines fonctions clés (fonctions de contrôle, directeur financier) et clarifie l'articulation ex-ante/ex-post. Entrée en application visée au 31/12/2026.",
+      "priorite": "surveillance",
+      "statut": "projet d'orientations révisées (consultation close ; go-live cible 31/12/2026 ; non en vigueur)",
+      "impact": "Impact indirect mais réel sur la gouvernance et la conformité des établissements supervisés : renforcement des exigences « fit & proper » et de la traçabilité des évaluations d'aptitude.",
+      "populations": "Dirigeants, membres d'organes de direction, responsables de fonctions clés (conformité, risques, contrôle interne, finance) des banques et entreprises d'investissement.",
+      "besoin_formation": "Module « gouvernance & fit-and-proper » : cartographie des exigences, préparation des dossiers d'aptitude, articulation avec le dispositif de contrôle interne.",
+      "opportunite": "Capsule / module de mise à jour « aptitude des dirigeants et fonctions clés » pour publics gouvernance-conformité, à préparer avant le go-live 31/12/2026.",
+      "source_label": "EBA — Communiqué, 25 février 2026",
+      "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-and-esma-launch-consultation-revised-suitability-assessment-framework-banks-and-investment-firms",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-08-18_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260818-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-08-18",
+      "ajout": "2026-08-18",
+      "titre": "Complémentaire santé — les cotisations augmentent en 2026 malgré le gel prévu par la LFSS 2026",
+      "resume": "Alors que la LFSS 2026 prévoyait un encadrement des tarifs des complémentaires santé, l'UFC-Que Choisir constate des hausses de cotisations effectives en 2026. Les estimations sectorielles (Mutualité Française) situent la hausse moyenne autour de +4,3 % en individuel et +4,7 % en collectif. Facteurs invoqués : vieillissement, maladies chroniques, coût de l'innovation médicale, transferts de charge de l'Assurance maladie.",
+      "priorite": "moyenne",
+      "statut": "constat de marché 2026 (estimations sectorielles ; pas de chiffre officiel consolidé)",
+      "impact": "Tension entre cadre légal et pratique tarifaire ; risque réputationnel et contentieux ; besoin d'argumentaires de justification tarifaire et de conformité de la communication client. À rapprocher de la QPC complémentaires santé (regl-20260810-02).",
+      "populations": "Distribution santé/prévoyance (assureurs, mutuelles, bancassurance), conseillers, conformité.",
+      "besoin_formation": "Actualisation « santé/prévoyance 2026 » : justification des hausses, conformité de la communication, posture de conseil et de rétention.",
+      "opportunite": "Capsule « expliquer et défendre la tarification santé 2026 » + volet conformité de la communication client.",
+      "source_label": "UFC-Que Choisir, 2026",
+      "source_url": "https://www.quechoisir.org/actualite-complementaires-sante-des-hausses-illegales-n173586/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-18_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260818-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-08-18",
+      "ajout": "2026-08-18",
+      "titre": "Assurance dommages 2026 — MRH et auto en hausse, assurance emprunteur épargnée",
+      "resume": "Les estimations 2026 de la presse spécialisée tablent sur une hausse de la MRH (~+7,5 à +8 %) et de l'auto (~+5 à +5,5 %), tandis que l'assurance emprunteur resterait globalement épargnée par l'inflation tarifaire. Cohérent avec l'effet plein en 2026 du relèvement de la surprime CatNat (12 % → 20 %).",
+      "priorite": "surveillance",
+      "statut": "estimations de marché 2026 (fourchettes ; à confirmer sur données consolidées)",
+      "impact": "Enjeu de rétention et de posture de conseil pour les réseaux : expliquer la hausse (climat, CatNat, coût des réparations), défendre la valeur du contrat, orienter la comparaison emprunteur.",
+      "populations": "Réseaux d'agences, conseillers particuliers, distribution IARD et emprunteur.",
+      "besoin_formation": "Actualisation des argumentaires réseaux MRH/auto ; module « conseil emprunteur » (marché toujours ouvert).",
+      "opportunite": "Capsule « défendre la tarification dommages 2026 » et module argumentaire emprunteur.",
+      "source_label": "Presse spécialisée assurance (reassurez-moi), 2026",
+      "source_url": "https://reassurez-moi.fr/guide/actualites/complementaire-sante-cotisations-flambent-2026",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-18_Brief-actualite.md"
     }
   ]
 }
