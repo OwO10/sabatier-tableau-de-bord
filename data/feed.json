@@ -3909,6 +3909,23 @@
       "source_label": "Presse spécialisée assurance (reassurez-moi), 2026",
       "source_url": "https://reassurez-moi.fr/guide/actualites/complementaire-sante-cotisations-flambent-2026",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-18_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20260818-01",
+      "agent": "editorial",
+      "date": "2026-08-18",
+      "ajout": "2026-08-18",
+      "titre": "Post LinkedIn — Complémentaire santé : la hausse des cotisations 2026, un test pour le devoir d'explication",
+      "resume": "Brouillon LinkedIn (à valider). Angle : la LFSS 2026 prévoit un encadrement des tarifs santé, mais l'UFC-Que Choisir constate des hausses effectives en 2026 (estimations Mutualité Française : +4,3 % individuel, +4,7 % collectif). Message : la pression tarifaire se traite par la pédagogie et la conformité de la communication, pas par un simple argument commercial. Positionnement Sabatier sur la posture de conseil santé/prévoyance.",
+      "priorite": "moyenne",
+      "statut": "brouillon éditorial (non publié ; chiffres à revérifier)",
+      "impact": "Contenu de notoriété/prospection ciblant la distribution santé/prévoyance.",
+      "populations": "Réseaux, conseillers santé/prévoyance, distribution, conformité.",
+      "besoin_formation": "Renvoie vers l'offre « expliquer et défendre la tarification santé 2026 » + conformité de la communication client.",
+      "opportunite": "Amorce de campagne santé/prévoyance ; à relier à la capsule dédiée.",
+      "source_label": "UFC-Que Choisir, 2026",
+      "source_url": "https://www.quechoisir.org/actualite-complementaires-sante-des-hausses-illegales-n173586/",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-08-18_PostLinkedIn_Complementaire-sante-hausses-2026.md"
     }
   ]
 }
