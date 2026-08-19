@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-08-18",
+    "derniere_maj": "2026-08-19",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -3926,6 +3926,23 @@
       "source_label": "UFC-Que Choisir, 2026",
       "source_url": "https://www.quechoisir.org/actualite-complementaires-sante-des-hausses-illegales-n173586/",
       "fichier": "Base_de_connaissances/11_Editorial/2026-08-18_PostLinkedIn_Complementaire-sante-hausses-2026.md"
+    },
+    {
+      "id": "actu-20260819-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-08",
+      "ajout": "2026-08-19",
+      "titre": "Crédit immobilier — offensive des réseaux sur les primo-accédants : prêts bonifiés et PTZ+ pour la rentrée (août 2026)",
+      "resume": "Taux de tête stables (~3,3-3,4 % sur 20 ans hors assurance), mais les banques relancent la concurrence via des lignes bonifiées secondaires ciblant jeunes et primo-accédants : PTZ+ jusqu'à 25 000 € à 0 % (Banque Populaire), « Prêt Primo Jeunes » 0 % et « Immo+ » à 1,99 % (Caisse d'Épargne PACA), « Prêt Coup de Pouce » à 0,99 % cumulable PTZ (Crédit Mutuel). Cumulés, ces dispositifs abaissent le taux moyen pondéré sous 3 % dans l'ancien et sous 2 % dans le neuf pour les dossiers éligibles.",
+      "priorite": "moyenne",
+      "statut": "daté — barèmes / promotions d'août 2026 (presse spécialisée, à revérifier)",
+      "impact": "La concurrence se déplace du taux de tête vers le montage multi-lignes : maîtrise du taux pondéré, du TAEG et de l'éligibilité PTZ 2026, et information précontractuelle claire et non trompeuse (cohérence DCI).",
+      "populations": "Conseillers clientèle particuliers, réseaux d'agences, courtiers ; primo-accédants et clients < 36 ans.",
+      "besoin_formation": "Actualisation produits (PTZ 2026, prêts bonifiés, montage multi-lignes), calcul du taux moyen pondéré et du TAEG, devoir d'information précontractuelle (DCI).",
+      "opportunite": "Module court « Monter et expliquer une offre primo-accédant 2026 (PTZ+ + prêts bonifiés) » pour réseaux de détail ; capsule TAEG / taux pondéré.",
+      "source_label": "MoneyVox — La Banque Postale, Crédit Mutuel, Caisse d'Épargne : la liste des promos sur les taux immobiliers en août",
+      "source_url": "https://www.moneyvox.fr/credit/actualites/109839/la-banque-postale-credit-mutuel-caisse-epargne-la-liste-des-promos-sur-les-taux-immobiliers-en-aout",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-08-19_Brief-actualite.md"
     }
   ]
 }
