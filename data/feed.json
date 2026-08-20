@@ -52,6 +52,23 @@
   },
   "items": [
     {
+      "id": "edito-20260820-01",
+      "agent": "editorial",
+      "date": "2026-08-20",
+      "ajout": "2026-08-20",
+      "titre": "Post LinkedIn — Vente à distance : trois dates (19/06/2026, 11/08/2026, 01/01/2027) qui refondent le parcours de souscription",
+      "resume": "Brouillon de post LinkedIn du jour. Angle : pris séparément, les trois textes encadrant la vente à distance paraissent techniques ; mis bout à bout, ils refondent le parcours de souscription en dix-huit mois — alors même que le marché digitalise en sens inverse (BPCE, assurance vie 100 % en ligne en 6 étapes / 10 minutes). Le post situe le risque là où il se loge réellement : la traçabilité du devoir de conseil quand le client souscrit seul, en s'appuyant sur la sanction ACPR de 20 M€ du 13/05/2026. Rappelle deux points opérationnels souvent oubliés : le délai de rétractation de 30 jours propre à l'assurance vie (et non 14) et la bascule des manquements du pénal vers l'administratif (DGCCRF).",
+      "priorite": "moyenne",
+      "statut": "brouillon éditorial — relecture humaine obligatoire. 4 points de vigilance listés dans le fichier, dont la confirmation sur Légifrance des références ordonnance n° 2026-2 / décret n° 2026-3 et du montant de la sanction ACPR.",
+      "impact": "Contenu de rentrée à forte valeur commerciale : positionne Sabatier sur un sujet que les concurrents traitent en silos (démarchage d'un côté, digitalisation de l'autre). Non redondant avec les 5 derniers posts (crédit conso 13/08, AI Act 15/08, crédit immobilier 17 et 19/08, complémentaire santé 18/08).",
+      "populations": "Dirigeants et responsables formation/conformité en banque de détail, assurance vie & IARD, bancassurance ; CGP ; responsables de plateaux téléphoniques et de parcours digitaux",
+      "besoin_formation": "Sert d'accroche aux modules « Vendre à distance en conformité 2026-2027 » et « Conseiller à l'ère du parcours 100 % digital ».",
+      "opportunite": "Appel à l'action implicite sur le volet téléphone (échéance 01/01/2027, soit quatre mois) : générer des demandes entrantes avant la fenêtre de décembre.",
+      "source_label": "Production éditoriale Sabatier — sources : France Épargne (08/06/2026), Groupe BPCE (02/06/2026), ACPR Commission des sanctions procédure n° 2025-01 (13/05/2026), loi n° 2025-594 et décret n° 2026-662",
+      "source_url": "https://www.france-epargne.fr/news/assurance-credit-epargne-en-ligne-ce-qui-change-pour-les-souscripteurs-au-19-juin-2026",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-08-20_Post-LinkedIn_Vente-a-distance-trois-dates.md"
+    },
+    {
       "id": "actu-20260820-01",
       "agent": "actualite-banque-assurance",
       "date": "2026-08-19",
