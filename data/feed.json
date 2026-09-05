@@ -4283,6 +4283,23 @@
    "source_label": "Meilleurtaux — « Crédit immobilier : les signaux poussent les taux à la hausse » (03/09/2026)",
    "source_url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-septembre/credit-immobilier-les-signaux-poussent-les-taux-a-la-hausse.html",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-05_Actualite-banque-assurance.md"
+  },
+  {
+   "id": "editorial-20260905-01",
+   "agent": "editorial",
+   "date": "2026-09-05",
+   "ajout": "2026-09-05",
+   "titre": "Post LinkedIn — « 65 % » : le chiffre qui fait passer l'IA du projet au contrôle",
+   "resume": "Brouillon LinkedIn du 05/09/2026. Angle : le chiffre de 65 % d'assureurs européens utilisant déjà l'IA générative (enquête EIOPA auprès de près de 350 assureurs dans 25 pays, cité par Petra Hielkema le 02/09/2026) marque une bascule — tant que l'IA était un projet, la question était « est-ce que ça marche ? » ; déployée chez deux tiers du marché, elle devient « est-ce que vous pouvez l'expliquer ? ». Le post reprend l'avertissement d'EIOPA sur l'échelle (modèle, hébergeur ou source de données communs → erreurs corrélées à l'échelle du marché, biais excluant des clients en masse, mise à jour défectueuse affectant tarification, souscription et indemnisation simultanément), souligne que le cadre existe déjà (DORA, AI Act, réglementation sectorielle) et que le superviseur demande sa mise en œuvre, et relève le lien fait par Hielkema entre IA et value for money : le superviseur jugera l'IA à ce qu'elle produit pour le client. Conclusion opérationnelle : la formation à l'IA en assurance est une formation au devoir d'explication, pas une formation technique.",
+   "priorite": "moyenne",
+   "statut": "Brouillon éditorial — jamais publié automatiquement, relecture humaine obligatoire. Statut précisé dans le post : discours EIOPA = soft signal sans valeur juridique ; DORA en vigueur ; AI Act en vigueur avec obligations « haut risque » reportées par le Digital Omnibus.",
+   "impact": "Contenu de notoriété sur un sujet à forte actualité et non traité par le feed éditorial. Porte d'entrée commerciale vers la capsule « Expliquer une décision assistée par IA à un client ».",
+   "populations": "Dirigeants et responsables conformité, contrôle interne, souscription et indemnisation en assurance et bancassurance ; responsables formation ; CGP.",
+   "besoin_formation": "Expliquer une décision assistée par IA à un client qui la conteste ; savoir ce qui peut ou non être délégué à un outil dans la chaîne de conseil ; articuler IA et devoir d'explication.",
+   "opportunite": "Capsule « Expliquer une décision assistée par IA à un client » ; module « Value for money : démontrer la valeur d'un contrat » ; prolonge la piste « IA en banque-assurance : la preuve par la conformité » (17/08/2026) en contre-positionnement de l'offre « IA embarquée » de Lefebvre Dalloz.",
+   "source_label": "EIOPA — Keynote speech at the Geneva Association PROGRES-Seminar, Petra Hielkema (02/09/2026)",
+   "source_url": "https://www.eiopa.europa.eu/keynote-speech-geneva-association-progres-seminar-2026-09-02_en",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-09-05_PostLinkedIn_EIOPA-IA-generative-65-pourcent.md"
   }
  ]
 }
