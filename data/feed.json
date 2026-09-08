@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-07",
+    "derniere_maj": "2026-09-08",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -51,6 +51,57 @@
     }
   },
   "items": [
+    {
+      "id": "actu-20260908-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-07",
+      "ajout": "2026-09-08",
+      "titre": "Fraude aux moyens de paiement — la fraude « par manipulation » bondit de 34 % à 516 M€ et dépasse 40 % du total (rapport OSMP, Banque de France)",
+      "resume": "L'Observatoire de la sécurité des moyens de paiement de la Banque de France a publié lundi 7 septembre ses chiffres 2025 : les escroqueries par manipulation, dont le faux conseiller bancaire, ont progressé de 34 % sur un an pour atteindre 516 M€ et représentent désormais plus de 40 % de la fraude totale, contre 32,1 % en 2024. Le montant global de la fraude atteint 1,24 Md€ (+3,8 %) alors que le nombre de transactions frauduleuses recule de 8 %, et le taux de fraude carte tombe à son plus bas historique (0,047 %). Denis Beau relie la hausse aux fuites de données récentes, qui crédibilisent les messages d'hameçonnage, tandis que la FBF appelle le même jour les acteurs du numérique et des télécoms à agir. Analyse : le centre de gravité de la fraude quitte la sécurité technique pour l'ingénierie sociale exercée sur le client — en usurpant précisément l'identité du conseiller — ce qui transfère la charge de la DSI vers le réseau. Le conseiller doit désormais prévenir, détecter le signal faible dans un appel entrant et gérer l'après-sinistre, sur fond de contentieux croissant autour de la frontière entre négligence grave du client et défaut de vigilance de la banque.",
+      "priorite": "haute",
+      "statut": "chiffres publiés",
+      "impact": "Fort — la fraude par manipulation devient le premier poste de fraude et vise directement la relation conseiller-client ; enjeu combiné de prévention en agence, de qualité de l'entretien téléphonique et de traitement des réclamations et remboursements.",
+      "populations": "Conseillers clientèle particuliers et pro, chargés d'accueil, plateformes téléphoniques, services réclamations, conformité et sécurité financière, managers de réseau",
+      "besoin_formation": "Détecter et déjouer la fraude par manipulation (scénarios de faux conseiller, spoofing, hameçonnage enrichi par fuites de données) ; discours client de prévention ; conduite d'entretien post-fraude ; qualification de la négligence grave et traitement des réclamations ; nouveaux vecteurs (virement instantané, paiement mobile).",
+      "opportunite": "Capsule courte « Faux conseiller : les 7 signaux et la contre-réaction » déployable à l'échelle d'un réseau avec mises en situation téléphoniques, complétée d'un module managers « piloter la vigilance fraude en agence ». Sujet très médiatisé, budget sécurité disponible, cible large sur tout le front-office.",
+      "source_label": "MoneyVox / AFP — chiffres OSMP (Banque de France), 7 septembre 2026",
+      "source_url": "https://www.moneyvox.fr/banque/actualites/110262/faux-conseillers-bancaires-les-escroqueries-par-manipulation-en-forte-hausse",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-08_Actualite-banque-assurance.md"
+    },
+    {
+      "id": "actu-20260908-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-07",
+      "ajout": "2026-09-08",
+      "titre": "Tracfin — 278 484 déclarations de soupçon en 2025 (+32 %), premier usage du droit d'opposition sur des crypto-actifs",
+      "resume": "Tracfin a annoncé lundi 7 septembre avoir reçu 278 484 déclarations de soupçon en 2025, en hausse de 32 % sur une année 2024 déjà record, le secteur financier restant à l'origine de 93 % des signalements. Le service a saisi 40 M€ via le dispositif « circuit court » visant notamment les sociétés éphémères, a fait pour la première fois usage de son droit d'opposition pour saisir des fonds en crypto-actifs, et a transmis à la justice 740 dossiers de fraude au préjudice de l'État (+17 %) représentant près de 3,2 Md€. Le secteur non financier progresse de 38 % en volume, porté par les notaires (+64 %) et les opérateurs de jeu (+38 %), tandis que les agents sportifs n'ont toujours produit aucune déclaration. Analyse : une hausse de 32 % du flux déclaratif traduit autant l'outillage croissant de la détection interne que l'activité criminelle, avec le risque classique d'engorgement par les faux positifs — l'enjeu devient la qualité déclarative, une déclaration mal caractérisée n'ayant aucune valeur opérationnelle et n'exonérant pas l'établissement. Deux angles nouveaux méritent attention à l'approche de l'AMLA : l'entrée du volet crypto-actifs dans le périmètre des équipes LCB-FT classiques et le rapprochement entre vigilance LCB-FT et détection de la fraude aux finances publiques, désormais « structurée et industrialisée » selon Tracfin.",
+      "priorite": "haute",
+      "statut": "chiffres publiés",
+      "impact": "Fort — le volume déclaratif explose et déplace l'enjeu de la quantité vers la qualité de caractérisation, dans un contexte de montée en puissance de l'AMLA et d'élargissement du périmètre aux crypto-actifs et à la fraude aux aides publiques.",
+      "populations": "Conformité et sécurité financière, déclarants et correspondants Tracfin, analystes LCB-FT, conseillers clientèle en première ligne de vigilance, banque privée et CGP, contrôle interne",
+      "besoin_formation": "Rédiger une déclaration de soupçon exploitable (caractérisation, faisceau d'indices, chronologie) ; vigilance renforcée sur les schémas de sociétés éphémères et le blanchiment de fraude aux finances publiques ; LCB-FT et crypto-actifs pour équipes non spécialisées ; articulation entre alerte automatisée et analyse humaine pour réduire les faux positifs.",
+      "opportunite": "Parcours « LCB-FT 2026 : de l'alerte à la déclaration utile » appuyé sur les typologies Tracfin, avec brique complémentaire « crypto-actifs pour les équipes conformité bancaires ». Se raccorde aux opportunités déjà identifiées sur l'AMLA (opp-20260720-02) et l'IA au service de la LCB-FT (ia-20260801-01) sans redite.",
+      "source_label": "MoneyVox / AFP — rapport d'activité 2025 de Tracfin, 7 septembre 2026",
+      "source_url": "https://www.moneyvox.fr/votre-argent/actualites/110272/le-service-de-renseignement-financier-tracfin-enregistre-un-nouveau-record-de-declarations-de-soupcon-en-2025",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-08_Actualite-banque-assurance.md"
+    },
+    {
+      "id": "actu-20260908-03",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-07",
+      "ajout": "2026-09-08",
+      "titre": "Crédit immobilier — les rachats et renégociations tombent à 12,2 % de la production, plus bas depuis fin 2022",
+      "resume": "Selon le dernier baromètre de la Banque de France, seuls 12,2 % des crédits immobiliers nouvellement signés en juillet 2026 correspondaient à un rachat par une autre banque ou à une renégociation de taux dans la banque d'origine, le plus bas niveau depuis la fin 2022. Une fenêtre de renégociation subsiste toutefois pour les emprunteurs ayant signé au pic des taux, fin 2023 ou début 2024, sous réserve de l'écart d'environ un point permettant d'absorber les indemnités de remboursement anticipé. Analyse : combinée à la remontée des taux de la rentrée déjà suivie dans le feed (3,54 % sur 20 ans, OAT 10 ans à 4,24 %), cette donnée acte la disparition d'un moteur d'activité longtemps confortable pour les réseaux — la production nouvelle doit désormais venir de l'acquisition et du montage, pas du refinancement du stock. La conséquence est symétrique : le gisement résiduel des emprunteurs 2023-2024 justifie une reprise de contact patrimoniale offensive, mais c'est aussi par ce canal que les concurrents viendront chercher les meilleurs clients. Le sujet relève donc moins de la technique crédit que de la conduite d'entretien et de l'arbitrage patrimonial.",
+      "priorite": "moyenne",
+      "statut": "information de marché",
+      "impact": "Moyen — disparition du levier de production par refinancement du stock, avec un double enjeu offensif (reprise de contact sur les crédits 2023-2024) et défensif (protection du portefeuille face aux sollicitations concurrentes).",
+      "populations": "Conseillers particuliers, spécialistes crédit immobilier, directeurs d'agence, courtiers IOBSP partenaires",
+      "besoin_formation": "Analyse de l'opportunité réelle d'une renégociation (calcul d'équilibre, IRA, coût total) ; entretien de reprise de contact sur le stock de crédits 2023-2024 ; leviers alternatifs (assurance emprunteur, modulation d'échéances, remboursement partiel) ; défense du portefeuille face aux sollicitations concurrentes.",
+      "opportunite": "Module court « Renégociation : quand dire oui, quand dire non — et par quoi rebondir », complémentaire de la capsule « Crédit immobilier 2026 » déjà identifiée (opp-20260817-01) sans la doublonner, l'angle portant ici sur le stock et la défense de portefeuille plutôt que sur la production nouvelle.",
+      "source_label": "MoneyVox, d'après le baromètre de la Banque de France, 7 septembre 2026",
+      "source_url": "https://www.moneyvox.fr/credit/actualites/110267/credit-immobilier-les-rachats-et-renegociations-au-plus-bas-depuis-2022",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-08_Actualite-banque-assurance.md"
+    },
     {
       "id": "editorial-20260904-01",
       "agent": "editorial",
