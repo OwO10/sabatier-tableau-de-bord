@@ -52,6 +52,23 @@
   },
   "items": [
     {
+      "id": "editorial-20260908-01",
+      "agent": "editorial",
+      "date": "2026-09-08",
+      "ajout": "2026-09-08",
+      "titre": "Post LinkedIn — Fraude par manipulation : le conseiller devient le décor de l'escroquerie",
+      "resume": "Brouillon LinkedIn produit à partir des chiffres 2025 de l'Observatoire de la sécurité des moyens de paiement (publiés le 7 septembre 2026) : les escroqueries par manipulation atteignent 516 M€ (+34 %) et dépassent 40 % de la fraude totale, alors que le nombre de transactions frauduleuses recule de 8 % et que le taux de fraude carte tombe à 0,047 %. Angle retenu : la fraude quitte la sécurité technique pour l'entretien, et la charge passe de la DSI au réseau ; le post distingue trois gestes rarement travaillés ensemble (prévenir, détecter, réparer) et pointe le troisième — l'entretien post-fraude et la qualification négligence grave / défaut de vigilance — comme le plus mal outillé. Statut précisé : le rapport OSMP est une publication de données, non normative ; le cadre applicable reste DSP2 et le droit du remboursement, inchangés. Envoyé pour validation, non publié.",
+      "priorite": "moyenne",
+      "statut": "brouillon à valider",
+      "impact": "Moyen — contenu de notoriété adossé à un sujet à fort impact réseau (fraude par manipulation), destiné aux directions de réseau et de la relation client.",
+      "populations": "Directions de réseau, directions de la relation client, sécurité financière et conformité, conseillers clientèle particuliers et pro, plateformes téléphoniques",
+      "besoin_formation": "Prévention et détection de la fraude par manipulation en entretien ; conduite et traçabilité de l'entretien post-fraude ; qualification de la négligence grave et traitement des réclamations.",
+      "opportunite": "Capsule « Faux conseiller : les 7 signaux et la contre-réaction » avec mises en situation téléphoniques ; complément managers « piloter la vigilance fraude en agence ». Le post qualifie l'entrée en discussion via la question du geste le moins maîtrisé.",
+      "source_label": "Production Sabatier — à partir de actu-20260908-01 (OSMP / Banque de France, 7 septembre 2026)",
+      "source_url": "https://www.moneyvox.fr/banque/actualites/110262/faux-conseillers-bancaires-les-escroqueries-par-manipulation-en-forte-hausse",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-09-08_PostLinkedIn_Fraude-par-manipulation-faux-conseiller.md"
+    },
+    {
       "id": "actu-20260908-01",
       "agent": "actualite-banque-assurance",
       "date": "2026-09-07",
