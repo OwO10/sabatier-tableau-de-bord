@@ -52,6 +52,23 @@
   },
   "items": [
     {
+      "id": "editorial-20260910-01",
+      "agent": "editorial",
+      "date": "2026-09-10",
+      "ajout": "2026-09-10",
+      "titre": "Post LinkedIn — Une génération de conseillers n'a jamais vendu en taux qui montent",
+      "resume": "Brouillon LinkedIn produit à partir de actu-20260910-01 et actu-20260910-02. Angle : le jour de BCE sert de point d'entrée, mais le sujet n'est pas le quart de point attendu sur le taux de dépôt — c'est le fait qu'un conseiller entré en poste en 2015 a construit ses réflexes dans un monde de crédit bon marché et d'épargne sans rendement. Trois phrases autrefois justes deviennent fausses (le compte à terme inutile, l'urgence à emprunter, le fonds en euros qui rassure sans rapporter). Le post rappelle quatre repères chiffrés (OAT au plus haut depuis 2008, inflation zone euro à 3,3 % en août, fonds en euros projetés autour de 2,9 % en 2026, retour du compte à terme) et propose trois réflexes : reprendre l'arbitrage épargne à zéro, réapprendre à expliquer plutôt qu'annoncer, tracer l'arbitrage et pas seulement la vente. Chute sur la distinction entre former en période stable et former en période de retournement. Statut précisé dans le brouillon : décision BCE non publiée au moment de la rédaction (annonce à 14h15) et projection de 2,9 % à ne pas présenter comme un taux servi. Envoyé pour validation, non publié.",
+      "priorite": "moyenne",
+      "statut": "brouillon à valider",
+      "impact": "Moyen — contenu de notoriété adossé à un sujet à fort impact commercial (retournement du cycle de taux), destiné aux directions formation des réseaux bancaires et assurantiels.",
+      "populations": "Directions formation, conseillers bancaires particuliers et patrimoniaux, chargés d'affaires, CGP, directions commerciales",
+      "besoin_formation": "Arbitrage épargne en environnement de taux remontant ; pédagogie du taux en entretien client ; traçabilité du raisonnement de conseil ; actualisation des repères acquis en période de taux bas.",
+      "opportunite": "Capsule « Reprendre la main sur l'entretien quand les taux remontent » ; le post qualifie l'entrée en discussion en interrogeant directement les plans de formation écrits pour un environnement stable.",
+      "source_label": "Production Sabatier — à partir de actu-20260910-01 et actu-20260910-02 (MoneyVox / AFP, 10 septembre 2026)",
+      "source_url": "https://www.moneyvox.fr/banque/actualites/110308/bce-une-hausse-des-taux-directeurs-attendue-jeudi-du-suspense-pour-la-suite",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-09-10_PostLinkedIn_Taux-qui-remontent-generation-de-conseillers.md"
+    },
+    {
       "id": "actu-20260910-01",
       "agent": "actualite-banque-assurance",
       "date": "2026-09-10",
