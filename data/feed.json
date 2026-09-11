@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-10",
+    "derniere_maj": "2026-09-11",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -4674,6 +4674,74 @@
       "source_label": "MoneyVox avec AFP — « Médiateur de l'assurance : le nombre de saisines en forte hausse en 2025 » (02/09/2026)",
       "source_url": "https://www.moneyvox.fr/assurance/actualites/110211/mediateur-de-assurance-le-nombre-de-saisines-en-forte-hausse-en-2025",
       "fichier": "Base_de_connaissances/11_Editorial/2026-09-07_PostLinkedIn_Mediation-assurance-saisines-IA.md"
+    },
+    {
+      "id": "regl-20260911-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-10",
+      "ajout": "2026-09-11",
+      "titre": "ACPR / Bundesbank — tribune Beau-Theurer : « la déréglementation bancaire serait une erreur »",
+      "resume": "FAIT — Tribune publiée dans La Tribune le 10/09/2026, cosignée par Denis Beau, premier sous-gouverneur de la Banque de France et président désigné de l'ACPR, et Michael Theurer, sous-gouverneur de la Bundesbank. Trois messages : la compétitivité européenne est devenue un enjeu de souveraineté et l'Europe doit mobiliser son épargne pour financer transition climatique, numérisation et défense ; le retard est chiffré (capitalisation obligataire et actions américaine très supérieure à celle de l'UE, marché du capital-risque six fois plus important aux États-Unis), d'où l'urgence de faire avancer l'union pour l'épargne et l'investissement ; enfin, les auteurs écartent explicitement la thèse d'une déréglementation bancaire au nom de la compétitivité — « ce serait une erreur » —, les réformes post-2008 ayant renforcé une résilience d'autant plus précieuse que l'environnement international est volatil. STATUT — Intervention publique, aucune portée normative. ANALYSE — Deuxième prise de parole de Denis Beau en deux jours (après le discours du 09/09 sur les risques IA, regl-20260910-01) : le président désigné installe sa doctrine avant sa prise de fonction, pas d'assouplissement prudentiel et priorité au fléchage de l'épargne. Pour les réseaux, le signal utile est commercial plus que prudentiel : l'union pour l'épargne et l'investissement est le cadre politique des prochaines campagnes de réorientation de l'épargne vers les actifs longs.",
+      "priorite": "moyenne",
+      "statut": "intervention publique — sans valeur normative",
+      "impact": "Moyen — aucune obligation nouvelle, mais cadrage de doctrine du futur président de l'ACPR, utile en anticipation des priorités de supervision et du discours commercial épargne.",
+      "populations": "Directions générales, conformité, direction des risques, responsables épargne et collecte, formateurs internes.",
+      "besoin_formation": "Comprendre l'union pour l'épargne et l'investissement et ses effets sur l'offre ; argumenter le placement long auprès d'un client habitué aux produits de taux.",
+      "opportunite": "Capsule de décryptage « Union pour l'épargne et l'investissement : ce que ça change pour votre discours commercial », en articulation avec l'actualité BCE de la semaine.",
+      "source_label": "ACPR — Tribune de Denis Beau et Michael Theurer, La Tribune, 10 septembre 2026",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/le-cadre-bancaire-europeen-est-solide-donnons-lui-les-moyens-de-repondre-aux-defis-daujourdhui",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-11_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260911-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-03-12",
+      "ajout": "2026-09-11",
+      "titre": "Découvert bancaire — requalification en crédit à la consommation au 20 novembre 2026 : le régime précisé par le ministère",
+      "resume": "FAIT — Réponse du ministère de l'Économie à la question écrite n° 07194 du sénateur Pierre-Alain Roiron, publiée au JO Sénat du 12/03/2026 (p. 1315). Elle précise le régime des autorisations de découvert issu de la transposition de la directive (UE) 2023/2225 (CCD2) par les ordonnances des 3 septembre et 2 décembre 2025, et complète le décret n° 2026-719 du 1er août 2026 déjà suivi (regl-20260813-01). Aujourd'hui, les découverts d'une durée inférieure à un mois OU d'un montant inférieur à 200 € échappent aux règles du crédit à la consommation. À compter du 20/11/2026 : cadre harmonisé avec principe de proportionnalité — les informations exigées doivent être adaptées à la nature, la durée, le montant et le risque, si bien que l'analyse de solvabilité pourra être allégée pour les découverts ; régime proportionné en dessous de 200 € avec consultation FACULTATIVE du FICP ; pas de rétroactivité sur les autorisations accordées avant le 20/11/2026. Côté tarification, les minima forfaitaires d'agios (montant fixe facturé dès solde débiteur pour les découverts inférieurs à 400 €) sont supprimés et intégrés au calcul du TAEG, lui-même soumis au seuil de l'usure. Le ministère rappelle qu'il n'existe pas de droit au crédit et que le découvert n'est jamais accordé automatiquement. STATUT — Adopté, entrée en vigueur au 20/11/2026 (J-70). ANALYSE — La question parlementaire posait le risque d'exclusion bancaire (5,4 millions de personnes sous le seuil de pauvreté à 50 % du niveau de vie médian, alerte d'acteurs bancaires sur des refus « par précaution ») ; la réponse y oppose la proportionnalité, ce qui déplace l'arbitrage en agence. Deux conséquences : un acte de gestion courante devient un acte de crédit, changement de posture et pas seulement de procédure pour le conseiller ; et la fin des minima forfaitaires produira un effet tarifaire visible côté client, à expliquer.",
+      "priorite": "haute",
+      "statut": "adopté — en vigueur le 20 novembre 2026",
+      "impact": "Fort — modification d'un geste commercial très fréquent en agence à 70 jours de l'échéance, avec effet tarifaire visible pour le client et enjeu d'inclusion bancaire sur la clientèle fragile.",
+      "populations": "Conseillers clientèle particuliers, directeurs d'agence, plateformes téléphoniques, back-office crédit, conformité, dispositifs clientèle fragile et accompagnement budgétaire.",
+      "besoin_formation": "Nouveau régime du découvert : analyse de solvabilité proportionnée, seuil de 200 € et FICP facultatif, absence de rétroactivité ; explication client de la suppression des minima forfaitaires et de leur intégration au TAEG ; articulation avec le dispositif clientèle fragile.",
+      "opportunite": "Capsule flash « Le découvert change de nature le 20 novembre » (30-45 min, format réseau), en complément du parcours CCD2 — fenêtre de vente septembre-octobre, avant la bascule.",
+      "source_label": "Sénat — Question écrite n° 07194 (JO Sénat 01/01/2026), réponse du ministère de l'Économie publiée au JO Sénat du 12 mars 2026",
+      "source_url": "https://www.senat.fr/questions/base/2026/qSEQ260107194.html",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-11_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260911-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-10",
+      "ajout": "2026-09-11",
+      "titre": "Crédit immobilier — hausse BCE actée : les banques révisent leurs barèmes tous les 15 jours, cap sur 3,7-4 % sur 20 ans",
+      "resume": "FAIT — La BCE a relevé ses taux directeurs de 0,25 point le jeudi 10/09/2026, après la hausse de juin ; le sujet, anticipé au feed (actu-20260910-01), est acté. L'OAT 10 ans a franchi 4,19 %, +60 points de base depuis début janvier selon La Centrale de Financement, Vousfinancer évoquant un niveau dépassant 4,30 % — c'est la référence d'indexation des barèmes bancaires. La plupart des banques avaient déjà remonté leurs taux de crédit début septembre, de 0,10 à 0,20 point, soit une transmission seulement partielle de la tension obligataire. Barèmes de septembre relevés par les courtiers : 3,23 % sur 15 ans jusqu'à 3,61 % sur 25 ans. Meilleurtaux anticipe +30 à 50 points de base d'ici fin d'année, soit 3,7 à 4 % sur 20 ans, avec une révision des barèmes tous les 15 jours plutôt que mensuellement. Pictet Wealth Management juge probable une troisième hausse BCE en décembre si les tensions sur le détroit d'Ormuz maintiennent les prix de l'énergie élevés. Contrepoint : des offres bonifiées subsistent sur segments ciblés (Caisses d'Épargne, « Prêt Primo Jeunes » à 0 % pour les moins de 36 ans éligibles au PTZ, 20 000 € max sur 20 ans dans la limite de 10 % du financement). ANALYSE — Le point saillant n'est pas le niveau des taux mais la cadence de révision : passer d'une grille mensuelle à une grille bi-mensuelle raccourcit la durée de validité d'une simulation et rend l'accord de principe périssable. C'est un sujet de conduite d'entretien et de gestion de la promesse commerciale, pas un sujet de marché.",
+      "priorite": "haute",
+      "statut": "fait de marché — décision BCE du 10/09/2026 confirmée",
+      "impact": "Fort — production de crédit, capacité d'emprunt des ménages et relation client en agence, avec un effet immédiat sur la validité des simulations.",
+      "populations": "Conseillers clientèle particuliers, spécialistes crédit immobilier, directeurs d'agence, courtiers partenaires.",
+      "besoin_formation": "Expliquer une hausse de taux sans démotiver le projet ; gérer une simulation à validité courte ; articuler barème standard et offres bonifiées ciblées ; recalibrer un plan de financement quand la capacité d'emprunt baisse.",
+      "opportunite": "Capsule « Vendre du crédit en taux qui montent » (2 h, format réseau) et module « Reconstruire un plan de financement » — prolonge directement l'éditorial du 10/09 sur la génération de conseillers n'ayant jamais vendu en taux ascendants.",
+      "source_label": "MoneyVox — 10 septembre 2026",
+      "source_url": "https://www.moneyvox.fr/credit/actualites/110303/credit-immobilier-des-nouvelles-hausses-de-taux-des-banques-apres-la-decison-de-la-bce",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-11_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260911-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-08",
+      "ajout": "2026-09-11",
+      "titre": "Livret A — la FBF s'oppose au plafond à 30 000 €, arbitrage Matignon-Bercy attendu d'ici fin septembre",
+      "resume": "FAIT — Suite de la proposition déjà suivie (actu-20260905-01) : la ministre de la Transition écologique Monique Barbut propose de porter le plafond du Livret A de 22 950 € à 30 000 € pour dégager des marges de financement à la Caisse des dépôts au titre du Plan national d'adaptation au changement climatique. La Fédération bancaire française s'y oppose dans une déclaration à l'AFP : la mesure « immobiliserait davantage d'épargne dans des placements liquides et garantis plutôt que dans des placements de long terme dont les entreprises ont besoin » et reviendrait à « accroître une dépense publique au bénéfice des détenteurs de Livret A les plus aisés ». STATUT — Non arbitré : accueil favorable de la Caisse des dépôts, mais la proposition « n'a pas encore été arbitrée par Matignon, ni approuvée par Bercy » (Les Échos) ; conclusions de la ministre promises d'ici fin septembre. Ordres de grandeur : jusqu'à 10 Md€ d'encours supplémentaires potentiels, mais « le relèvement du plafond ne signifie pas automatiquement une hausse de l'investissement » et il engendrerait un manque à gagner fiscal et des surcoûts bancaires (Philippe Crevel, Cercle de l'épargne) ; le coût de l'exonération de l'épargne réglementée a frôlé 5 Md€ pour l'État en 2025. Structure de détention (Banque de France, 2025) : 83 % des Français détiennent un Livret A, soit 58 millions de livrets, pour un encours moyen de seulement 7 554 € ; 15 % des comptes dépassent 22 950 € et représentent près de 50 % de l'encours total. ANALYSE — Ces trois chiffres sont l'argument le plus solide du débat et servent les deux camps : ils expliquent la position de la FBF autant qu'ils relativisent l'impact de masse de la mesure. Pour les réseaux, l'enjeu est la réouverture d'une concurrence directe entre livret réglementé, assurance vie et compte à terme, au moment même où la remontée des taux rend les dépôts rémunérés plus attractifs (actu-20260910-02).",
+      "priorite": "moyenne",
+      "statut": "proposition gouvernementale — non arbitrée, conclusions attendues fin septembre 2026",
+      "impact": "Moyen — mesure non arbitrée, mais échéance courte et effet direct sur la collecte et les arbitrages d'épargne si elle aboutit.",
+      "populations": "Conseillers clientèle particuliers et patrimoniaux, responsables épargne et collecte, CGP, directions marketing produit.",
+      "besoin_formation": "Arbitrage épargne réglementée / assurance vie / compte à terme en environnement de taux ascendants ; expliquer le fléchage du Livret A (logement social, transition) ; répondre à la demande client de « tout mettre sur le Livret A ».",
+      "opportunite": "Fiche réflexe « Livret A au plafond : que proposer ? » et capsule d'arbitrage épargne courte, à cadencer sur l'arbitrage gouvernemental de fin septembre.",
+      "source_label": "MoneyVox / AFP — 8 septembre 2026",
+      "source_url": "https://www.moneyvox.fr/livret-a/actualites/110273/nouveau-plafond-du-livret-a-a-30-000-euros-la-fronde-des-banques",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-11_Actualite-banque-assurance_Synthese.md"
     }
   ]
 }
