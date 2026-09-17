@@ -5150,6 +5150,23 @@
       "source_label": "La Voix de France — « Crédit et épargne : la hausse des taux de la BCE va changer la donne dès le 16 septembre » ; Agence France Trésor, calendrier d'adjudications",
       "source_url": "https://www.lavoixdefrance.fr/actualites/credit-et-epargne-la-hausse-des-taux-de-la-bce-va-changer-la-donne-des-le-16-septembre-15519/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-17_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20260917-01",
+      "agent": "editorial",
+      "date": "2026-09-17",
+      "ajout": "2026-09-17",
+      "titre": "Post LinkedIn — 92 % des voitures neuves sont financées par un produit qui n'est pas un crédit. Le 20 novembre, il le devient.",
+      "resume": "Brouillon de post LinkedIn construit sur l'arrêté du 7 août 2026 (JO du 16/09/2026) qui fait entrer la LOA et la location-vente dans les catégories du taux d'usure au 20 novembre 2026, relève le seuil des catégories de 75 000 € à 100 000 € et maintient le droit antérieur pour les contrats en cours. Angle : le financement automobile, volet non traité des deux posts précédents sur la date du 20 novembre (CCD2 le 13/08, découvert le 11/09). Chiffres de marché repris de l'ASF via la presse spécialisée (12,6 Md€ en 2025, 92 % des VP neuves) — à recouper sur source primaire avant publication. Le post précise explicitement que le taux d'usure LOA n'est pas encore fixé. Statut : brouillon à valider, non publié.",
+      "priorite": "moyenne",
+      "statut": "Brouillon éditorial — relecture humaine obligatoire avant publication ; points de vérification listés dans le fichier",
+      "impact": "Contenu de visibilité sur la date-pivot du 20 novembre 2026, angle financement automobile.",
+      "populations": "Audience LinkedIn : directions formation, conformité et réseaux de banque de détail, captives de financement, courtiers IOBSP.",
+      "besoin_formation": "Sert d'accroche aux modules crédit à la consommation / 20 novembre 2026 et au futur module LOA-TAEG-usure.",
+      "opportunite": "Point d'entrée commercial vers le sprint « 20 novembre 2026 » (opp-20260914-01) élargi au financement auto.",
+      "source_label": "Arrêté du 7 août 2026, JORF n° 0216 du 16/09/2026 (Légifrance) ; chiffres ASF via Empruntis, 09/09/2026",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054842389",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-09-17_PostLinkedIn_LOA-taux-usure-20-novembre.md"
     }
   ]
 }
