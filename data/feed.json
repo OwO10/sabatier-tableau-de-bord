@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-17",
+    "derniere_maj": "2026-09-18",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -51,6 +51,74 @@
     }
   },
   "items": [
+    {
+      "id": "actu-20260918-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-10",
+      "ajout": "2026-09-18",
+      "titre": "ESMA — valorisations actions au plus haut et afflux d'investisseurs néophytes : le régulateur alerte sur le risque de correction désordonnée",
+      "resume": "FAIT — L'ESMA a publié le 10 septembre 2026 son TRV Risk Monitor n° 2 de 2026 (réf. ESMA50-1949966494-4282). Deux constats concernent directement la distribution. D'abord, l'écart entre des conditions macrofinancières qui se dégradent et des valorisations de marché qui n'en tiennent pas compte fait peser un risque de correction brutale et désordonnée ; les valorisations actions ont atteint des records au second semestre 2025 et début 2026. Ensuite, de nouveaux clients affluent sur les plateformes digitales : les investisseurs inexpérimentés sont particulièrement exposés aux mauvaises décisions, aux attentes irréalistes et aux informations fausses ou trompeuses diffusées sur les réseaux sociaux. Le rapport cite aussi la montée des menaces cyber et hybrides et les défis posés aux gestionnaires de risques par les modèles d'IA de frontière. ANALYSE — La configuration est risquée pour un réseau : 75 % de la collecte nette en assurance vie va aux unités de compte, et le régulateur dit au même moment que les valorisations sont tendues et qu'une partie des nouveaux entrants ne mesure pas le risque. C'est exactement ce qui produit, deux ans plus tard, des réclamations sur le devoir de conseil — les saisines du médiateur de l'AMF ont déjà bondi de 37 % en 2025. Le sujet n'est pas de prévoir la correction, mais de documenter que le client l'a comprise avant d'arbitrer.",
+      "priorite": "moyenne",
+      "statut": "rapport de surveillance des risques, sans portée normative — publié le 10/09/2026",
+      "impact": "Moyen — signal de supervision sur la qualité du conseil en unités de compte et sur l'accompagnement des nouveaux investisseurs.",
+      "populations": "Conseillers clientèle particuliers, banque privée, CGP et CIF, conformité, responsables d'offre épargne financière",
+      "besoin_formation": "Expliquer le risque de perte en capital sans décourager ; adosser la recommandation à l'horizon et à la capacité à subir une perte ; traçabilité de l'entretien en marché tendu ; traitement des clients arrivés par les plateformes et les réseaux sociaux.",
+      "opportunite": "Atelier « Documenter le conseil quand les valorisations sont hautes » pour réseaux et CGP, adossé aux cas de médiation réels ; module court sur le client autodirigé et l'information des réseaux sociaux.",
+      "source_label": "ESMA — TRV Risk Monitor n° 2, 2026 (10/09/2026)",
+      "source_url": "https://www.esma.europa.eu/document/trends-risks-and-vulnerabilities-trv-report-no-2-2026",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-18_Actualite-banque-assurance_Brief.md"
+    },
+    {
+      "id": "actu-20260918-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-16",
+      "ajout": "2026-09-18",
+      "titre": "La Fed relève ses taux pour la première fois depuis 2023 : 3,75 %-4 %, vote unanime",
+      "resume": "FAIT — Le 16 septembre 2026, le FOMC a relevé le taux des fonds fédéraux de 25 points de base, à une fourchette cible de 3,75 %-4 %. Première hausse depuis juillet 2023, et renversement du cycle d'assouplissement achevé fin 2025. Le vote a été unanime. Kevin Warsh, président de la Fed, a justifié la décision par une inflation « trop élevée depuis trop longtemps », estimant que les relevés de l'été ne montrent pas d'amélioration de la tendance sous-jacente, et a promis un retour plus rapide à la cible de 2 %. ANALYSE — Le mouvement arrive une semaine après la hausse BCE du 10 septembre : deux banques centrales resserrent dans le même trimestre, la hausse des taux n'est plus un accident français mais un régime. Pour les réseaux, cela prolonge ce qui est déjà identifié : barèmes de crédit immobilier révisés tous les quinze jours, rachats et renégociations au plus bas depuis fin 2022, retour du compte à terme dans la conversation de conseil. Point de vigilance pour les réunions commerciales : le 17 septembre, la Bourse de Paris a progressé sur un recul des taux souverains — la hausse d'un taux directeur ne se transmet pas mécaniquement aux taux longs, et un conseiller qui explique l'inverse sera démenti à la prochaine échéance.",
+      "priorite": "haute",
+      "statut": "décision de politique monétaire effective — annoncée le 16/09/2026",
+      "impact": "Fort — entretient la pression sur les taux longs et les barèmes de crédit immobilier, et modifie la hiérarchie des solutions d'épargne proposées en agence.",
+      "populations": "Conseillers clientèle particuliers et professionnels, directeurs d'agence, CGP et banque privée, IOBSP, plateformes téléphoniques, back-office crédit",
+      "besoin_formation": "Expliquer la différence entre taux directeurs, OAT et barèmes de crédit ; conduire un entretien épargne en régime de taux qui montent ; requalifier un projet immobilier bâti sur d'autres hypothèses de financement.",
+      "opportunite": "Flash marché de 30 minutes « Deux banques centrales, un régime de taux » pour les réseaux, actualisable à chaque échéance ; module « vendre en taux qui montent » pour une génération de conseillers qui n'a jamais connu ce contexte.",
+      "source_label": "CNBC et Federal Reserve (conférence de presse du 16/09/2026), MoneyVox (17/09/2026)",
+      "source_url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-18_Actualite-banque-assurance_Brief.md"
+    },
+    {
+      "id": "regl-20260918-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-18",
+      "ajout": "2026-09-18",
+      "titre": "AMLA — format européen des déclarations de soupçon : la consultation sur les ITS se ferme le 20 septembre 2026",
+      "resume": "FAIT — L'AMLA (autorité européenne LCB-FT, opérationnelle depuis le 1er janvier 2026, qui a repris les missions LCB-FT de l'EBA) consulte sur un projet de normes techniques d'exécution (ITS) au titre de l'article 69(3) du règlement AMLR (UE) 2024/1624. Ces ITS fixeront le format de déclaration des soupçons et de transmission des relevés d'opérations aux cellules de renseignement financier (Tracfin en France), avec des modèles différenciés selon le type d'entité assujettie et des modèles spécifiques pour les établissements de crédit et financiers. Clôture de la consultation : 20 septembre 2026 ; ITS finaux à remettre à la Commission d'ici le 30 novembre 2026. En parallèle, des RTS sur la méthodologie d'évaluation du profil de risque des assujettis du secteur non financier (art. 40(2) AMLD6) sont en consultation jusqu'au 27 septembre 2026 ; les lignes directrices « suivi continu de la relation d'affaires » (art. 26(5) AMLR) sont closes depuis le 3 septembre, version finale attendue au T4 2026. ANALYSE — Le sujet n'est pas le contenu de la vigilance mais la standardisation européenne de la déclaration : circuits internes, outils et grilles de rédaction devront s'aligner. À rapprocher des 278 484 déclarations reçues par Tracfin en 2025 (+32 %).",
+      "priorite": "surveillance",
+      "statut": "projets en consultation — aucun texte adopté ; ITS finaux attendus à la Commission d'ici le 30/11/2026, entrée en application non fixée",
+      "impact": "Faible à court terme, moyen à horizon 2027 — harmonisation du format de déclaration de soupçon dans toute l'UE, avec effet sur les outils, les circuits internes et les grilles de rédaction.",
+      "populations": "Conformité et LCB-FT, correspondants et déclarants Tracfin, contrôle permanent, back-office et services fraude ; à moyen terme les réseaux, via la qualité des signalements internes",
+      "besoin_formation": "Rédiger une déclaration de soupçon exploitable ; articuler vigilance continue, détection et déclaration ; anticiper le référentiel européen harmonisé et la bascule d'outillage ; gouvernance du dispositif sous supervision AMLA.",
+      "opportunite": "Positionner dès maintenant un module « Déclarer un soupçon à l'ère AMLA » pour les fonctions conformité, avec engagement de mise à jour du support dès publication des ITS finaux (T4 2026). Argument : anticiper la bascule de format plutôt que la subir.",
+      "source_label": "AMLA — consultations publiques ; Arthur Cox, Horizon Scanner Finance septembre 2026",
+      "source_url": "https://www.amla.europa.eu/policy/public-consultations_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-18_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260918-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-08",
+      "ajout": "2026-09-18",
+      "titre": "AMF — guide pédagogique pour des documents d'informations clés (DIC) plus lisibles pour les épargnants",
+      "resume": "FAIT — L'AMF a publié le 8 septembre 2026 un guide de bonnes pratiques de rédaction du DIC (règlement PRIIPs) à destination des professionnels. Elle s'appuie sur une étude 2025 menée auprès de 50 investisseurs sur des DIC de fonds actions, qui décrit un document « peu attractif sur la forme, complexe sur le fond et ne s'adressant pas à des épargnants néophytes ». La section « En quoi consiste ce produit ? » — celle qui décrit l'objectif et la stratégie d'investissement, et qui fonde la décision d'investir — concentre les critiques. Trois axes : améliorer la présentation générale (mise en page aérée, caractères lisibles), mieux structurer la section « En quoi consiste ce produit ? », adopter les principes du langage clair (concision, accessibilité, absence de jargon). L'AMF précise former ses propres équipes de supervision à un langage plus pédagogique depuis 2024. ANALYSE — Le guide n'ajoute aucune obligation, mais il désigne le point de rupture du parcours de souscription : un DIC que le client n'a pas compris ne protège pas le distributeur. À rapprocher de la Retail Investment Strategy et des travaux value for money.",
+      "priorite": "moyenne",
+      "statut": "guide de bonnes pratiques non contraignant — publié le 08/09/2026, ne modifie pas le règlement PRIIPs",
+      "impact": "Moyen mais structurant — le DIC est le document remis avant souscription en UC, PEA, compte-titres et assurance vie multisupport ; sa lisibilité conditionne la défense du devoir de conseil en cas de réclamation.",
+      "populations": "Sociétés de gestion et producteurs (rédaction des DIC), conseillers clientèle particuliers, banque privée, CGP et CIF (remise et explication), conformité et contrôle permanent, marketing produits",
+      "besoin_formation": "Lire et faire lire un DIC ; expliquer oralement l'indicateur de risque, les scénarios de performance et les coûts sans jargon ; tracer la remise et la compréhension ; articuler DIC, profil de risque et recommandation personnalisée.",
+      "opportunite": "Capsule courte « Le DIC, du document remis au document compris » pour réseaux et CGP, travaillée sur les DIC réels du client ; côté producteurs, atelier de réécriture en langage clair. Angle différenciant : l'AMF décrit un problème de rédaction, le problème commercial est un problème d'oral au comptoir.",
+      "source_label": "Finascope (08/09/2026), Gestion de Fortune (09/09/2026), Boursorama (17/09/2026)",
+      "source_url": "https://www.gestiondefortune.com/fiscalite-droit/13305-lamf-encourage-les-producteurs-a-rendre-leur-dic-plus-lisible.html",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-18_Veille-reglementaire_Synthese.md"
+    },
     {
       "id": "opp-20260914-01",
       "date": "2026-09-14",
