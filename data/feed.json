@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-18",
+    "derniere_maj": "2026-09-19",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -5235,6 +5235,91 @@
       "source_label": "Arrêté du 7 août 2026, JORF n° 0216 du 16/09/2026 (Légifrance) ; chiffres ASF via Empruntis, 09/09/2026",
       "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054842389",
       "fichier": "Base_de_connaissances/11_Editorial/2026-09-17_PostLinkedIn_LOA-taux-usure-20-novembre.md"
+    },
+    {
+      "id": "regl-20260919-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-18",
+      "ajout": "2026-09-19",
+      "titre": "Arrêts de travail — le décret n° 2026-866 du 16 septembre ramène de 3 ans à 1 an la durée maximale dérogatoire d'indemnisation hors ALD exonérante",
+      "resume": "Publié au JORF du 18 septembre 2026, le décret modifie l'article R. 323-1 du code de la sécurité sociale : la durée maximale de versement des indemnités journalières reste de trois ans pour les assurés dont la participation aux frais de santé est limitée ou supprimée au titre des 3° et 4° de l'article L. 160-14 (ALD exonérante), et tombe à un an pour les autres. Il ouvre aussi la possibilité de pénaliser un assuré obtenant une prescription d'arrêt non justifiée. Publics : régime général, régime agricole, clercs et employés de notaire.",
+      "priorite": "haute",
+      "statut": "Publié au JO — en vigueur ; dispositions principales applicables aux arrêts prescrits à compter du 15 octobre 2026 et aux arrêts en cours atteignant six mois à compter de cette date",
+      "impact": "Transfert de charge direct vers la prévoyance : le régime obligatoire s'arrête deux ans plus tôt pour les assurés hors ALD exonérante. Les clauses de relais, franchises et plafonds des garanties incapacité sont à relire contrat par contrat, avant la saison de renouvellement 2027. Aucune position ACPR ni France Assureurs publiée à ce jour — réaction du marché à vérifier.",
+      "populations": "Conseillers prévoyance collective et individuelle ; courtiers et CGP sur la protection sociale du dirigeant ; services indemnisation prévoyance ; actuariat santé-prévoyance ; conseillers bancaires en assurance emprunteur (garantie ITT).",
+      "besoin_formation": "Articulation IJ sécurité sociale / garantie incapacité ; lecture des clauses de relais calées sur la durée de versement des IJ ; distinction entre ALD exonérante (L. 160-14) et affection de longue durée au sens de L. 324-1 ; discours client sur le changement du 15 octobre.",
+      "opportunite": "Capsule courte « Arrêt de travail : ce qui change au 15 octobre 2026 » pour réseaux et courtiers prévoyance — fenêtre commerciale de quatre semaines.",
+      "source_label": "Légifrance — Décret n° 2026-866 du 16/09/2026, JORF n° 0218 du 18/09/2026",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054855169",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-19_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260919-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-18",
+      "ajout": "2026-09-19",
+      "titre": "Même réforme des arrêts de travail pour les travailleurs indépendants, les fonctionnaires d'État et les magistrats (décret n° 2026-867)",
+      "resume": "Publié au même JORF du 18 septembre 2026, le décret n° 2026-867 du 16 septembre étend la réforme aux travailleurs indépendants, ministres des cultes et membres de congrégations, fonctionnaires de l'État et magistrats : trois ans maintenus en ALD exonérante, un an pour les autres. Clause de sauvegarde : les assurés reconnus au titre de l'article L. 324-1 avant le 15 octobre 2026 et non exonérés conservent le bénéfice des trois ans jusqu'à leur terme.",
+      "priorite": "haute",
+      "statut": "Publié au JO — applicable aux arrêts prescrits à compter du 15 octobre 2026 ; clause de sauvegarde pour les situations reconnues avant cette date",
+      "impact": "Le TNS est déjà le segment le moins bien couvert en incapacité ; ramener l'indemnisation à un an rend la prévoyance individuelle nettement plus déterminante. Motif de reprise de contact concret et daté pour les réseaux qui suivent une clientèle de professionnels, artisans, commerçants et professions libérales.",
+      "populations": "Conseillers marché des professionnels en banque de détail ; CGP et banque privée (dirigeants, professions libérales) ; courtiers prévoyance TNS ; experts-comptables prescripteurs.",
+      "besoin_formation": "Diagnostic de protection sociale du TNS après réforme ; calcul du reste à vivre au-delà d'un an d'arrêt ; maîtrise de la clause de sauvegarde pour ne pas tenir un discours faux sur les dossiers en cours.",
+      "opportunite": "Atelier « Le rendez-vous prévoyance du travailleur indépendant — version 15 octobre 2026 » avec cas chiffré avant/après ; complète le rendez-vous patrimonial de fin d'année (opp-20260914-03).",
+      "source_label": "Légifrance — Décret n° 2026-867 du 16/09/2026, JORF n° 0218 du 18/09/2026",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054855196",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-19_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260919-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-18",
+      "ajout": "2026-09-19",
+      "titre": "Trajectoires climat du CAC 40 : les banques et assureurs notés entre « perfectible » et « insuffisant » par Les Ateliers du Futur",
+      "resume": "L'ONG Les Ateliers du Futur a publié le 18 septembre 2026 son palmarès 2026 des trajectoires climat 2030 des entreprises du CAC 40. BNP Paribas, Axa, Crédit Agricole et Société Générale figurent parmi les acteurs cités, avec des objectifs 2030 décrits comme non tenus. Classement d'une ONG, ni sanction ni position de superviseur ; méthodologie non accessible hors abonnement.",
+      "priorite": "moyenne",
+      "statut": "Publication d'ONG — à citer comme telle ; détail méthodologique à vérifier",
+      "impact": "Décalage exploitable par le client entre le discours de finance durable tenu en agence et la note attribuée à la maison mère. Terrain direct du devoir de conseil en durabilité issu de MIF II et DDA (recueil des préférences ESG puis cohérence du discours).",
+      "populations": "Conseillers clientèle particuliers et banque privée ; CGP ; conformité et communication produit ; marketing épargne.",
+      "besoin_formation": "Répondre à une objection ESG sans surpromesse ; distinguer engagement du groupe, label du produit et trajectoire réelle ; tracer le recueil des préférences de durabilité.",
+      "opportunite": "Séquence courte « Objection climat au comptoir : que répondre sans mentir », à intégrer aux modules épargne et devoir de conseil.",
+      "source_label": "News Assurances Pro — 18/09/2026",
+      "source_url": "https://www.newsassurancespro.com/climat-banques-et-assureurs-peuvent-mieux-faire/01691690426",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-19_Actualite-banque-assurance_Brief.md"
+    },
+    {
+      "id": "actu-20260919-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-17",
+      "ajout": "2026-09-19",
+      "titre": "Aon anticipe des renouvellements 2027 « globalement très favorables » en IARD entreprises",
+      "resume": "À l'occasion de son panorama 2026 du marché des grands risques, Aon France anticipe pour les renouvellements 2027 un marché globalement très favorable aux entreprises assurées, et dresse une première tendance tarifaire en IARD et en santé/prévoyance. Anticipation de courtier, pas une donnée de marché constatée ; chiffres détaillés derrière abonnement, à ne pas avancer sans la source complète.",
+      "priorite": "moyenne",
+      "statut": "Anticipation publiée par un courtier — chiffres non vérifiables en accès libre",
+      "impact": "Inversion de cycle après trois années de durcissement en IARD entreprises : les clients vont demander des baisses et les intermédiaires doivent changer de discours. Point d'attention : la santé/prévoyance suit une logique inverse, un même client peut voir une baisse IARD et une hausse prévoyance la même année.",
+      "populations": "Courtiers et agents généraux sur le marché entreprises ; souscripteurs IARD ; chargés d'affaires assurance du marché des pros en banque de détail.",
+      "besoin_formation": "Expliquer un cycle de marché à un client ; tenir un discours cohérent quand deux branches divergent ; préparer une négociation de renouvellement en marché mou.",
+      "opportunite": "Module « Renouvellement 2027 : négocier en marché favorable » pour les réseaux de courtage, en complément de l'offre santé-prévoyance.",
+      "source_label": "News Assurances Pro — 17/09/2026",
+      "source_url": "https://www.newsassurancespro.com/renouvellements-2027-baisses-tarifaires-generalisees-en-iard-aon/01691690423",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-19_Actualite-banque-assurance_Brief.md"
+    },
+    {
+      "id": "actu-20260919-03",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-17",
+      "ajout": "2026-09-19",
+      "titre": "Malakoff Humanis signe un accord d'entreprise sur le déploiement de l'intelligence artificielle",
+      "resume": "Le groupe de protection sociale a conclu avec la majorité de ses organisations syndicales un accord encadrant les modalités de déploiement de l'IA dans l'entreprise (information publiée le 17 septembre 2026). Contenu détaillé non public hors abonnement : périmètre des usages, garanties d'emploi et volet formation restent à vérifier.",
+      "priorite": "moyenne",
+      "statut": "Accord d'entreprise signé — contenu détaillé à vérifier",
+      "impact": "Après le plan « Growing Forward » d'AXA (actu-20260916-01), l'IA passe par la négociation collective dans la protection sociale. Ce type d'accord comporte presque toujours un volet formation et information des salariés : l'IA entre mécaniquement dans le plan de développement des compétences.",
+      "populations": "DRH et responsables formation des assureurs et groupes de protection sociale ; managers de proximité ; gestionnaires et téléconseillers exposés aux outils d'IA ; représentants du personnel.",
+      "besoin_formation": "Acculturation IA des collaborateurs de gestion et de relation client ; posture managériale face à l'automatisation ; cadre juridique et déontologique de l'IA en assurance (AI Act, déclaration ESA du 31/07/2026 sur les modèles frontière).",
+      "opportunite": "Offre « Accord IA signé, et maintenant ? » — parcours d'acculturation pour les groupes de protection sociale et mutuelles en cours de négociation ; prospection DRH du secteur.",
+      "source_label": "News Assurances Pro — 17/09/2026",
+      "source_url": "https://www.newsassurancespro.com/rh-malakoff-humanis-signe-un-accord-dentreprise-sur-lia/01691690414",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-19_Actualite-banque-assurance_Brief.md"
     }
   ]
 }
