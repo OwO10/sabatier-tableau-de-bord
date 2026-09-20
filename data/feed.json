@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-19",
+    "derniere_maj": "2026-09-20",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -5320,6 +5320,74 @@
       "source_label": "News Assurances Pro — 17/09/2026",
       "source_url": "https://www.newsassurancespro.com/rh-malakoff-humanis-signe-un-accord-dentreprise-sur-lia/01691690414",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-19_Actualite-banque-assurance_Brief.md"
+    },
+    {
+      "id": "regl-20260920-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-18",
+      "ajout": "2026-09-20",
+      "titre": "EBA — orientations finales sur le risque lié aux tiers (services non-TIC) : recentrage sur les fonctions critiques ou importantes, transition de deux ans",
+      "resume": "L'EBA a publié le 18 septembre 2026 ses orientations finales sur la saine gestion du risque lié aux tiers pour les services non-TIC. Elles se concentrent sur les accords soutenant des fonctions critiques ou importantes (CIF) et couvrent tout le cycle de vie : due diligence, contractualisation, sous-traitance en chaîne, surveillance, documentation, stratégies de sortie. Cadre aligné sur DORA et sur les principes du Comité de Bâle. Visent les établissements de crédit, entreprises d'investissement non « petites et non interconnectées », établissements de paiement et de monnaie électronique, émetteurs de jetons et prêteurs.",
+      "priorite": "moyenne",
+      "statut": "orientations finales, en attente de traduction dans les langues officielles de l'UE — période de transition de deux ans",
+      "impact": "Passage d'une logique « externalisation » à une logique « fonction critique ou importante » : la maille d'analyse change pour les directions conformité et achats. L'allègement revendiqué suppose de savoir qualifier une CIF et de le documenter. Les registres DORA devront être étendus aux prestations non informatiques (back-office délégué, gestion déléguée, recouvrement, centres d'appels). Ni l'ACPR ni la profession française n'ont publié de position à ce jour.",
+      "populations": "Directions conformité et contrôle interne (banque, établissements de paiement, monnaie électronique) ; risk managers opérationnels ; directions achats et pilotage des prestataires ; responsables DORA / résilience opérationnelle ; juristes contrats ; directions de la gestion déléguée.",
+      "besoin_formation": "Qualifier et documenter une fonction critique ou importante ; construire un registre des accords avec les tiers couvrant TIC et non-TIC ; sécuriser les clauses contractuelles (sous-traitance en chaîne, audit, réversibilité) ; bâtir une stratégie de sortie testable.",
+      "opportunite": "Module conformité « Risque tiers : de l'externalisation à la fonction critique — préparer les orientations EBA 2026 », en extension d'une offre DORA, positionné sur la fenêtre de transition de deux ans. Cible : conformité et risques des banques de détail et des établissements de paiement. Vendable dès le T4 2026 en format cadrage.",
+      "source_label": "EBA — communiqué, 18 septembre 2026",
+      "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-20_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260920-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-20",
+      "ajout": "2026-09-20",
+      "titre": "Actions de groupe — le registre public devient opérationnel sur justice.fr le 21 septembre (arrêté du 18 septembre 2026)",
+      "resume": "L'arrêté du 18 septembre 2026 (NOR JUSB2615968A), publié au JORF n° 0220 du 20 septembre 2026, fixe les conditions d'alimentation et de gestion du registre public des actions de groupe. Le registre est publié sur www.justice.fr ; les greffes des juridictions judiciaires et la section du contentieux du Conseil d'État transmettent les informations à la direction des services judiciaires. Texte d'exécution de l'article 14 du décret n° 2025-734 du 30 juillet 2025, adossé à la loi n° 2025-391 du 30 avril 2025 et à la directive (UE) 2020/1828.",
+      "priorite": "moyenne",
+      "statut": "arrêté publié et définitif — entrée en vigueur le 21 septembre 2026 (lendemain de la publication)",
+      "impact": "Le régime unifié issu de la loi du 30 avril 2025 a ouvert l'action de groupe à tout manquement et tout type de préjudice, services financiers et assurance compris. À compter du 21 septembre, toute action de groupe visant une banque ou un assureur figure dans un registre public consultable par les clients, les associations, les concurrents et la presse. La qualité du traitement des réclamations en amont devient un enjeu de prévention du risque sériel. Réserve : aucun volume d'actions n'est anticipable à ce stade, le registre n'étant pas encore alimenté publiquement — à vérifier sur justice.fr.",
+      "populations": "Directions juridiques et conformité (banque, assurance, mutuelles) ; responsables réclamations et médiation ; direction de la protection de la clientèle ; communication et gestion de crise ; réseaux commerciaux sur la réclamation de premier niveau.",
+      "besoin_formation": "Comprendre le régime unifié de l'action de groupe post-loi du 30 avril 2025 et ses conséquences pour une banque ou un assureur ; identifier un risque sériel à partir des réclamations de premier niveau ; articuler réclamations, médiation et prévention du contentieux collectif.",
+      "opportunite": "Capsule « Action de groupe : ce que le registre public change pour vos réclamations » pour les directions conformité et les responsables réclamations, avec un volet court pour les managers de réseau sur la détection du risque sériel. Angle éditorial immédiat : le registre s'ouvre le 21 septembre.",
+      "source_label": "Légifrance — JORF n° 0220 du 20 septembre 2026, texte n° 8",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054861494",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-20_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260920-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-20",
+      "ajout": "2026-09-20",
+      "titre": "Budget 2027 — le calendrier parlementaire se referme : dépôt du PLF et du PLFSS au 6 octobre, vote solennel du PLFSS le 27 octobre",
+      "resume": "Le PLF 2027 est attendu en Conseil des ministres fin septembre 2026 et doit être déposé à l'Assemblée au plus tard le 6 octobre (premier mardi d'octobre, article 39 de la LOLF). Le PLFSS 2027 est déposé à la même date. La Conférence des présidents de l'Assemblée a réservé sept jours de séance au budget de la Sécurité sociale, du 20 au 26 octobre, suivis d'un vote solennel le 27 octobre, puis d'un passage au Sénat en novembre.",
+      "priorite": "moyenne",
+      "statut": "calendrier annoncé, non acquis — susceptible de glisser dans un contexte parlementaire sans majorité",
+      "impact": "Tout ce qui circule en « pistes » depuis deux semaines devient un texte écrit dans une dizaine de jours : contribution des retraités (désindexation des pensions élevées, suppression de l'abattement de 10 %), reconduction non tranchée de la taxe d'environ 1 Md€ sur les organismes complémentaires, assujettissement partiel de l'épargne salariale aux cotisations sociales, plan « transmissions 2027 ». Fenêtre de préparation de cinq semaines pour les réseaux. Le risque n'est pas l'ignorance mais le conseil prématuré : annoncer comme acquis ce qui n'est qu'un amendement. Les campagnes patrimoniales de fin d'année se décident maintenant.",
+      "populations": "Conseillers particuliers et patrimoniaux en banque de détail ; CGP et banque privée ; conseillers retraite et prévoyance ; marketing produit et communication ; conformité sur la qualité de l'information donnée.",
+      "besoin_formation": "Distinguer projet, amendement et texte adopté dans un discours client ; tenir une posture de conseil en période d'incertitude fiscale ; préparer un argumentaire de fin d'année à géométrie variable selon l'issue du vote.",
+      "opportunite": "Format court et daté à produire avant le 6 octobre : « Budget 2027 — ce qu'on peut dire à un client, ce qu'on ne peut pas encore dire », avec mise à jour après le vote solennel du 27 octobre. Contenu qui se vend d'abord sur la date.",
+      "source_label": "NosParlementaires — calendrier du PLFSS 2027",
+      "source_url": "https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-20_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260920-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-07",
+      "ajout": "2026-09-20",
+      "titre": "Sécheresse 2026 — acompte de 80 % de l'indemnité de solidarité nationale débloqué, pertes reconnues sur 18 départements",
+      "resume": "Après avis de la commission CODAR du 7 septembre 2026, un arrêté autorise les assureurs à verser 80 % du montant prévisionnel de l'indemnité de solidarité nationale (ISN) dès la perte constatée par un expert, sans attendre le solde. Première reconnaissance de pertes sur tout ou partie de 18 départements. S'inscrit dans le plan CASI (Climat-Adaptation-Sécheresse-Incendies) de plus d'un milliard d'euros présenté le 4 septembre 2026. Rappel : l'ISN indemnise les pertes de récolte des exploitants assurés comme non assurés ; le régime Cat Nat ne couvre pas l'incendie, qui relève de la garantie incendie des multirisques.",
+      "priorite": "moyenne",
+      "statut": "arrêté publié — dispositif en cours de déploiement",
+      "impact": "Dossier agricole en apparence, dossier bancaire et assurantiel en réalité. Trois points opérationnels : l'articulation assurance récolte / ISN / calamités agricoles, mal maîtrisée par les conseillers ; la trésorerie des exploitations, dont le calendrier de besoin court terme change avec un acompte à 80 % ; le taux de souscription à l'assurance récolte, dont l'ISN majorée pour les assurés reste le principal levier commercial. L'été 2026 a produit deux chocs assurantiels distincts — incendies et sécheresse — traités par deux mécanismes différents : la confusion entre les deux est la principale source d'erreur de discours en agence cet automne.",
+      "populations": "Conseillers et chargés d'affaires marché agricole en banque de détail ; réseaux de distribution d'assurance récolte ; services sinistres agricoles ; conseillers professionnels sur les besoins de trésorerie saisonniers.",
+      "besoin_formation": "Articuler multirisque climatique, ISN et calamités agricoles dans un même dossier ; expliquer l'effet de l'acompte à 80 % sur la trésorerie de l'exploitation ; savoir dire ce que couvre et ne couvre pas le régime Cat Nat après un été à double sinistralité.",
+      "opportunite": "Capsule marché agri « Sécheresse et incendies 2026 : qui indemnise quoi », en complément de l'offre climat. Cible : réseaux mutualistes et coopératifs, conseillers agri.",
+      "source_label": "Pleinchamp — indemnisation sécheresse 2026 ; plan CASI, ministère de l'Agriculture (4 septembre 2026)",
+      "source_url": "https://www.pleinchamp.com/actualite/secheresse-2026-vers-une-acceleration-des-indemnisations-par-les-assureurs-et-pour-les-assures",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-20_Brief-actualite.md"
     }
   ]
 }
