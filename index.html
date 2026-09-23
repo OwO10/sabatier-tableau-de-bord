@@ -119,7 +119,7 @@
 const DATA = {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-22",
+    "derniere_maj": "2026-09-23",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -5778,11 +5778,44 @@ const DATA = {
       "source_label": "News Assurances Pro, 21/09/2026",
       "source_url": "https://www.newsassurancespro.com/assurance-les-tarifs-resteront-sous-pression-en-2027/01691690449",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-22_Actualite-banque-assurance_Synthese.md"
+    },
+    {
+      "id": "actu-20260923-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-23",
+      "ajout": "2026-09-23",
+      "titre": "Assureurs français : recul des placements au T1 2026 sous l'effet des taux longs",
+      "resume": "Selon l'ACPR (reprise Argus/Meilleurtaux du 23/09), les assureurs français géraient 2 854,5 Md€ d'actifs au T1 2026 ; la hausse des taux longs a coûté 33,7 Md€ de valorisation, compensée par 34,9 Md€ de collecte nette. Les assureurs ont acheté 20,9 Md€ d'obligations longues et cédé 2 Md€ d'actions ; l'obligataire pèse désormais 64% des placements contre 26% en actions.",
+      "priorite": "moyenne",
+      "statut": "statistiques ACPR, reprises de presse du 23/09/2026",
+      "impact": "Redéploiement progressif de l'allocation d'actifs des assureurs vers l'obligataire ; argumentaire fonds euros à actualiser pour les campagnes de collecte fin d'année.",
+      "populations": "Conseillers épargne/assurance vie (réseaux bancaires, bancassurance), CGP, courtiers en gestion de patrimoine",
+      "besoin_formation": "Pédagogie du mécanisme taux longs → réinvestissement obligataire → rendement fonds euros ; argumentaire de reconquête client euros vs UC",
+      "opportunite": "Module court « Comprendre et expliquer la remontée du rendement des fonds euros », mobilisable pour les campagnes de collecte de fin d'année",
+      "source_label": "L'Argus de l'assurance (+ reprise Meilleurtaux Placement)",
+      "source_url": "https://www.argusdelassurance.com/gestion-d-actifs/allocation-d-actifs/placement/les-placements-financiers-des-assureurs-patissent-de-la-hausse-des-taux-longs-au-premier-trimestre-2026.XURLD7QX6ZEK7AMAMKUOOYEU74.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-23_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260923-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-22",
+      "ajout": "2026-09-23",
+      "titre": "Auto : tarifs 2027 attendus en hausse de 3,5% à 4,5%, surcoût électrique en cause",
+      "resume": "Selon le cabinet actuariel Addactis (News Assurances Pro, 22/09), les tarifs auto devraient augmenter de 3,5% à 4,5% en 2027, sous l'effet des coûts de réparation et des sinistres corporels. Les véhicules électriques présentent des surcoûts de réparation et d'assistance qui contribuent à la pression tarifaire.",
+      "priorite": "moyenne",
+      "statut": "projection de cabinet actuariel, publiée le 22/09/2026",
+      "impact": "Campagnes d'échéance auto 2027 sous tension supplémentaire ; nouvel argumentaire à construire sur le motif véhicule électrique",
+      "populations": "Conseillers en agence et centres de relation client, agents généraux, courtiers IARD, équipes de rétention",
+      "besoin_formation": "Traitement de l'objection prix en auto, argumentation spécifique coût de réparation/assistance des véhicules électriques, alternatives (franchise, garanties, prévention)",
+      "opportunite": "Enrichir le parcours « Échéance 2027 : tenir le discours tarifaire » (identifié le 22/09) d'un module spécifique auto/électrique",
+      "source_label": "News Assurances Pro",
+      "source_url": "https://www.newsassurancespro.com/auto-la-hausse-des-couts-pese-sur-les-tarifs-2027/01691690461",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-23_Brief-actualite.md"
     }
   ]
 };
-
-    const AGENTS = DATA.meta.agents;
+const AGENTS = DATA.meta.agents;
 const ITEMS = (DATA.items || []).slice().sort((a,b)=> ((b.ajout||b.date)+b.date).localeCompare((a.ajout||a.date)+a.date));
 const PRIOS = {
   haute: "Priorité haute", moyenne: "Priorité moyenne",
