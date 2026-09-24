@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-23",
+    "derniere_maj": "2026-09-24",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -5694,6 +5694,74 @@
       "source_label": "News Assurances Pro",
       "source_url": "https://www.newsassurancespro.com/auto-la-hausse-des-couts-pese-sur-les-tarifs-2027/01691690461",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-23_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260924-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-21",
+      "ajout": "2026-09-24",
+      "titre": "Réforme du crédit à la consommation (découverts inclus) — pic de couverture presse à 2 mois de l'entrée en vigueur",
+      "resume": "Ordonnance n° 2025-880 du 3/09/2025 (transposition directive UE 2023/2225) + décret n° 2026-105 du 19/02/2026 et décrets/arrêtés d'application : à compter du 20/11/2026, les découverts bancaires de moins de 200 € et de moins d'un mois entrent dans le champ du crédit à la consommation (étude de solvabilité proportionnée, devoir de mise en garde, information permanente, conservation des procédures). La presse généraliste (CNEWS, 21/09) a fortement relayé le sujet cette semaine, avec un risque de confusion client ; la FBF a publié un rectificatif.",
+      "priorite": "haute",
+      "statut": "adopté, en vigueur au 20/11/2026",
+      "impact": "Révision des process d'octroi de découvert et de crédit conso, argumentaire client anti-confusion, traçabilité des évaluations de solvabilité, formation obligatoire du personnel.",
+      "populations": "Conseillers clientèle particuliers (banque de détail), équipes crédit à la consommation, courtiers en crédit, conformité/juridique bancaire.",
+      "besoin_formation": "Module crédit conso réformé (ordonnance 2025-880 et décrets), gestion des découverts, argumentaire anti-désinformation client, mise à jour du devoir de mise en garde.",
+      "opportunite": "Module flash « Réforme crédit conso 2026 : ce qui change au 20/11 » pour réseaux bancaires et courtiers — fenêtre commerciale courte, deadline réglementaire ferme.",
+      "source_label": "Légifrance — Ordonnance n° 2025-880 et décret n° 2026-105",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052184230",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-24_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260924-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-23",
+      "ajout": "2026-09-24",
+      "titre": "Remise du rapport de mission sur l'articulation AMO/AMC — rôle accru envisagé pour les complémentaires santé",
+      "resume": "La mission gouvernementale (Bouzou, Hubert, von Lennep, Junique), lancée en février 2026, a remis son rapport le 23/09/2026 : financement au premier euro sur certains postes, création d'un « contrat essentiel », évolution du rôle des complémentaires vers des « organismes d'assurance santé » (ODAS). C'est un rapport de mission remis au gouvernement, pas un texte de loi — base de travail possible pour un futur PLFSS.",
+      "priorite": "surveillance",
+      "statut": "rapport de mission remis, aucun texte législatif à ce stade",
+      "impact": "Aucun impact immédiat ; veille à maintenir sur les suites politiques (arbitrages gouvernementaux, éventuel PLFSS 2027).",
+      "populations": "Assureurs santé, mutuelles, bancassureurs santé, directions techniques et produits santé/prévoyance.",
+      "besoin_formation": "Aucun à ce stade — veille rapprochée, possible note d'analyse prospective.",
+      "opportunite": "Prématuré pour une offre de formation ; contenu éditorial possible (note d'anticipation) en amont d'une éventuelle réforme.",
+      "source_label": "News Assurances Pro — Rapport AMO/AMC",
+      "source_url": "https://www.newsassurancespro.com/rapport-amoamc-un-role-accru-pour-les-assureurs-sante/01691690471",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-24_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260924-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-23",
+      "ajout": "2026-09-24",
+      "titre": "Crédit immobilier : la remontée des taux se confirme (OAT > 4 %, effet BCE)",
+      "resume": "Au 23/09/2026, les courtiers confirment une nouvelle hausse d'environ +0,10 point sur l'ensemble des durées, portée par le relèvement des taux BCE et l'OAT 10 ans qui dépasse 4 % (plus haut niveau depuis ~2008-2009). Taux moyens observés : ~3,4-3,6 % sur 20 ans, meilleurs profils autour de 3,10-3,35 %. Le contexte alimente les anticipations de poursuite de la hausse jusqu'à fin 2026.",
+      "priorite": "haute",
+      "statut": "point de marché confirmé au 23/09/2026",
+      "impact": "Argumentaire de vente à ajuster (urgence à sécuriser un taux) pour les conseillers crédit immobilier ; renouvellement des stratégies de financement patrimonial pour les CGP.",
+      "populations": "Conseillers clientèle particuliers (crédit immobilier), CGP, courtiers, banque privée.",
+      "besoin_formation": "Actualisation des modules crédit immobilier / devoir de conseil emprunteur avec le nouveau contexte de taux ; argumentaire renégociation/rachat de crédit.",
+      "opportunite": "Module ou capsule courte « Lire le marché du crédit immobilier en période de hausse des taux » pour réseaux bancaires, actualité chaude.",
+      "source_label": "Cyberpret / Meilleurtaux (baromètre taux)",
+      "source_url": "https://www.cyberpret.com/taux-pret-immobilier.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-24_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260924-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-22",
+      "ajout": "2026-09-24",
+      "titre": "CNP Assurances (La Banque Postale) viserait un rachat de Coface",
+      "resume": "CNP Assurances étudierait une prise de contrôle de Coface, spécialiste de l'assurance-crédit export (capitalisation ~2,6 Md€). Discussions à un stade préliminaire relayées le 22/09/2026 : aucune offre déposée, aucun prix ni calendrier publics. Le titre Coface a bondi de +8,9 % à l'annonce de la rumeur. À traiter comme rumeur, non comme fait confirmé.",
+      "priorite": "surveillance",
+      "statut": "rumeur de marché, discussions préliminaires non confirmées",
+      "impact": "Signal de consolidation du secteur assurance français et de diversification d'un bancassureur historique.",
+      "populations": "Assureurs vie/bancassurance (CNP, réseau La Banque Postale), CGP suivant l'actualité des groupes.",
+      "besoin_formation": "Faible à ce stade — ne pas surexploiter commercialement tant que rien n'est officiel.",
+      "opportunite": "Aucune immédiate ; point de veille à suivre en cas de confirmation.",
+      "source_label": "News Assurances Pro — CNP Assurances lorgnerait sur Coface",
+      "source_url": "https://www.newsassurancespro.com/marche-cnp-assurances-lorgnerait-sur-coface/01691690460",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-24_Brief-actualite.md"
     }
   ]
 }
