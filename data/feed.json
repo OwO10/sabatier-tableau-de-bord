@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-28",
+    "derniere_maj": "2026-09-29",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -5932,6 +5932,74 @@
       "source_label": "Croisement actu-20260928-04 (baromètre CGP)",
       "source_url": "https://www.boursorama.com/bourse/actualites/cgp-cap-sur-une-gestion-d-actifs-elargie-et-diversifiee-d63df623b7682c8d887f884b53e42782",
       "fichier": "Base_de_connaissances/10_Opportunites/2026-09-28_Opportunites_Backlog.md"
+    },
+    {
+      "id": "regl-20260929-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-08",
+      "ajout": "2026-09-29",
+      "titre": "AMF — recommandations volontaires pour rendre les DIC de fonds actions plus lisibles",
+      "resume": "Fait : à partir d'un test auprès de 50 investisseurs (2025), l'AMF juge les DIC de fonds actions « complexes sur le fond et peu attrayants sur la forme » et recommande d'améliorer la présentation, de mieux organiser la description des produits et d'employer un langage plus clair ; application laissée à la discrétion des professionnels. Analyse Sabatier : pas d'obligation nouvelle mais signal de supervision sur la lisibilité de la documentation précontractuelle (priorités « Impact 2027 »). Source primaire AMF non consultée directement : à vérifier.",
+      "priorite": "surveillance",
+      "statut": "recommandations / bonnes pratiques non contraignantes (publiées le 08/09/2026)",
+      "impact": "Attention accrue de la supervision à la clarté de la documentation précontractuelle (DIC/PRIIPs, MIF II).",
+      "populations": "CGP, conseillers patrimoniaux, sociétés de gestion, conseillers épargne en réseau.",
+      "besoin_formation": "Atelier « Rédiger et expliquer un DIC : clarté, risques, coûts » ; bonnes pratiques de pédagogie client.",
+      "opportunite": "Module court pédagogique « Faire comprendre le DIC » pour CGP et réseaux ; à greffer sur les parcours MIF II.",
+      "source_label": "Empruntis (relais de la publication AMF du 08/09/2026)",
+      "source_url": "https://www.empruntis.com/rachat-credits/actualites/2026/amf-lisibilite-comprehension-documents-21287/",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-29_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260929-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-10",
+      "ajout": "2026-09-29",
+      "titre": "Revolut et MetLife lancent une assurance de protection de crédit intégrée à l'app, France incluse",
+      "resume": "Fait : formules Essentielle (décès, invalidité, hospitalisation) et Complète (+ perte d'emploi), capital restant dû en cas de décès/IPT, jusqu'à 12 mensualités en hospitalisation/ITT ; distribuée par Revolut Insurance Europe UAB (courtier enregistré en Lituanie), assureur MetLife ; lancement en Roumanie, Espagne, Portugal et France, sur nouveaux prêts ou crédits en cours. Analyse : l'assurance embarquée des néobanques concurrence la vente associée des réseaux sur le crédit conso, à l'approche de la réforme CCD2 (20/11/2026).",
+      "priorite": "moyenne",
+      "statut": "publié (lancement commercial)",
+      "impact": "Nouvelle concurrence directe sur l'assurance emprunteur du crédit conso, par un acteur digital en LPS.",
+      "populations": "Conseillers crédit conso en réseau, responsables assurance emprunteur, courtiers.",
+      "besoin_formation": "Argumentaire assurance emprunteur face aux offres embarquées ; devoir de conseil et vente associée.",
+      "opportunite": "Capsule « Assurance emprunteur conso : se différencier des offres in-app » à coupler à la réforme CCD2.",
+      "source_label": "L'Assurance en Mouvement (10/09/2026)",
+      "source_url": "https://www.lassuranceenmouvement.com/2026/09/10/revolut-et-metlife-lancent-une-assurance-credit/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-29_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260929-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-11",
+      "ajout": "2026-09-29",
+      "titre": "LCL : projet de fermeture de 60 à 90 agences sur un réseau d'environ 1 400",
+      "resume": "Fait : selon des documents internes consultés par l'AFP, LCL (Crédit Agricole) prévoit de fermer entre 60 et 90 agences ; statut : projet, calendrier et effectifs non précisés dans l'extrait consulté (source unique, à recouper). Analyse : prolonge la tendance de resserrement des réseaux déjà observée (plan Société Générale 2029) et renforce le besoin de montée en compétences sur la relation à distance et la polyvalence.",
+      "priorite": "moyenne",
+      "statut": "projet rapporté par l'AFP (non confirmé officiellement)",
+      "impact": "Réorganisation du réseau : évolution du modèle de relation client et des métiers de conseiller.",
+      "populations": "Conseillers clientèle et directeurs d'agence LCL et réseaux comparables.",
+      "besoin_formation": "Relation client hybride, polyvalence conseiller, accompagnement du changement.",
+      "opportunite": "Parcours « Conseiller en réseau resserré : relation hybride et polyvalence » ; angle accompagnement managers.",
+      "source_label": "Boursorama / AFP (11/09/2026)",
+      "source_url": "https://www.boursorama.com/actualite-economique/actualites/la-banque-lcl-veut-fermer-entre-60-et-90-agences-d3c5cb8206ffa0ff0a1945d164504eaf",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-29_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260929-03",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-28",
+      "ajout": "2026-09-29",
+      "titre": "MGEN dévoile « Engagements 2030 » : data souveraine, prévention et courtage",
+      "resume": "Fait : plan adopté à 98 % à l'AG de juillet 2026 et annoncé le 28/09 ; données de santé hébergées et exploitées en France sous SecNumCloud ; direction courtage dédiée lancée en septembre 2026 pour entreprises et ESS ; cohérent avec « Impulsions 2030 » du groupe Vyv. Analyse : signal de repositionnement des mutuelles vers l'expérience adhérent et la protection tout au long de la vie.",
+      "priorite": "surveillance",
+      "statut": "annoncé (stratégie d'entreprise)",
+      "impact": "Repositionnement d'un acteur majeur de la santé/prévoyance publique vers le courtage et la prévention.",
+      "populations": "Conseillers mutuelle, équipes commerciales santé/prévoyance, courtiers.",
+      "besoin_formation": "Conseil en prévoyance/dépendance, lecture des attentes adhérents.",
+      "opportunite": "Piste d'échange avec les mutuelles de la sphère Vyv sur la formation des conseillers.",
+      "source_label": "La Tribune de l'Assurance (28/09/2026)",
+      "source_url": "https://tribune-assurance.optionfinance.fr/depeches/d/2026-09-28-data-souveraine-prevention-europe-la-strategie-de-mgen-pour-2030.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-29_Brief-actualite.md"
     }
   ]
 }
