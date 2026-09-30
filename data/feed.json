@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-09-29",
+    "derniere_maj": "2026-09-30",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -6000,6 +6000,91 @@
       "source_label": "La Tribune de l'Assurance (28/09/2026)",
       "source_url": "https://tribune-assurance.optionfinance.fr/depeches/d/2026-09-28-data-souveraine-prevention-europe-la-strategie-de-mgen-pour-2030.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-29_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20260930-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-17",
+      "ajout": "2026-09-30",
+      "titre": "Cass. civ. 2e (17/09/2026) : revirement sur la sanction d'une exclusion de garantie non formelle",
+      "resume": "Fait : la Cour décide que le caractère non formel d'une exclusion de garantie n'emporte pas la nullité de toute la clause, sauf si cela affecte sa compréhension (n°25-12.441 ; résumé public, texte complet réservé abonnés). Analyse : sécurise les assureurs sur les clauses partiellement imprécises, tout en rappelant l'enjeu de clarté.",
+      "priorite": "moyenne",
+      "statut": "jurisprudence rendue",
+      "impact": "Rédaction, présentation et opposabilité des exclusions de garantie.",
+      "populations": "Souscripteurs, rédacteurs de contrats, gestionnaires sinistres, conseillers IARD/prévoyance.",
+      "besoin_formation": "Rédaction et explication des exclusions, devoir d'information.",
+      "opportunite": "Module « Exclusions de garantie : rédiger, expliquer, opposer » / capsule jurisprudence.",
+      "source_label": "La Tribune de l'Assurance (29/09/2026)",
+      "source_url": "https://tribune-assurance.optionfinance.fr/droit-technique/revirement-de-jurisprudence-sur-la-sanction-dune-clause-dexclusion-de-garantie-partiellement-imprecise.html",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260930-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-29",
+      "ajout": "2026-09-30",
+      "titre": "AERAS : 362 saisines de la Commission de médiation en 2025 (+32 %)",
+      "resume": "Fait : rapport d'activité 2025 publié le 29/09/2026 ; hausse attribuée à la reprise du marché immobilier ; formulaire numérique = 67 % des saisines ; recevabilité 47 % ; clôture en 4 jours en moyenne ; le rapport traite droit à l'oubli et suppression du questionnaire de santé (loi Lemoine). Analyse : flux croissant de dossiers d'assurance emprunteur à risque aggravé.",
+      "priorite": "moyenne",
+      "statut": "publié (rapport)",
+      "impact": "Pression accrue sur le traitement des dossiers emprunteur à risque aggravé.",
+      "populations": "Conseillers crédit immobilier, chargés d'assurance emprunteur, courtiers.",
+      "besoin_formation": "Droit à l'oubli, grille de référence AERAS, orientation des clients.",
+      "opportunite": "Capsule « AERAS : ce que le réseau doit savoir ».",
+      "source_label": "ACPR (29/09/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/publication-du-rapport-dactivite-2025-de-la-commission-de-mediation-aeras",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20260930-03",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-01",
+      "ajout": "2026-09-30",
+      "titre": "EIOPA : avis technique sur des normes minimales communes pour les schémas de garantie d'assurance",
+      "resume": "Fait : avis technique remis à la Commission européenne le 01/09/2026 (statut : conseil technique, pas un texte adopté). Analyse : à suivre, sans impact opérationnel immédiat.",
+      "priorite": "surveillance",
+      "statut": "avis technique (pas un texte adopté)",
+      "impact": "Aucun impact opérationnel immédiat ; évolution possible du cadre de garantie des assurés.",
+      "populations": "Assureurs vie et IARD, équipes conformité.",
+      "besoin_formation": "À confirmer selon suites législatives.",
+      "opportunite": "Veille de fond.",
+      "source_label": "EIOPA (01/09/2026)",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-publishes-its-technical-advice-minimum-common-standards-insurance-guarantee-schemes-across-eu-2026-09-01_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-09-30_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20260930-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-29",
+      "ajout": "2026-09-30",
+      "titre": "Maif : accord sur le dialogue social lié à l'IA, cité en exemple par le ministre du Travail",
+      "resume": "Fait : accord signé en juin 2026, en vigueur du 01/06/2026 au 31/12/2028 ; aucun licenciement économique lié à l'IA, commission CSE dédiée, comité éthique numérique ; visite du ministre le 28/09. Seuls Orange et Maif auraient finalisé une telle démarche. Analyse : modèle de référence pour accompagner l'IA côté salariés d'assureurs.",
+      "priorite": "moyenne",
+      "statut": "accord d'entreprise en vigueur",
+      "impact": "Cadre de conduite du changement IA dans un grand assureur mutualiste.",
+      "populations": "Managers, RH, représentants du personnel, conseillers assurance.",
+      "besoin_formation": "Accompagnement du changement lié à l'IA, montée en compétences.",
+      "opportunite": "Parcours « Manager à l'ère de l'IA : dialogue social et compétences ».",
+      "source_label": "La Tribune de l'Assurance (29/09/2026)",
+      "source_url": "https://tribune-assurance.optionfinance.fr/lessentiel/le-dialogue-social-augmente-chez-maif.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-30_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20260930-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-09-22",
+      "ajout": "2026-09-30",
+      "titre": "Paiement agentique : premier paiement d'un agent IA en France (Revolut/Visa)",
+      "resume": "Fait : premier paiement agentique réalisé en France en septembre 2026 (Revolut/Visa) ; Crédit Agricole et Worldline cités ; cadre juridique jugé immature (fraude, consentement). Analyse : prolonge le sujet IA agentique bancaire ; questions de fraude et de consentement pour les conseillers.",
+      "priorite": "surveillance",
+      "statut": "phase de test",
+      "impact": "Nouveaux risques de fraude et de consentement dans les moyens de paiement.",
+      "populations": "Conseillers clientèle, équipes moyens de paiement et lutte antifraude.",
+      "besoin_formation": "Sensibilisation aux paiements agentiques et à la fraude.",
+      "opportunite": "Capsule « Paiements agentiques : ce que le conseiller doit savoir ».",
+      "source_label": "MoneyVox (22/09/2026)",
+      "source_url": "https://www.moneyvox.fr/banque/actualites/110471/paiement-agentique-quand-ia-achete-et-paie-a-votre-place",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-09-30_Brief-actualite.md"
     }
   ]
 }
