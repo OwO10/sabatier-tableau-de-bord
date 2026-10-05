@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-10-04",
+  "derniere_maj": "2026-10-05",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -6374,6 +6374,74 @@
    "source_label": "News Assurances Pro — 01/10/2026 (d'après France Assureurs)",
    "source_url": "https://www.newsassurancespro.com/assurance-vie-une-baisse-de-la-collecte-nette-a-relativiser/01691690547",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-02_Brief-actualite.md"
+  },
+  {
+   "id": "regl-20261005-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-09-28",
+   "ajout": "2026-10-05",
+   "titre": "EIOPA — point d'étape sur la simplification : reporting Solvabilité II allégé de 26 % (trimestriel) et 30 % (annuel)",
+   "resume": "EIOPA publie le 28/09/2026 un suivi de ses initiatives de simplification : -26 % de modèles de reporting trimestriels et -30 % d'annuels pour les entreprises individuelles, 25 jeux de lignes directrices révisés (environ un tiers plus courts), fréquence réduite des stress tests ascendants.",
+   "priorite": "moyenne",
+   "statut": "publication officielle EIOPA ; mise en œuvre en cours",
+   "impact": "Allègement du reporting prudentiel des assureurs ; effet indirect sur les équipes conformité/risques.",
+   "populations": "Assureurs vie & IARD (fonctions risques, actuariat, conformité)",
+   "besoin_formation": "Mise à jour des connaissances Solvabilité II / reporting pour les fonctions clés.",
+   "opportunite": "Capsule « Solvabilité II allégée : ce qui change pour les équipes ».",
+   "source_label": "EIOPA — 28/09/2026",
+   "source_url": "https://www.eiopa.europa.eu/eiopa-reports-progress-its-simplification-initiatives-2026-09-28_en",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-05_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "actu-20261005-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-02",
+   "ajout": "2026-10-05",
+   "titre": "Courtage : une vingtaine de courtiers français en « learning expedition » IA dans la Silicon Valley",
+   "resume": "News Assurances Pro (02/10/2026) : expédition organisée par Planète CSCA la semaine du 21/09, usage de l'IA jugé « décomplexé et à tous les étages ». Article payant, seul le résumé a été consulté.",
+   "priorite": "surveillance",
+   "statut": "presse pro ; contenu partiellement consulté",
+   "impact": "Signal d'appétence IA dans le courtage (segment de second rang).",
+   "populations": "Courtiers, intermédiaires",
+   "besoin_formation": "Usages IA en distribution d'assurance.",
+   "opportunite": "Argument d'appui aux modules IA pour intermédiaires.",
+   "source_label": "News Assurances Pro — 02/10/2026",
+   "source_url": "https://www.newsassurancespro.com/courtage-dans-la-silicon-valley-les-courtiers-francais-seduits-par-lia/01691690567",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-05_Brief-actualite.md"
+  },
+  {
+   "id": "conc-20261005-01",
+   "agent": "veille-concurrentielle",
+   "date": "2026-09-28",
+   "ajout": "2026-10-05",
+   "titre": "Afges : nouveaux locaux à La Défense, journée portes ouvertes et bibliothèque ouverte aux centres de formation",
+   "resume": "Site Afges : JPO le 24/09/2026 dans les nouveaux locaux de La Défense (compte rendu 28/09), ouvrages partagés gratuitement avec écoles et centres de formation (24/09), contenu d'analyse sur le marché obligataire (20/09). Pas d'annonce produit.",
+   "priorite": "surveillance",
+   "statut": "source primaire (site Afges) ; contenu de marque, pas d'annonce structurelle",
+   "impact": "Faible à court terme ; renforcement de la présence et de l'image d'Afges.",
+   "populations": "Directions formation banque/assurance, écoles",
+   "besoin_formation": "Maintien d'une veille sur la production éditoriale des concurrents.",
+   "opportunite": "Positionnement éditorial à comparer avec l'offre Sabatier.",
+   "source_label": "Afges — 28/09/2026",
+   "source_url": "https://www.afges.com/retour-en-images-sur-la-journee-portes-ouvertes/",
+   "fichier": "Base_de_connaissances/09_Veille/concurrence/2026-10-05_Veille-concurrence_Alertes.md"
+  },
+  {
+   "id": "opp-20261005-01",
+   "agent": "detection-opportunites",
+   "date": "2026-10-05",
+   "ajout": "2026-10-05",
+   "titre": "Opportunité — Module « Remontée des taux : expliquer fonds euros, pricing et crédit au client »",
+   "resume": "À partir des items du feed (taux immobilier, fonds euros) et du contenu obligataire d'Afges : module court pour conseillers réseaux et CGP. Piste à instruire, non chiffrée.",
+   "priorite": "surveillance",
+   "statut": "idée interne, à valider",
+   "impact": "Réponse à un contexte de taux qui remonte.",
+   "populations": "Conseillers banque de détail, CGP, assureurs vie",
+   "besoin_formation": "Pédagogie client sur taux, fonds euros, crédit.",
+   "opportunite": "Module court / capsule commerciale.",
+   "source_label": "Synthèse interne Sabatier",
+   "source_url": "https://www.afges.com/le-marche-obligataire-retrouve-ses-tensions-dantan-comprendre-le-pricing-na-jamais-ete-aussi-essentiel/",
+   "fichier": "Base_de_connaissances/10_Opportunites/2026-10-05_Opportunites.md"
   }
  ]
 }
