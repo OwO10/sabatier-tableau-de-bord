@@ -6612,6 +6612,23 @@
    "source_label": "MoneyVox, 05/10/2026",
    "source_url": "https://www.moneyvox.fr/placement/actualites/110669/pel-assurance-vie-livret-a-tout-ce-qui-change-pour-votre-epargne-sans-risque-en-octobre-2026",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-07_Brief-actualite.md"
+  },
+  {
+   "id": "editorial-20261007-01",
+   "agent": "editorial",
+   "date": "2026-10-07",
+   "ajout": "2026-10-07",
+   "titre": "Post LinkedIn — Épargne en déshérence : 17 % de prélèvement prévu au PLF 2027, ce que vos clients vont demander",
+   "resume": "Brouillon de post (à valider) : explique le projet d'art. 23 du PLF 2027 (statut projet), rappelle Eckert/Ciclade et les réflexes conseil.",
+   "priorite": "surveillance",
+   "statut": "brouillon à valider",
+   "impact": "Contenu de positionnement expert.",
+   "populations": "Réseaux bancaires, assureurs vie, CGP",
+   "besoin_formation": "Loi Eckert, successions.",
+   "opportunite": "Capsule Eckert.",
+   "source_label": "Previssima, 02/10/2026",
+   "source_url": "https://www.previssima.fr/actualite/livret-a-assurance-vie-letat-veut-desormais-prelever-17-sur-lepargne-oubliee-des-francais.html",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-10-07_PostLinkedIn_PLF-2027-deserence-prelevement-17.md"
   }
  ]
 }
