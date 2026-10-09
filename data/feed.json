@@ -6680,6 +6680,23 @@
       "source_label": "FBF, 07/10/2026",
       "source_url": "https://www.fbf.fr/fr/communique_de_presse/la-federation-bancaire-francaise-et-la-federation-syntec-devoilent-leurs-propositions-pour-former-attirer-et-conserver-les-talents",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-09_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261009-01",
+      "agent": "editorial",
+      "date": "2026-10-09",
+      "ajout": "2026-10-09",
+      "titre": "Post LinkedIn — IA et embauches des jeunes : ce que dit la Banque de France pour l'intégration des juniors",
+      "resume": "Brouillon de post (à valider) : chiffres du billet Banque de France (-28 % vs -8 %), nuances de l'étude, analyse Sabatier sur l'accompagnement des juniors.",
+      "priorite": "surveillance",
+      "statut": "brouillon à valider",
+      "impact": "Contenu de positionnement expert.",
+      "populations": "Réseaux bancaires et assurance, RH, formation",
+      "besoin_formation": "Intégration des juniors, IA et métiers",
+      "opportunite": "Parcours d'intégration juniors",
+      "source_label": "Revue Banque, 08/10/2026",
+      "source_url": "https://www.revue-banque.fr/fonctions-support/emploi-l-ia-pese-deja-sur-les-recrutements-OH26747339",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-10-09_PostLinkedIn_IA-embauches-jeunes-banque-assurance.md"
     }
   ]
 }
