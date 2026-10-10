@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-10-09",
+    "derniere_maj": "2026-10-10",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -6697,6 +6697,23 @@
       "source_label": "Revue Banque, 08/10/2026",
       "source_url": "https://www.revue-banque.fr/fonctions-support/emploi-l-ia-pese-deja-sur-les-recrutements-OH26747339",
       "fichier": "Base_de_connaissances/11_Editorial/2026-10-09_PostLinkedIn_IA-embauches-jeunes-banque-assurance.md"
+    },
+    {
+      "id": "regl-20261010-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-10-02",
+      "ajout": "2026-10-10",
+      "titre": "PLF 2027 (projet n° 3210) — volet patrimonial pour les CGP : LMNP plafonné, apport-cession, abattement pensions, pacte Papin",
+      "resume": "Fait (LCL Banque Privée, 02/10/2026) : le PLF 2027 déposé le 1er octobre prévoit un plafonnement de l'amortissement LMNP (2,5 % de la valeur, max 7 000 €/an/foyer ; 1,5 % et 5 000 € pour les meublés de tourisme), l'imposition immédiate de la plus-value en report en cas de transmission à titre gratuit des titres issus d'un apport-cession (dès le 01/10/2026), le plafond de l'abattement de 10 % sur pensions ramené de 4 439 à 3 000 €, et un doublement à 1 M€ de l'abattement du pacte Papin (2027-2029). Statut : projet, susceptible d'évoluer en débat parlementaire. Analyse Sabatier : le volet assurance vie et dons est déjà suivi dans le feed ; ce volet concerne surtout les CGP et la banque privée.",
+      "priorite": "moyenne",
+      "statut": "projet de loi de finances (déposé le 01/10/2026, non adopté)",
+      "impact": "Révision des préconisations patrimoniales (immobilier locatif meublé, transmission d'entreprise, retraite) ; vigilance sur les effets rétroactifs annoncés (apport-cession depuis le 01/10/2026).",
+      "populations": "CGP, banque privée, conseillers patrimoniaux en réseau, notaires partenaires",
+      "besoin_formation": "Mise à jour fiscalité patrimoniale PLF 2027 : LMNP, apport-cession, transmission d'entreprise, retraite.",
+      "opportunite": "Webinaire express « PLF 2027 : ce qui change pour le conseil patrimonial », à ajuster après le vote.",
+      "source_label": "LCL Banque Privée — PLF 2027 : les mesures à retenir (02/10/2026)",
+      "source_url": "https://www.lcl.fr/banque-privee/actualites/juridique-fiscalite/plf-2027-transmission-retraite-assurance-vie-immobilier-les-mesures-a-retenir",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-10_Veille-reglementaire_Synthese.md"
     }
   ]
 }
