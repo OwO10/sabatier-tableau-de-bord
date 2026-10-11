@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-10-10",
+    "derniere_maj": "2026-10-11",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -6714,6 +6714,40 @@
       "source_label": "LCL Banque Privée — PLF 2027 : les mesures à retenir (02/10/2026)",
       "source_url": "https://www.lcl.fr/banque-privee/actualites/juridique-fiscalite/plf-2027-transmission-retraite-assurance-vie-immobilier-les-mesures-a-retenir",
       "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-10_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20261011-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-09-30",
+      "ajout": "2026-10-11",
+      "titre": "AMLA — trois projets finaux de RTS sous l'AMLR : vigilance client, relations d'affaires/seuils, exigences de groupe",
+      "resume": "Fait (A&O Shearman, 30/09/2026 ; AMLA) : l'AMLA a publié trois rapports finaux de normes techniques (RTS) pris en application du règlement (UE) 2024/1624 : vigilance client (art. 28(1)), distinction relations d'affaires / transactions occasionnelles et seuils (art. 19(9)), exigences LCB-FT de groupe incluant filiales et succursales de pays tiers (art. 16(4), 17(3)). Statut : projets transmis à la Commission, non adoptés ; entrée en vigueur 20 jours après publication au JOUE, application 6 mois plus tard (certaines dispositions au 10/07/2029). Analyse Sabatier : à anticiper pour la mise à jour des procédures KYC des réseaux, assureurs vie et CGP.",
+      "priorite": "haute",
+      "statut": "projets finaux de RTS (transmis à la Commission, non adoptés)",
+      "impact": "Harmonisation européenne des obligations de vigilance et de collecte documentaire ; révision des seuils et de la qualification des relations d'affaires ; gouvernance LCB-FT de groupe.",
+      "populations": "Conseillers clientèle réseaux, souscripteurs/gestionnaires assurance vie, CGP, responsables conformité et LCB-FT",
+      "besoin_formation": "AMLR : nouvelle vigilance client, seuils et relations d'affaires ; mise à jour des parcours KYC.",
+      "opportunite": "Parcours « AMLR : se préparer aux nouveaux RTS de vigilance », à calibrer après adoption par la Commission.",
+      "source_label": "A&O Shearman — AMLA publishes three sets of final draft RTS under the EU AML package (30/09/2026)",
+      "source_url": "https://finreg.aoshearman.com/amla-publishes-three-sets-of-final-draft-rts-under-eu-aml-package",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-11_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20261011-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-10-09",
+      "ajout": "2026-10-11",
+      "titre": "Grande transmission de patrimoine : près de 10 000 Md€ d'ici 2040, et des clients qui multibancarisent (Revue Banque)",
+      "resume": "Fait (Revue Banque HS-Stratégie n°19, J.-F. Bay, BoursoBank, mis à jour le 09/10/2026) : jusqu'à 700 Md€ transmis par an selon la Fondation Jean Jaurès ; 64 % des produits d'un client détenus dans sa banque principale (78 % en 2021, Bain 2026) ; 47 % des Français n'ont qu'une banque (63 % fin 2022, FBF/Ifop). Analyse Sabatier : tribune d'un acteur néobancaire, à lire comme un point de vue ; enjeu de fidélisation des héritiers pour réseaux et CGP.",
+      "priorite": "moyenne",
+      "statut": "analyse / tribune (hors texte réglementaire)",
+      "impact": "Risque de perte de clientèle senior et d'héritiers en agence ; nécessité d'accompagner la transmission.",
+      "populations": "Conseillers clientèle réseaux, banque privée, CGP",
+      "besoin_formation": "Conseil en transmission et accompagnement des héritiers ; relation multigénérationnelle.",
+      "opportunite": "Module « Anticiper la transmission : capter et fidéliser les héritiers ».",
+      "source_label": "Revue Banque — Comment la grande transmission de patrimoine devrait affecter l'industrie financière en France (09/10/2026)",
+      "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/comment-la-grande-transmission-de-patrimoine-devrait-affecter-l-industrie-financiere-en-france-FL26698872",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-11_Brief-actualite.md"
     }
   ]
 }
