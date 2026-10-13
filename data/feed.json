@@ -6799,6 +6799,23 @@
       "source_label": "FranceTransactions — Bonus fonds euros en assurance vie : nouveautés en octobre 2026 (09/10/2026)",
       "source_url": "https://www.francetransactions.com/actus/assurancevie/bonus-fonds-euros-assurance-vie-nouveautes-octobre-2026.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-13_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261013-01",
+      "agent": "editorial",
+      "date": "2026-10-13",
+      "ajout": "2026-10-13",
+      "titre": "Post LinkedIn — AMF-ACPR : les trois écueils de la commercialisation (marchés cibles, conseil, conflits d'intérêts)",
+      "resume": "Brouillon de post à valider, fondé sur le communiqué ACPR/AMF du 12/10/2026 (rappels de supervision, pas de nouveau texte) et la consultation EIOPA IBIP (projet, non adopté).",
+      "priorite": "moyenne",
+      "statut": "brouillon à valider",
+      "impact": "Contenu de positionnement DDA/MIF II.",
+      "populations": "Réseaux, assureurs vie, CGP",
+      "besoin_formation": "Adéquation du conseil, marchés cibles, conflits d'intérêts.",
+      "opportunite": "Atelier cas pratiques contrôles AMF-ACPR.",
+      "source_label": "ACPR (12/10/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/lamf-et-lacpr-encouragent-les-professionnels-poursuivre-leurs-efforts-dans-lapplication-de-la",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-10-13_PostLinkedIn_AMF-ACPR-commercialisation-3-ecueils.md"
     }
   ]
 }
