@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-10-11",
+    "derniere_maj": "2026-10-13",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -6748,6 +6748,57 @@
       "source_label": "Revue Banque — Comment la grande transmission de patrimoine devrait affecter l'industrie financière en France (09/10/2026)",
       "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/comment-la-grande-transmission-de-patrimoine-devrait-affecter-l-industrie-financiere-en-france-FL26698872",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-11_Brief-actualite.md"
+    },
+    {
+      "id": "regl-20261013-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-10-12",
+      "ajout": "2026-10-13",
+      "titre": "Pôle commun AMF-ACPR — points d'attention sur la commercialisation d'instruments financiers et d'assurance-vie (60 contrôles 2020-2024)",
+      "resume": "Fait (ACPR/AMF, 12/10/2026) : document pédagogique issu d'une soixantaine de contrôles (2020-2024) sur la vente aux particuliers d'instruments financiers et de contrats d'assurance-vie. Points relevés : marchés cibles définis de façon trop standardisée (et confusion marché cible négatif / distribution hors marché cible), recommandations standardisées avec recueil d'informations client insuffisant, conflits d'intérêts liés aux partenaires à mieux cartographier. Cadre : MIF II et DDA ; le document n'évalue pas la conformité globale. Analyse Sabatier : matière directe pour les formations DDA/MIF II.",
+      "priorite": "haute",
+      "statut": "rappels de supervision (pas de nouveau texte)",
+      "impact": "Attentes de supervision sur gouvernance produit, qualité du conseil et gestion des conflits d'intérêts ; risque de contrôles ciblés.",
+      "populations": "Conseillers clientèle réseaux, souscripteurs/distributeurs assurance vie, CGP, responsables conformité et gouvernance produit",
+      "besoin_formation": "Marchés cibles, recueil d'informations client, adéquation du conseil, conflits d'intérêts (DDA/MIF II).",
+      "opportunite": "Atelier « Contrôles AMF-ACPR : les 3 écueils de la commercialisation » (cas pratiques) et mise à jour des modules DDA/MIF II.",
+      "source_label": "ACPR — L'AMF et l'ACPR encouragent les professionnels à poursuivre leurs efforts (12/10/2026)",
+      "source_url": "https://acpr.banque-france.fr/fr/actualites/lamf-et-lacpr-encouragent-les-professionnels-poursuivre-leurs-efforts-dans-lapplication-de-la",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-13_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20261013-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-10-08",
+      "ajout": "2026-10-13",
+      "titre": "EIOPA — consultation sur une supervision plus proportionnée et axée sur les résultats des ventes d'IBIP",
+      "resume": "Fait (EIOPA, 08/10/2026) : projet de Supervisory Statement en consultation sur la supervision des ventes de produits d'investissement fondés sur l'assurance et de l'information précontractuelle (processus trop procéduraux, documents longs, évaluations peu éclairantes). Ne crée pas de nouvelles exigences. Réponses jusqu'au 04/01/2027 (retours précoces fin novembre 2026), finalisation prévue T1 2027. Analyse Sabatier : signal d'une supervision DDA moins procédurale et plus orientée résultats.",
+      "priorite": "moyenne",
+      "statut": "projet en consultation (non adopté)",
+      "impact": "Évolution à venir des attentes de supervision sur les parcours de vente et l'information précontractuelle en assurance vie.",
+      "populations": "Assureurs vie, distributeurs (réseaux bancaires, courtiers, CGP), responsables conformité",
+      "besoin_formation": "Veille : devoir de conseil et information précontractuelle orientés résultats (DDA, stratégie d'investissement de détail).",
+      "opportunite": "Point de veille dans le webinaire DDA ; module à calibrer après finalisation (T1 2027).",
+      "source_label": "EIOPA — EIOPA seeks views on a more proportionate and outcomes-focused supervision of sales of IBIPs (08/10/2026)",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-seeks-views-more-proportionate-and-outcomes-focused-supervision-sales-insurance-based-2026-10-08_fr",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-13_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20261013-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-10-09",
+      "ajout": "2026-10-13",
+      "titre": "Assurance vie : bonus fonds euros d'octobre 2026, jusqu'à +2,70 points, souvent conditionnés à 25-60 % d'unités de compte",
+      "resume": "Fait (FranceTransactions, 09/10/2026) : plus de dix offres de bonus sur fonds euros, jusqu'à +2,70 pts (Lucya CNP) pour des versements de 5 000 € à 100 000 € et des parts d'UC de 25 % à 60 %, jusqu'au 31/12/2026 en général ; le bonus +1,80 pt des contrats BPCE Vie a pris fin le 07/10/2026 ; nouveau bonus +1,50 pt La France Mutualiste. Analyse Sabatier : comparateur contenant des offres sponsorisées, conditions à vérifier ; ces conditions d'UC renvoient à la question de l'adéquation du conseil (cf. regl-20261013-01).",
+      "priorite": "surveillance",
+      "statut": "offres commerciales (non réglementaire)",
+      "impact": "Pression concurrentielle sur les réseaux ; vigilance sur l'adéquation du conseil quand le bonus est lié à la part d'UC.",
+      "populations": "Conseillers clientèle réseaux, CGP, conseillers assurance vie",
+      "besoin_formation": "Expliquer bonus et fonds euros ; conseil adapté au profil malgré les offres promotionnelles.",
+      "opportunite": "Cas pratique « Bonus fonds euros et adéquation du conseil » dans le module épargne/DDA.",
+      "source_label": "FranceTransactions — Bonus fonds euros en assurance vie : nouveautés en octobre 2026 (09/10/2026)",
+      "source_url": "https://www.francetransactions.com/actus/assurancevie/bonus-fonds-euros-assurance-vie-nouveautes-octobre-2026.html",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-13_Brief-actualite.md"
     }
   ]
 }
