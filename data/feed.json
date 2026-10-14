@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-10-13",
+    "derniere_maj": "2026-10-14",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -6816,6 +6816,23 @@
       "source_label": "ACPR (12/10/2026)",
       "source_url": "https://acpr.banque-france.fr/fr/actualites/lamf-et-lacpr-encouragent-les-professionnels-poursuivre-leurs-efforts-dans-lapplication-de-la",
       "fichier": "Base_de_connaissances/11_Editorial/2026-10-13_PostLinkedIn_AMF-ACPR-commercialisation-3-ecueils.md"
+    },
+    {
+      "id": "actu-20261014-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-10-12",
+      "ajout": "2026-10-14",
+      "titre": "Axa Future Risks 2026 : l'IA devient la 1re préoccupation des experts (4e auparavant)",
+      "resume": "Selon le rapport Axa relayé par Revue Banque (12/10/2026), l'IA passe en tête des risques cités par 4 345 experts (4e les années précédentes) ; le grand public place toujours le changement climatique en 1er (24 000 personnes, Ipsos). Les risques pour la stabilité financière sont 8es (experts) et 6es (public). Constat sondagier, pas un texte réglementaire.",
+      "priorite": "surveillance",
+      "statut": "étude publiée (12/10/2026)",
+      "impact": "Argument de contexte pour les offres IA/risques émergents/prévention ; pas d'obligation nouvelle.",
+      "populations": "Assureurs vie & IARD, risk managers, réseaux conseil",
+      "besoin_formation": "Risques émergents (IA, cyber), prévention, sensibilisation des conseillers.",
+      "opportunite": "Module court « risques émergents et IA » pour assureurs/réseaux.",
+      "source_label": "Revue Banque (12/10/2026)",
+      "source_url": "https://www.revue-banque.fr/metiers/future-risks-reports-d-axa-l-ia-en-tete-des-preoccupations-KG26759267",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-14_Brief-actualite.md"
     }
   ]
 }
