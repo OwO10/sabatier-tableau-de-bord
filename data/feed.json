@@ -6884,6 +6884,57 @@
    "source_url": "https://www.revue-banque.fr/metiers/paiements/euro-numerique-le-chantier-se-precise-NG26759994",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-16_Brief-actualite.md",
    "ajout": "2026-10-16"
+  },
+  {
+   "id": "regl-20261016-03",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-13",
+   "ajout": "2026-10-16",
+   "titre": "ESAs (EBA, EIOPA, ESMA) — priorités communes 2027 : protection des consommateurs de détail, DORA, IA, finance durable",
+   "resume": "Fait : le Comité mixte des ESAs publie ses priorités 2027 : travaux communs sur les clients de détail, supervision des prestataires TIC critiques (DORA), implications de l'IA, application cohérente du cadre de finance durable. La page ne mentionne ni LCB-FT ni distribution (programme complet en PDF à consulter). Analyse : orientation de supervision, pas un texte contraignant.",
+   "priorite": "surveillance",
+   "statut": "Priorités de supervision (pas un texte)",
+   "impact": "Signal sur les thèmes qui nourriront les attentes de supervision 2027 (protection du client, DORA, IA).",
+   "populations": "Banques de détail, assureurs, CGP : conformité, risques, DSI",
+   "besoin_formation": "DORA et résilience, usages de l'IA encadrés, protection du client de détail",
+   "opportunite": "Parcours « Cap 2027 : thèmes de supervision européens »",
+   "source_label": "EBA (13/10/2026)",
+   "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/european-supervisory-authorities-set-priorities-2027",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-16_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "actu-20261016-02",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-09",
+   "ajout": "2026-10-16",
+   "titre": "LCL lance « L by LCL » : offre bancaire 100 % digitale pour particuliers (gratuite, 5 € ou 9 €/mois)",
+   "resume": "Fait : LCL étend aux particuliers son offre digitale (après L by LCL Pro en janvier 2026), en trois formules L/XL/XXL, avec assistant conversationnel et coaching budgétaire ; déploiement progressif. Contexte cité : près de la moitié des entrées en relation se font en ligne. Analyse : le réseau se positionne face aux banques en ligne ; le rôle du conseiller se déplace vers les besoins complexes.",
+   "priorite": "moyenne",
+   "statut": "Lancement commercial (déploiement progressif)",
+   "impact": "Concurrence digitale et repositionnement du conseiller en agence.",
+   "populations": "Conseillers clientèle particuliers, managers d'agence",
+   "besoin_formation": "Conseil à valeur ajoutée en environnement digital, coaching budgétaire, relation hybride",
+   "opportunite": "Module « Conseiller en banque hybride face aux néobanques »",
+   "source_label": "Revue Banque (09/10/2026)",
+   "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/lcl-elargit-son-offre-digitale-en-lancant-l-by-lcl-pour-les-particuliers-MG26753168",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-16_Brief-actualite.md"
+  },
+  {
+   "id": "actu-20261016-03",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-13",
+   "ajout": "2026-10-16",
+   "titre": "Surendettement : les dépôts de dossiers progressent de 10,5 % en septembre 2026 sur un an (+11,0 % sur 9 mois)",
+   "resume": "Fait : le baromètre mensuel de l'inclusion financière n°66 (Banque de France) indique +10,5 % de dépôts de dossiers de surendettement en septembre 2026 vs septembre 2025, et +11,0 % cumulé sur neuf mois. Les données sur clientèle fragile et plafonnement des frais n'ont pas pu être vérifiées. Analyse : signal de fragilité des ménages à intégrer dans la détection et l'accompagnement.",
+   "priorite": "moyenne",
+   "statut": "Statistique publiée",
+   "impact": "Hausse des situations de fragilité financière à détecter et accompagner.",
+   "populations": "Conseillers clientèle particuliers, chargés de recouvrement, crédit conso",
+   "besoin_formation": "Détection de la clientèle fragile, offre client fragile, accompagnement et prévention du surendettement",
+   "opportunite": "Capsule « Détecter et accompagner le client fragile »",
+   "source_label": "Banque de France / ACPR (13/10/2026)",
+   "source_url": "https://acpr.banque-france.fr/fr/actualites/barometre-mensuel-de-linclusion-financiere-ndeg66-septembre-2026",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-16_Brief-actualite.md"
   }
  ]
 }
