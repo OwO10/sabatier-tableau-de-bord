@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-10-16",
+  "derniere_maj": "2026-10-18",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -6935,6 +6935,23 @@
    "source_label": "Banque de France / ACPR (13/10/2026)",
    "source_url": "https://acpr.banque-france.fr/fr/actualites/barometre-mensuel-de-linclusion-financiere-ndeg66-septembre-2026",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-16_Brief-actualite.md"
+  },
+  {
+   "id": "regl-20261018-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-18",
+   "ajout": "2026-10-18",
+   "titre": "Assurance vie — suivi des contrats sans opération et alerte avant rachat significatif : échéance du 23/10/2026 annoncée (ACPR 2024-R-03), à vérifier",
+   "resume": "Fait (source presse) : France Épargne (14/08/2026) indique qu'au 23/10/2026 les distributeurs ayant délivré une recommandation personnalisée devraient avoir contacté les clients à contrat sans opération depuis 2 ans (4 ans en régime général, 23/10/2028) et alerter avant un rachat significatif. Statut : recommandation ACPR 2024-R-03 (soft law, 21/11/2024) ; la date et les seuils ne sont pas confirmés sur le texte ACPR. Analyse : à confirmer avant communication.",
+   "priorite": "surveillance",
+   "statut": "Recommandation ACPR (soft law) — date d'échéance non confirmée",
+   "impact": "Conseil dans la durée et vigilance au rachat en assurance vie.",
+   "populations": "Conseillers patrimoine, CGP, courtiers, gestionnaires de contrats d'assurance vie",
+   "besoin_formation": "Devoir de conseil dans la durée, détection des rachats significatifs, traçabilité",
+   "opportunite": "Atelier « Conseil dans la durée en assurance vie »",
+   "source_label": "France Épargne (14/08/2026) — d'après ACPR 2024-R-03",
+   "source_url": "https://www.france-epargne.fr/news/rachats-dassurance-vie-au-23-octobre-lassureur-devra-vous-alerter-avant-de-vous-laisser-sortir",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-18_Veille-reglementaire_Synthese.md"
   }
  ]
 }
