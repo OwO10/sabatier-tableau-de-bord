@@ -7020,6 +7020,23 @@
    "source_label": "ACPR — Intervention de Denis Beau, 15/10/2026",
    "source_url": "https://acpr.banque-france.fr/fr/interventions-gouverneur/innovation-securite-et-souverainete-technologique-des-imperatifs-concilier-0",
    "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-10-19_Opportunites.md"
+  },
+  {
+   "id": "editorial-20261019-01",
+   "agent": "editorial",
+   "date": "2026-10-19",
+   "ajout": "2026-10-19",
+   "titre": "Post LinkedIn — Cloud, IA, souveraineté : ce que dit l'ACPR de la dépendance aux hyperscalers",
+   "resume": "Brouillon de post à valider, fondé sur l'intervention de Denis Beau (ACPR) du 15/10/2026. Statut : discours, sans portée normative.",
+   "priorite": "moyenne",
+   "statut": "Brouillon à valider",
+   "impact": "Visibilité Sabatier sur DORA/IA.",
+   "populations": "Risques, conformité, DSI",
+   "besoin_formation": "Risque tiers TIC",
+   "opportunite": "Atelier souveraineté numérique",
+   "source_label": "ACPR — Denis Beau, 15/10/2026",
+   "source_url": "https://acpr.banque-france.fr/fr/interventions-gouverneur/innovation-securite-et-souverainete-technologique-des-imperatifs-concilier-0",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-10-19_PostLinkedIn_ACPR-souverainete-numerique.md"
   }
  ]
 }
