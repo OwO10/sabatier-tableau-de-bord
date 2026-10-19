@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-10-18",
+  "derniere_maj": "2026-10-19",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -6952,6 +6952,74 @@
    "source_label": "France Épargne (14/08/2026) — d'après ACPR 2024-R-03",
    "source_url": "https://www.france-epargne.fr/news/rachats-dassurance-vie-au-23-octobre-lassureur-devra-vous-alerter-avant-de-vous-laisser-sortir",
    "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-18_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "regl-20261019-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-14",
+   "ajout": "2026-10-19",
+   "titre": "Cat Nat — le Sénat (commission des finances) adopte une hausse automatique de la surprime, révisable au moins tous les 5 ans (proposition de loi)",
+   "resume": "Fait : selon News Assurances Pro (15/10/2026), la commission des finances du Sénat a adopté le 14/10/2026 une version remaniée d'une proposition de loi (rapporteure : Christine Lavarde) sur l'adaptation au changement climatique et aux mécanismes d'assurance ; elle instaurerait une hausse automatique du taux de surprime Cat Nat, revalorisation obligatoire au moins tous les 5 ans. Taux non précisés (article réservé aux abonnés). Statut : texte adopté en commission seulement, non adopté définitivement. Analyse : à suivre pour les tarifs IARD/MRH.",
+   "priorite": "surveillance",
+   "statut": "Proposition de loi — adopté en commission au Sénat (14/10/2026), non définitif",
+   "impact": "Évolution possible du coût de la garantie Cat Nat dans les contrats IARD/MRH et des explications à donner aux clients.",
+   "populations": "Assureurs IARD, bancassureurs, conseillers en agence vendant de la MRH, courtiers",
+   "besoin_formation": "Mécanisme Cat Nat, surprime, argumentaire tarifaire client (si adoption).",
+   "opportunite": "Capsule « Cat Nat : comprendre la surprime et l'expliquer au client », à activer si le texte progresse.",
+   "source_label": "News Assurances Pro — Cat Nat : le Sénat instaure une hausse automatique de la surprime (15/10/2026)",
+   "source_url": "https://www.newsassurancespro.com/cat-nat-le-senat-instaure-une-hausse-automatique-de-la-surprime/01691690712",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-19_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "regl-20261019-02",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-15",
+   "ajout": "2026-10-19",
+   "titre": "ACPR — Denis Beau : « innovation, sécurité et souveraineté » du numérique financier, risque de dépendance aux hyperscalers cloud/IA",
+   "resume": "Fait : le 15/10/2026, Denis Beau (Premier sous-gouverneur de la Banque de France, président désigné de l'ACPR) a déclaré lors du séminaire Europe Finances Régulations que innovation, sécurité et souveraineté ne sont pas contradictoires ; il alerte sur la dépendance aux hyperscalers (étude CIGREF citée : 264 Md€/an de dépenses européennes en cloud et logiciels américains) et sur le scénario d'un « kill switch ». Seule l'introduction du discours a pu être lue. Analyse : cohérent avec les attentes de résilience (DORA) sur les prestataires TIC critiques.",
+   "priorite": "moyenne",
+   "statut": "Discours (position de supervision, pas un texte normatif)",
+   "impact": "Signal de supervision sur le risque de concentration des prestataires cloud/IA, à intégrer dans les dispositifs de résilience et d'externalisation.",
+   "populations": "Fonctions DSI, risques, conformité, direction des banques et assureurs",
+   "besoin_formation": "Sensibilisation DORA / risque tiers TIC / souveraineté numérique.",
+   "opportunite": "Atelier « Risque tiers TIC et souveraineté : ce qu'attend l'ACPR », à relier à l'offre DORA et IA agentique.",
+   "source_label": "ACPR — Intervention de Denis Beau, 15/10/2026",
+   "source_url": "https://acpr.banque-france.fr/fr/interventions-gouverneur/innovation-securite-et-souverainete-technologique-des-imperatifs-concilier-0",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-19_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "actu-20261019-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-16",
+   "ajout": "2026-10-19",
+   "titre": "Crédit Agricole signe l'acquisition de 100 % d'IKB Deutsche Industriebank auprès de Lone Star (closing attendu d'ici fin T2 2027)",
+   "resume": "Fait : selon Revue Banque (16/10/2026), Crédit Agricole a signé un accord avec Lone Star Funds pour acquérir IKB (résultat net 2025 : 61 M€), afin de renforcer sa présence en Allemagne et auprès du Mittelstand. Prix non communiqué ; closing subordonné aux autorisations réglementaires (BCE, règlement sur les subventions étrangères), attendu d'ici fin T2 2027. Analyse : signal de consolidation bancaire européenne, impact formation indirect pour les réseaux de détail français.",
+   "priorite": "surveillance",
+   "statut": "Accord signé, opération non finalisée",
+   "impact": "Consolidation européenne ; impact limité à court terme sur les réseaux français.",
+   "populations": "Cadres et dirigeants de banques de réseaux, équipes grands comptes/corporate",
+   "besoin_formation": "Veille ; sujets d'intégration et de conformité en cas de rapprochement.",
+   "opportunite": "Faible à court terme ; à garder en veille pour les parcours managers.",
+   "source_label": "Revue Banque — Le Crédit Agricole accélère son développement en Europe (16/10/2026)",
+   "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/le-credit-agricole-accelere-son-developpement-en-europe-PL26784290",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-19_Brief-actualite.md"
+  },
+  {
+   "id": "opp-20261019-01",
+   "agent": "detection-opportunites",
+   "date": "2026-10-19",
+   "ajout": "2026-10-19",
+   "titre": "Opportunité — Atelier « Risque tiers TIC et souveraineté numérique : ce qu'attend la supervision » (DORA + IA agentique)",
+   "resume": "Analyse Sabatier (non un fait réglementaire) : le discours de Denis Beau du 15/10/2026 sur la dépendance aux hyperscalers donne un angle d'accroche pour un atelier court à destination des fonctions risques, DSI et conformité, adossé à l'offre DORA et au parcours IA agentique déjà au backlog. Source des faits : intervention ACPR du 15/10/2026.",
+   "priorite": "moyenne",
+   "statut": "Idée d'offre — à valider",
+   "impact": "Ouvre un créneau de sensibilisation DORA/tiers TIC auprès des banques et assureurs.",
+   "populations": "Directions risques, RSSI, DSI, conformité",
+   "besoin_formation": "Gouvernance des prestataires cloud/IA, plan de sortie, concentration.",
+   "opportunite": "Atelier 2 h + capsule e-learning ; cibler banques de réseau et assureurs.",
+   "source_label": "ACPR — Intervention de Denis Beau, 15/10/2026",
+   "source_url": "https://acpr.banque-france.fr/fr/interventions-gouverneur/innovation-securite-et-souverainete-technologique-des-imperatifs-concilier-0",
+   "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-10-19_Opportunites.md"
   }
  ]
 }
