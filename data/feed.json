@@ -7343,6 +7343,23 @@
       "source_label": "Météo-Paris, 21/10/2026 ; Kohen Avocats, 21/10/2026",
       "source_url": "https://www.meteo-paris.com/actualites/tempete-austen-de-vendredi-voici-les-nouveaux-scenarios",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-23_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261023-01",
+      "agent": "editorial",
+      "date": "2026-10-23",
+      "ajout": "2026-10-23",
+      "titre": "Post LinkedIn — Vente d'assurance-vie : mesurer la compréhension plutôt que les cases cochées",
+      "resume": "Brouillon à valider, fondé sur la consultation EIOPA IBIP (projet, réponses jusqu'au 04/01/2027) et la synthèse AMF-ACPR du 12/10/2026. Statut : projet, aucune nouvelle exigence.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider",
+      "impact": "Positionnement Sabatier sur la qualité du conseil en assurance-vie.",
+      "populations": "Conseillers bancassurance, CGP, courtiers, conformité",
+      "besoin_formation": "Conseil personnalisé, devoir de conseil, gouvernance produit",
+      "opportunite": "Atelier « Relire cinq dossiers d'assurance-vie comme un contrôleur »",
+      "source_label": "EIOPA, 08/10/2026 ; ACPR/AMF, 12/10/2026",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-seeks-views-more-proportionate-and-outcomes-focused-supervision-sales-insurance-based-2026-10-08_en",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-10-23_PostLinkedIn_IBIP-vente-cases-cochees.md"
     }
   ]
 }
