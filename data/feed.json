@@ -7445,6 +7445,23 @@
    "source_label": "Revue Banque — 24/10/2026",
    "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/credit-agricole-s-allie-a-mistral-et-prisme-ai-pour-industrialiser-l-ia-KP26834842",
    "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-10-26_Opportunites.md"
+  },
+  {
+   "id": "editorial-20261026-01",
+   "agent": "editorial",
+   "date": "2026-10-26",
+   "ajout": "2026-10-26",
+   "titre": "Post LinkedIn — Quand la banque industrialise l'IA, que doit savoir le conseiller ?",
+   "resume": "Brouillon à valider, fondé sur l'annonce Crédit Agricole/Mistral/Prisme.AI (Revue Banque, 24/10/2026). Fait et analyse séparés ; détails à revérifier à la source primaire.",
+   "priorite": "moyenne",
+   "statut": "Brouillon à valider",
+   "impact": "Positionnement Sabatier sur l'IA encadrée en réseau.",
+   "populations": "Directions formation réseaux, conseillers, managers",
+   "besoin_formation": "Supervision humaine, vérification des réponses IA, responsabilité du conseiller",
+   "opportunite": "Atelier « IA générative pour le conseiller de réseau »",
+   "source_label": "Revue Banque — 24/10/2026",
+   "source_url": "https://www.revue-banque.fr/metiers/banque-de-detail/credit-agricole-s-allie-a-mistral-et-prisme-ai-pour-industrialiser-l-ia-KP26834842",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-10-26_PostLinkedIn_IA-agent-conversationnel-conseiller.md"
   }
  ]
 }
