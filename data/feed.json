@@ -7513,6 +7513,23 @@
       "source_label": "Revue Banque — Épargne : l'année 2026 sous pression (26/10/2026)",
       "source_url": "https://www.revue-banque.fr/economie/macro-economie/epargne-l-annee-2026-sous-pression-HI26844276",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-27_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261027-01",
+      "agent": "editorial",
+      "date": "2026-10-27",
+      "ajout": "2026-10-27",
+      "titre": "Post LinkedIn — PSR et fraude : « authentifié » ne veut plus dire « consenti » (à valider)",
+      "resume": "Brouillon de post LinkedIn sur le projet de PSR : l'authentification forte ne prouverait plus le consentement, remboursement de principe en cas d'usurpation du prestataire. Statut précisé : projet, adoption formelle non achevée. Angle : l'entretien du conseiller avec un client victime de fraude.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — texte source au stade de projet",
+      "impact": "Contenu de notoriété sur la fraude aux paiements (réseaux de banque de détail).",
+      "populations": "Directions formation et conformité des banques de détail ; conseillers clientèle.",
+      "besoin_formation": "Entretien avec un client victime de fraude ; qualification et traçabilité.",
+      "opportunite": "Prépare le terrain pour un module « Fraude aux paiements : PSD3/PSR » (cf. regl-20261027-01).",
+      "source_label": "Revue Banque — PSD3/PSR : de l'authentification à la prévention de la fraude (26/10/2026)",
+      "source_url": "https://www.revue-banque.fr/technologie/psd3-psr-de-l-authentification-a-la-prevention-de-la-fraude-IH26747924",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-10-27_PostLinkedIn_PSR-fraude-authentification-ne-prouve-pas-consentement.md"
     }
   ]
 }
