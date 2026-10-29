@@ -7632,6 +7632,23 @@
    "source_url": "https://www.moneyvox.fr/assurance/actualites/111006/vers-une-nouvelle-taxe-de-0-8-sur-les-contrats-auto-et-habitation-en-2027",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-29_Brief-actualite.md",
    "ajout": "2026-10-29"
+  },
+  {
+   "id": "editorial-20261029-01",
+   "agent": "editorial",
+   "date": "2026-10-29",
+   "ajout": "2026-10-29",
+   "titre": "Post LinkedIn — Fraude au paiement : la CJUE dit « remboursez d'abord » (brouillon à valider)",
+   "resume": "Brouillon de post sur l'arrêt CJUE C-70/25 du 15/10/2026 : remboursement au plus tard à la fin du premier jour ouvrable malgré une négligence grave alléguée ; exception limitée au soupçon de fraude du client communiqué par écrit à l'autorité ; recours ultérieur de la banque, preuve à sa charge. Arrêt rendu (DSP2 art. 73 §1). À valider avant publication ; texte intégral non consulté.",
+   "priorite": "moyenne",
+   "statut": "Brouillon à valider — arrêt rendu",
+   "impact": "Contenu de notoriété sur la fraude aux paiements pour les réseaux de banque de détail.",
+   "populations": "Banques de détail/réseaux, conformité, service client.",
+   "besoin_formation": "Remboursement immédiat, exceptions, posture d'accueil du client hameçonné.",
+   "opportunite": "Appui au module « Fraude aux paiements ».",
+   "source_label": "CJUE — communiqué de presse n° 147/26 (15/10/2026)",
+   "source_url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-10/cp260147fr.pdf",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-10-29_PostLinkedIn_CJUE-fraude-rembourser-d-abord.md"
   }
  ]
 }
