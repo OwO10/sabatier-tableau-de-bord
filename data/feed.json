@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-10-28",
+  "derniere_maj": "2026-10-29",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -7598,6 +7598,40 @@
    "source_label": "France Épargne — BNP Paribas dépasse le consensus au T3 (28/10/2026)",
    "source_url": "https://www.france-epargne.fr/news/bnp-paribas-depasse-le-consensus-au-troisieme-trimestre-et-lance-un-rachat-dactions-de-13-milliard",
    "fichier": "Base_de_connaissances/11_Editorial/2026-10-28_PostLinkedIn_BNP-reseau-France-revenus-hausse-credits-atones.md"
+  },
+  {
+   "id": "regl-20261029-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-15",
+   "titre": "CJUE (C-70/25, 15/10/2026) — fraude au paiement : la banque doit rembourser d'abord, même en cas de négligence grave alléguée du client",
+   "resume": "Fait : la Cour juge que le prestataire de paiement doit rembourser une opération non autorisée au plus tard à la fin du premier jour ouvrable suivant la prise de connaissance, si le client signale sans retard injustifié. La négligence grave alléguée ne justifie pas un refus immédiat ; seule exception, un soupçon de fraude du client fondé et communiqué par écrit à l'autorité nationale. La banque peut ensuite réclamer les pertes en cas d'intention ou de négligence grave, preuve à sa charge (DSP2, art. 73 §1). Vérifié sur le communiqué de la Cour ; texte intégral non consulté.",
+   "priorite": "haute",
+   "statut": "Arrêt rendu (droit de l'Union, DSP2 en vigueur)",
+   "impact": "Traitement des réclamations fraude : remboursement sous un jour ouvrable avant toute instruction de la négligence ; charge de la preuve côté banque.",
+   "populations": "Banques de détail/réseaux : conseillers clientèle, service client, moyens de paiement, lutte contre la fraude, juridique.",
+   "besoin_formation": "Délai de remboursement, exceptions, posture d'accueil du client victime d'hameçonnage, articulation avec le futur PSR.",
+   "opportunite": "Module « Fraude aux paiements : rembourser d'abord » pour réseaux, à coupler avec l'offre PSD3/PSR.",
+   "source_label": "CJUE — communiqué de presse n° 147/26 (15/10/2026)",
+   "source_url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-10/cp260147fr.pdf",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-10-29_Veille-reglementaire_Synthese.md",
+   "ajout": "2026-10-29"
+  },
+  {
+   "id": "actu-20261029-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-28",
+   "titre": "IARD — projet de taxe de 0,8 % sur les contrats auto/habitation pour financer un fonds « émeutes » dès janvier 2027",
+   "resume": "Fait (selon Les Echos, relayé par MoneyVox le 28/10/2026) : projets de décrets et d'arrêtés présentés au CCLRF prévoyant un fonds d'indemnisation des dégâts d'émeutes (jusqu'à 400 M€, géré par la CCR avec garantie de l'État), financé aux trois quarts par une taxe de 0,8 % sur les contrats auto, habitation et assurances de professionnels et collectivités. Seuils de déclenchement : plus de 700 000 € de sinistres assurés, ou 300 000 € de dommages publics, ou au moins 30 sinistres de plus de 10 000 €. Entrée en vigueur envisagée en janvier 2027. Projets non adoptés (Conseil d'État et JO à venir).",
+   "priorite": "surveillance",
+   "statut": "Projet — non adopté",
+   "impact": "Hausse possible du coût des contrats IARD et nouveau sujet de discours client pour les distributeurs.",
+   "populations": "Assureurs IARD, bancassurance, conseillers et agents, gestionnaires de sinistres.",
+   "besoin_formation": "Explication de la taxe et du fonds au client ; articulation avec la garantie émeute et le régime CatNat.",
+   "opportunite": "Capsule d'actualité IARD à activer si les textes sont publiés au JO.",
+   "source_label": "MoneyVox — taxe de 0,8 % sur les contrats auto et habitation en 2027 (28/10/2026)",
+   "source_url": "https://www.moneyvox.fr/assurance/actualites/111006/vers-une-nouvelle-taxe-de-0-8-sur-les-contrats-auto-et-habitation-en-2027",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-29_Brief-actualite.md",
+   "ajout": "2026-10-29"
   }
  ]
 }
