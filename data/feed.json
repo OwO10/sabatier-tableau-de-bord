@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-10-29",
+  "derniere_maj": "2026-10-30",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -7649,6 +7649,40 @@
    "source_label": "CJUE — communiqué de presse n° 147/26 (15/10/2026)",
    "source_url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-10/cp260147fr.pdf",
    "fichier": "Base_de_connaissances/11_Editorial/2026-10-29_PostLinkedIn_CJUE-fraude-rembourser-d-abord.md"
+  },
+  {
+   "id": "actu-20261030-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-29",
+   "ajout": "2026-10-30",
+   "titre": "Société Générale — T3 2026 : résultat net 1,89 Md€ (+24 %), banque de détail France +55 % à 682 M€, assurance vie à 167 Md€",
+   "resume": "Fait : résultat net part du groupe de 1 888 M€ au T3 (record trimestriel, ROTE 13,0 %). Banque de détail en France, Banque Privée et Assurances : 682 M€ (+55,4 %), revenus 2 531 M€ (+10,9 %) portés par la marge nette d'intérêt (+12,7 %). Encours d'assurance vie épargne 167 Md€ (+9 % sur un an), collecte nette 1,5 Md€ avec effets de marché négatifs. Analyse Sabatier : le réseau reste porté par la marge d'intérêt ; la collecte assurance vie demeure modeste.",
+   "priorite": "moyenne",
+   "statut": "Publié (communiqué de résultats)",
+   "impact": "Contexte commercial des réseaux de détail : marge d'intérêt, BoursoBank (101 M€), bancassurance.",
+   "populations": "Banques de détail/réseaux, assureurs vie, CGP.",
+   "besoin_formation": "Argumentaire épargne/assurance vie en contexte de marché volatil ; conseil en réseau.",
+   "opportunite": "Appui aux modules épargne et bancassurance ; angle d'accroche pour clients réseaux.",
+   "source_label": "Société Générale — Résultats du troisième trimestre 2026 (29/10/2026)",
+   "source_url": "https://globenewswire.com/news-release/2026/10/29/3390904/0/fr/soci%C3%A9t%C3%A9-g%C3%A9n%C3%A9rale-r%C3%A9sultats-du-troisi%C3%A8me-trimestre-2026.html",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-30_Brief-actualite.md"
+  },
+  {
+   "id": "actu-20261030-02",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-30",
+   "ajout": "2026-10-30",
+   "titre": "Crédit Agricole S.A. — T3 2026 : résultat net 1,99 Md€ (+17,9 %), LCL +33 %, assurances 492 M€, lancement de CA AI (Mistral)",
+   "resume": "Fait : résultat net part du groupe CA S.A. de 1 991 M€ (+17,9 % publié ; +11,0 % hors plus-value SBI FM et effet Santander). LCL : PNB +17 % à 1 149 M€, résultat net +33 %, coût du risque +40 %. Crédit Agricole Assurances : résultat net 492 M€ (+5,9 %), chiffre d'affaires primes 12,4 Md€ (+5,6 %). Annonces : CA Deutschland, projet d'acquisition d'IKB, CA AI avec Mistral et Prisme.ai. Analyse Sabatier : confirme l'industrialisation de l'IA dans les groupes bancaires.",
+   "priorite": "moyenne",
+   "statut": "Publié (communiqué de résultats)",
+   "impact": "Dynamique des réseaux de proximité et de la bancassurance ; IA comme chantier de transformation.",
+   "populations": "Réseaux de banque de détail, assureurs, conseillers.",
+   "besoin_formation": "Montée en compétences IA des conseillers ; vigilance sur coût du risque.",
+   "opportunite": "Atelier IA pour conseillers de réseau ; modules bancassurance.",
+   "source_label": "Crédit Agricole S.A. — Résultats T3 et 9M 2026 (30/10/2026)",
+   "source_url": "https://globenewswire.com/news-release/2026/10/30/3392021/0/fr/credit-agricole-sa-r%C3%A9sultats-t3-et-9m-r%C3%A9sultats-%C3%A9lev%C3%A9s-acc%C3%A9l%C3%A9ration-du-d%C3%A9veloppement-en-europe.html",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-30_Brief-actualite.md"
   }
  ]
 }
