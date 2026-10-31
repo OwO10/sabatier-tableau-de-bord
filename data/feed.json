@@ -7734,6 +7734,23 @@
       "source_label": "CommentCaMarche — Banque : une nouvelle réglementation va compliquer les fins de mois de 16 millions de clients (29/10/2026)",
       "source_url": "https://droit-finances.commentcamarche.com/vie-pratique/actualite-juridique-et-financiere/6185-banque-frais-rejet/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-10-31_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261031-01",
+      "agent": "editorial",
+      "date": "2026-10-31",
+      "ajout": "2026-10-31",
+      "titre": "Post LinkedIn — Prévoyance territoriale : un marché de 6 ans se joue sur un cahier des charges (brouillon à valider)",
+      "resume": "Prévoyance territoriale : un marché de 6 ans se joue sur un cahier des charges\n\nLe 24 octobre, deux décrets sont parus au Journal officiel (n° 2026-986 et n° 2026-987).\n\nCe que disent les textes : les agents territoriaux devront adhérer au contrat collectif de prévoyance choisi par leur employeur. Garanties minimales : incapacité à 90 % du revenu net ; invalidité à 90 % au-delà de 50 %, dégressive en dessous. Contrats d'au moins six ans, attribués par commande publique, avec un comité de suivi paritaire. Mise en œuvre au plus tard au 1er janvier 2029.\n\nCe que cela change pour un assureur ou une mutuelle : on ne vend plus à un agent, on répond à un appel d'offres. La qualité d'une réponse tient à la lecture du cahier des charges, au chiffrage des garanties minimales et à la capacité d'expliquer le contrat à des agents qui n'ont pas choisi d'y adhérer.\n\nCe que cela change pour un conseiller ou un gestionnaire : un public nouveau, obligatoire, qui posera des questions sur ce qu'il touche réellement en cas d'arrêt long.\n\nQuestion pour vos équipes : savent-elles expliquer, en deux minutes, la différence entre incapacité et invalidité à quelqu'un qui n'a jamais lu un contrat de prévoyance ?\n\nSources : Localtis / Banque des Territoires, 26/10/2026 (https://www.banquedesterritoires.fr/couverture-prevoyance-des-agents-territoriaux-les-decrets-sont-parus) ; Decaux Assurances, Morning Café n°27, 31/10/2026.\nStatut : textes adoptés et publiés. Revérifier les chiffres sur Légifrance avant publication (page non lue directement).",
+      "priorite": "surveillance",
+      "statut": "Brouillon — à valider avant publication (textes sources adoptés et publiés au JO le 24/10/2026)",
+      "impact": "Contenu de positionnement auprès des assureurs, mutuelles et équipes de prévoyance collective.",
+      "populations": "Assureurs et mutuelles, prévoyance collective, gestionnaires.",
+      "besoin_formation": "Réponse aux appels d'offres PSC territoriale ; pédagogie incapacité/invalidité.",
+      "opportunite": "Module « PSC prévoyance territoriale » (cf. regl-20261031-01).",
+      "source_label": "Localtis / Banque des Territoires (26/10/2026)",
+      "source_url": "https://www.banquedesterritoires.fr/couverture-prevoyance-des-agents-territoriaux-les-decrets-sont-parus",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-10-31_PostLinkedIn_Prevoyance-territoriale-decrets.md"
     }
   ]
 }
