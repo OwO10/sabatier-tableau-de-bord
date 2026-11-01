@@ -7819,6 +7819,23 @@
    "source_label": "BNP Paribas — communiqué (26/05/2026)",
    "source_url": "https://group.bnpparibas/communique-de-presse/bnp-paribas-et-mistral-ai-prolongent-leur-partenariat-pour-accompagner-la-prochaine-phase-de-deploiement-de-l-ia-generative-au-sein-du-groupe",
    "fichier": "Base_de_connaissances/09_Veille/ia/2026-11-01_Veille-IA_Cas-usage.md"
+  },
+  {
+   "id": "editorial-20261101-01",
+   "agent": "editorial",
+   "date": "2026-11-01",
+   "ajout": "2026-11-01",
+   "titre": "Post LinkedIn — L'IA est déjà dans l'agence, les règles d'usage pas encore (brouillon à valider)",
+   "resume": "L'IA est déjà dans l'agence. Les règles, pas encore.\n\nLe baromètre Cegos 2026 (publié le 21 avril, 5 524 salariés et 498 DRH ou responsables formation dans 11 pays) donne deux chiffres à lire ensemble.\n\nCe que dit l'étude : en France, 54 % des salariés utilisent l'IA générative à des fins professionnelles. Dans le même temps, 25 % seulement des organisations françaises ont formalisé et partagé des règles d'usage de l'IA ; 48 % (moyenne des 11 pays) les élaborent encore.\n\nCe que cela change pour une banque ou un assureur : un conseiller qui reformule un courrier client ou résume un dossier avec un outil non encadré pose des questions de confidentialité, de secret professionnel et de traçabilité du conseil. La règle écrite arrive après l'usage.\n\nNotre lecture : former à l'IA ne se limite pas à « savoir faire un bon prompt ». Il faut apprendre à décider ce que l'on peut confier à l'outil, à relire ce qu'il produit et à savoir expliquer pourquoi un résultat est retenu ou écarté.\n\nQuestion pour vos équipes : si un conseiller utilise l'IA demain matin, sait-il ce qu'il a le droit d'y mettre ?\n\nSources : Groupe Cegos, Baromètre « Transformations, Compétences et Learning » 2026, communiqué du 21/04/2026 (https://static.cegos.com/wp-content/uploads/2026/05/27162701/CP_Cegos_Barometre_LD_2026-1.pdf).\nStatut : étude déclarative (enquête), pas un texte réglementaire. Revérifier les chiffres avant publication.",
+   "priorite": "surveillance",
+   "statut": "Brouillon — à valider avant publication (source : enquête déclarative Cegos, 21/04/2026)",
+   "impact": "Contenu de positionnement : cadre d'usage de l'IA pour les équipes de réseau.",
+   "populations": "Banques de détail, assureurs, responsables formation et conformité.",
+   "besoin_formation": "Règles d'usage de l'IA, relecture critique, confidentialité.",
+   "opportunite": "Atelier IA pour conseillers (cf. opp-20261026-01) ; module cadre d'usage.",
+   "source_label": "Cegos — Baromètre Learning 2026 (21/04/2026)",
+   "source_url": "https://static.cegos.com/wp-content/uploads/2026/05/27162701/CP_Cegos_Barometre_LD_2026-1.pdf",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-11-01_PostLinkedIn_IA-regles-d-usage-Cegos.md"
   }
  ]
 }
