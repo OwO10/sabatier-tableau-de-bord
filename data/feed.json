@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-11-01",
+  "derniere_maj": "2026-11-02",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -7836,6 +7836,91 @@
    "source_label": "Cegos — Baromètre Learning 2026 (21/04/2026)",
    "source_url": "https://static.cegos.com/wp-content/uploads/2026/05/27162701/CP_Cegos_Barometre_LD_2026-1.pdf",
    "fichier": "Base_de_connaissances/11_Editorial/2026-11-01_PostLinkedIn_IA-regles-d-usage-Cegos.md"
+  },
+  {
+   "id": "regl-20261102-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-07-30",
+   "ajout": "2026-11-02",
+   "titre": "Retail Investment Strategy — la Commission demande à l'ESMA un avis technique (value for money, inducements, conseil simple)",
+   "resume": "Fait : la DG FISMA a signé le 30/07/2026 une demande d'avis à l'ESMA (remise au plus tard le 01/10/2027 pour la plupart des mandats) sur les critères de value for money, le test des incitations pour le conseil non indépendant et la limitation des informations collectées. Statut : le texte RIS n'est pas encore adopté (accord provisoire 18/12/2025, votes finaux attendus T4 2026, publication JO au plus tard janvier 2027, application à partir de juillet 2029). Analyse : chantiers qui toucheront le devoir de conseil en réseau et CGP.",
+   "priorite": "moyenne",
+   "statut": "Accord provisoire — non adopté (votes finaux attendus T4 2026) ; mesures d'application à venir",
+   "impact": "À moyen terme : VFM dans la gouvernance produit, test des inducements, recueil d'informations proportionné.",
+   "populations": "Conseillers de réseau, CGP, distributeurs d'assurance vie et d'instruments financiers, conformité.",
+   "besoin_formation": "Value for money, inducements, adéquation et simple advice.",
+   "opportunite": "Capsule « RIS : VFM et inducements, se préparer avant 2029 » (à actualiser après le vote final).",
+   "source_label": "Commission européenne — Call for advice to ESMA on RIS (30/07/2026)",
+   "source_url": "https://www.esma.europa.eu/sites/default/files/2026-08/Call_for_advice_on_RIS_to_ESMA.pdf",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-02_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "actu-20261102-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-10-29",
+   "ajout": "2026-11-02",
+   "titre": "AXA — 9 mois 2026 : revenus 93,0 Md€ (+5 % comparable), vie +7 %, santé +7 %, objectif 2026 confirmé",
+   "resume": "Fait (29/10/2026) : revenus 93,0 Md€ contre 89,4 Md€ ; dommages 48,1 Md€ (+3 %, particuliers +7 %, entreprises +1 %), vie 29,3 Md€ (+7 %), santé 15,5 Md€ (+7 %). Résultat sous-jacent 2026 « environ 8,6 Md€ » confirmé sous réserve de catastrophes, tarifs et marchés. Un titre de presse évoque un recul du ratio de solvabilité (valeur non vérifiée). Analyse : croissance tirée par la vie, la santé et les particuliers.",
+   "priorite": "moyenne",
+   "statut": "Publication d'indicateurs trimestriels (29/10/2026)",
+   "impact": "Contexte commercial des assureurs : dynamique vie/santé et particuliers.",
+   "populations": "Assureurs vie & IARD, bancassurance, réseaux.",
+   "besoin_formation": "Argumentaire conseil assurance (santé, vie) auprès des particuliers.",
+   "opportunite": "Appui aux modules assurance vie / santé.",
+   "source_label": "Ideal Investisseur — AXA 9 mois 2026 (29/10/2026)",
+   "source_url": "https://www.ideal-investisseur.fr/actions-b/axa-primes-en-hausse-de-5-sur-neuf-mois-objectif-de-86-mds-confirme/28247.html",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-02_Brief-actualite.md"
+  },
+  {
+   "id": "conc-20261102-01",
+   "agent": "veille-concurrentielle",
+   "date": "2026-10-30",
+   "ajout": "2026-11-02",
+   "titre": "Afges — « Artificial intelligence Act : les enjeux pour le secteur financier » (1 jour, 984 € HT, session le 27/11/2026)",
+   "resume": "Fait : page catalogue Afges mise à jour fin octobre 2026 : 1 jour, public risques/conformité/data/audit, 984 € HT en présentiel, Paris ou distanciel, dates listées 27/11/2026, 01/06/2027, 25/11/2027 (six sessions annoncées). Analyse : le thème AI Act est occupé côté fonctions de contrôle ; l'angle conseiller de réseau reste moins couvert.",
+   "priorite": "surveillance",
+   "statut": "Offre catalogue publiée (date de mise en ligne non indiquée)",
+   "impact": "Concurrence directe sur le thème IA réglementée.",
+   "populations": "Directions conformité, risques, audit des banques/assureurs.",
+   "besoin_formation": "IA et AI Act pour le secteur financier.",
+   "opportunite": "Atelier IA conseiller de réseau (angle différenciant).",
+   "source_label": "Afges — page formation AI Act",
+   "source_url": "https://www.afges.com/formations-catalogue/artificial-intelligence-act-enjeux-pour-les-banques-de-la-reglementation-europeenne-sur-lia/",
+   "fichier": "Base_de_connaissances/09_Veille/concurrence/2026-11-02_Veille-concurrence_Alertes.md"
+  },
+  {
+   "id": "opp-20261102-01",
+   "agent": "detection-opportunites",
+   "date": "2026-11-02",
+   "ajout": "2026-11-02",
+   "titre": "Opportunité — Capsule « RIS : value for money et inducements, se préparer avant 2029 »",
+   "resume": "Fait : texte RIS non adopté, appel à avis Commission→ESMA du 30/07/2026. Idée : capsule courte pour réseaux et CGP, à actualiser après le vote final T4 2026.",
+   "priorite": "moyenne",
+   "statut": "Idée — dépend de l'adoption finale du texte",
+   "impact": "Anticipation du devoir de conseil renforcé.",
+   "populations": "Réseaux, CGP.",
+   "besoin_formation": "VFM, inducements, simple advice.",
+   "opportunite": "Capsule + note d'analyse.",
+   "source_label": "ESMA — Call for advice RIS (30/07/2026)",
+   "source_url": "https://www.esma.europa.eu/sites/default/files/2026-08/Call_for_advice_on_RIS_to_ESMA.pdf",
+   "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-11-02_Opportunites.md"
+  },
+  {
+   "id": "opp-20261102-02",
+   "agent": "detection-opportunites",
+   "date": "2026-11-02",
+   "ajout": "2026-11-02",
+   "titre": "Opportunité — Atelier « IA et AI Act vus du conseiller » face à l'offre Afges",
+   "resume": "Fait : Afges propose une journée AI Act orientée contrôle (984 € HT, 27/11/2026). Idée : atelier orienté conseillers de réseau, complémentaire de opp-20261026-01.",
+   "priorite": "surveillance",
+   "statut": "Idée commerciale",
+   "impact": "Différenciation sur l'IA en réseau.",
+   "populations": "Banques de détail, assureurs, CGP.",
+   "besoin_formation": "IA générative, règles d'usage.",
+   "opportunite": "Atelier court.",
+   "source_label": "Afges — page AI Act",
+   "source_url": "https://www.afges.com/formations-catalogue/artificial-intelligence-act-enjeux-pour-les-banques-de-la-reglementation-europeenne-sur-lia/",
+   "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-11-02_Opportunites.md"
   }
  ]
 }
