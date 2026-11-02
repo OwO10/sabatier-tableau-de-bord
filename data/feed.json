@@ -7921,6 +7921,23 @@
    "source_label": "Afges — page AI Act",
    "source_url": "https://www.afges.com/formations-catalogue/artificial-intelligence-act-enjeux-pour-les-banques-de-la-reglementation-europeenne-sur-lia/",
    "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-11-02_Opportunites.md"
+  },
+  {
+   "id": "editorial-20261102-01",
+   "agent": "editorial",
+   "date": "2026-11-02",
+   "ajout": "2026-11-02",
+   "titre": "Post LinkedIn — RIS : le conseil de demain se prépare dans les mandats d'aujourd'hui (brouillon à valider)",
+   "resume": "Le 30 juillet 2026, la Commission européenne a demandé à l'ESMA un avis technique pour mettre en œuvre la stratégie sur l'investissement de détail (RIS).\n\nCe que dit le document : l'ESMA doit proposer des critères pour évaluer la valeur pour le client (value for money, avec groupes de pairs, coûts et performance), préciser un test des incitations pour le conseil non indépendant (meilleur intérêt du client, avantage tangible, proportionnalité) et définir ce qui relève du « simple advice » et des instruments non complexes. Remise de l'avis au plus tard le 1er octobre 2027 pour la plupart des mandats.\n\nStatut : le texte RIS n'est pas encore adopté. Accord provisoire du 18/12/2025, votes finaux attendus au T4 2026, publication au JO au plus tard en janvier 2027, application à partir de juillet 2029.\n\nNotre lecture : rien ne change demain matin en agence. Mais ces trois chantiers (valeur, incitations, recueil d'informations proportionné) touchent le cœur de l'entretien de conseil. Les constats du pôle commun AMF-ACPR du 12 octobre (recommandations standardisées, conflits d'intérêts insuffisamment traités) vont dans le même sens.\n\nQuestion pour vos équipes : si l'on vous demandait demain de justifier la valeur d'un produit recommandé, avec quels éléments répondriez-vous ?\n\nSources : Commission européenne, demande d'avis à l'ESMA du 30/07/2026 (https://www.esma.europa.eu/sites/default/files/2026-08/Call_for_advice_on_RIS_to_ESMA.pdf) ; AMF-ACPR, communiqué du 12/10/2026.\nStatut : texte européen non adopté ; mandat d'avis technique. Revérifier les chiffres avant publication.",
+   "priorite": "surveillance",
+   "statut": "Brouillon — à valider avant publication (texte RIS non adopté ; mandat d'avis technique du 30/07/2026)",
+   "impact": "Contenu de positionnement sur le devoir de conseil renforcé.",
+   "populations": "Banques de détail, assureurs, CGP, responsables formation et conformité.",
+   "besoin_formation": "Value for money, inducements, conseil simple.",
+   "opportunite": "Capsule RIS (cf. opp-20261102-01).",
+   "source_label": "Commission européenne — Call for advice to ESMA on RIS (30/07/2026)",
+   "source_url": "https://www.esma.europa.eu/sites/default/files/2026-08/Call_for_advice_on_RIS_to_ESMA.pdf",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-11-02_PostLinkedIn_RIS-value-for-money-inducements.md"
   }
  ]
 }
