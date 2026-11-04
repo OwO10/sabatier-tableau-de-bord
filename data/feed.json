@@ -8006,6 +8006,23 @@
       "source_label": "Pretto — Analyse des taux immobilier novembre 2026 (29/10/2026)",
       "source_url": "https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-novembre-2026/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-04_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261104-01",
+      "agent": "editorial",
+      "date": "2026-11-04",
+      "ajout": "2026-11-04",
+      "titre": "Post LinkedIn — Crédit immobilier : quand les taux remontent, l'entretien de conseil se joue sur le détail (brouillon à valider)",
+      "resume": "Crédit immobilier : quand les taux remontent, l'entretien de conseil se joue sur le détail.\n\nCe que disent les chiffres (observatoire Pretto, 29/10/2026, données issues de ses propres dossiers, donc indicatives et non officielles) : taux moyens de 3,56 % sur 15 ans, 3,76 % sur 20 ans et 3,85 % sur 25 ans, soit 0,06 à 0,11 point de plus qu'en octobre. Le taux d'usure est de 5,40 % pour les prêts de 20 ans et plus depuis le 1er octobre ; une révision est attendue au 1er janvier 2027. Contexte rapporté : OAT 10 ans au-dessus de 5 % le 21 octobre, taux de dépôt de la BCE maintenu à 2,50 % le 29 octobre.\n\nNotre lecture : quand les taux montent, la marge de manœuvre se réduit. Les dossiers à la limite de l'usure, le poids de l'assurance emprunteur dans le TAEG et la capacité d'emprunt deviennent des sujets d'entretien à part entière.\n\nQuestion pour vos équipes : face à un dossier proche de l'usure, quelles options un conseiller sait-il expliquer clairement au client, et comment les trace-t-il ?\n\nSources : Pretto, analyse des taux de novembre 2026 (29/10/2026) : https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-novembre-2026/\nStatut : données de marché d'un courtier, pas de texte réglementaire en jeu. Revérifier les chiffres avant publication.",
+      "priorite": "moyenne",
+      "statut": "brouillon — à valider avant publication (données Pretto, non officielles)",
+      "impact": "Contenu de positionnement sur le conseil en crédit immobilier en période de hausse des taux.",
+      "populations": "Banques de détail, réseaux, courtiers IOBSP.",
+      "besoin_formation": "Usure, TAEG, assurance emprunteur, montage de dossier (DCI).",
+      "opportunite": "Capsule « Financer un projet quand les taux remontent » (cf. actu-20261104-01).",
+      "source_label": "Pretto — Analyse des taux immobilier novembre 2026 (29/10/2026)",
+      "source_url": "https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-novembre-2026/",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-04_Post-LinkedIn_Credit-immobilier-taux-usure.md"
     }
   ]
 }
