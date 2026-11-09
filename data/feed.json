@@ -8108,6 +8108,23 @@
    "source_url": "https://www.presse-citron.net/societe-generale-va-fermer-148-agences-dici-2027-voici-les-sites-concernes-en-france/",
    "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-11-09_Opportunites.md",
    "ajout": "2026-11-09"
+  },
+  {
+   "id": "editorial-20261109-01",
+   "agent": "editorial",
+   "date": "2026-11-09",
+   "ajout": "2026-11-09",
+   "titre": "Post LinkedIn — Simplifier sans déréguler : ce que ça change (ou pas) pour vos équipes (brouillon à valider)",
+   "resume": "Simplifier la réglementation sans la déréguler : ce que ça change (ou pas) pour vos équipes.\n\nCe que dit le discours (gouverneur de la Banque de France et président de l'ACPR, conférence du 5 novembre 2026) : le cadre est « devenu excessivement complexe » et doit être simplifié, « sans jamais confondre simplification et déréglementation ». Repères cités : CET1 moyen de 15,6 % pour les six principaux groupes bancaires français, ratio de solvabilité des assureurs à 250 %, révision de Solvabilité 2 applicable début 2027 avec une proportionnalité renforcée.\n\nNotre lecture : un discours n'est pas un texte. Rien n'est adopté, et le niveau d'exigence affiché reste le même. Pour un conseiller ou un contrôleur, le risque serait d'entendre « simplification » comme « allègement ».\n\nQuestion pour vos équipes : si les règles deviennent plus lisibles, vos supports de conformité et vos entretiens de conseil sont-ils prêts à être simplifiés sans perdre en traçabilité ?\n\nSources : Banque de France, discours du gouverneur, conférence ACPR du 05/11/2026 : https://www.banque-france.fr/fr/interventions-gouverneur/competitivite-et-resilience-du-secteur-financier-oxymore-ou-complementarite\nStatut : discours d'orientation, aucun texte adopté. Revérifier les chiffres avant publication.",
+   "priorite": "moyenne",
+   "statut": "brouillon — à valider avant publication (discours, aucun texte adopté)",
+   "impact": "Contenu de positionnement sur la conformité et la supervision.",
+   "populations": "Banques de détail, assureurs, conformité.",
+   "besoin_formation": "Gouvernance, conformité, Solvabilité 2 révisée 2027.",
+   "opportunite": "Capsule « Ce que la simplification réglementaire change pour la conformité du réseau » (cf. regl-20261109-01).",
+   "source_label": "Banque de France — discours du gouverneur (05/11/2026)",
+   "source_url": "https://www.banque-france.fr/fr/interventions-gouverneur/competitivite-et-resilience-du-secteur-financier-oxymore-ou-complementarite",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-11-09_PostLinkedIn_Simplifier-sans-dereglementer.md"
   }
  ]
 }
