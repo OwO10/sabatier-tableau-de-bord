@@ -1,7 +1,7 @@
 {
  "meta": {
   "titre": "Sabatier Formation — Intelligence métier",
-  "derniere_maj": "2026-11-09",
+  "derniere_maj": "2026-11-10",
   "agents": {
    "veille-reglementaire": {
     "num": 1,
@@ -8125,6 +8125,40 @@
    "source_label": "Banque de France — discours du gouverneur (05/11/2026)",
    "source_url": "https://www.banque-france.fr/fr/interventions-gouverneur/competitivite-et-resilience-du-secteur-financier-oxymore-ou-complementarite",
    "fichier": "Base_de_connaissances/11_Editorial/2026-11-09_PostLinkedIn_Simplifier-sans-dereglementer.md"
+  },
+  {
+   "id": "regl-20261110-01",
+   "agent": "veille-reglementaire",
+   "date": "2026-10-30",
+   "ajout": "2026-11-10",
+   "titre": "Crédit à la consommation — réforme (ordonnance 2025-880, transposition CCD2) applicable aux contrats signés dès le 20/11/2026",
+   "resume": "Champ élargi à 0–100 000 € (mini-crédits et paiement fractionné < 3 mois inclus), publicité encadrée, analyse de solvabilité même pour un petit découvert, préavis de 2 mois pour réduire un découvert, réévaluation avant hausse d'un renouvelable, délai raisonnable avant procédure en cas d'impayé. Rétractation inchangée (14 jours). Détails à confirmer sur Légifrance (source : presse spécialisée).",
+   "priorite": "haute",
+   "statut": "adopté — en vigueur le 20/11/2026 (contrats signés à partir de cette date)",
+   "impact": "Parcours de vente crédit conso, publicité, gestion du découvert et des impayés en réseau.",
+   "populations": "Conseillers clientèle banque de détail, établissements de crédit, bancassureurs.",
+   "besoin_formation": "Mise à niveau devoir d'information, solvabilité, découvert, recouvrement amiable.",
+   "opportunite": "Capsule/classe virtuelle « Crédit conso : ce qui change le 20 novembre » avant l'échéance.",
+   "source_label": "Selectra — Ce qui change en novembre 2026 (30/10/2026)",
+   "source_url": "https://selectra.info/finance/actualites/marche/ce-qui-change-novembre-2026-credit-decouvert",
+   "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-10_Veille-reglementaire_Synthese.md"
+  },
+  {
+   "id": "actu-20261110-01",
+   "agent": "actualite-banque-assurance",
+   "date": "2026-11-05",
+   "ajout": "2026-11-10",
+   "titre": "Crédits aux particuliers — septembre 2026 : habitat 11,8 Md€ à 3,32 %, conso 5,8 Md€ à 6,09 % (Banque de France)",
+   "resume": "Production habitat (hors renégociations) 11,8 Md€ contre 12,2 en août, taux inchangé à 3,32 % ; conso 5,8 Md€ contre 5,5, taux 6,09 % (6,14 % en août) ; encours conso +1,6 % sur un an. Le taux moyen de production diffère des barèmes d'offre (25 ans à 3,85 %) : deux mesures distinctes.",
+   "priorite": "moyenne",
+   "statut": "daté — statistique publiée le 05/11/2026",
+   "impact": "Lecture du marché crédit avant la réforme du crédit conso du 20/11.",
+   "populations": "Banques de détail, conseillers crédit, courtiers.",
+   "besoin_formation": "Argumentaire taux/conjoncture en entretien crédit.",
+   "opportunite": "Illustrer les contenus crédit conso/habitat avec ces repères.",
+   "source_label": "Banque de France — Crédits aux particuliers, sept. 2026",
+   "source_url": "https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2026-09",
+   "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-10_Brief-actualite.md"
   }
  ]
 }
