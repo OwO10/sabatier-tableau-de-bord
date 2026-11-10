@@ -8159,6 +8159,23 @@
    "source_label": "Banque de France — Crédits aux particuliers, sept. 2026",
    "source_url": "https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2026-09",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-10_Brief-actualite.md"
+  },
+  {
+   "id": "editorial-20261110-01",
+   "agent": "editorial",
+   "date": "2026-11-10",
+   "ajout": "2026-11-10",
+   "titre": "Post LinkedIn — Crédit conso : le 20 novembre, un changement d'entretien (brouillon à valider)",
+   "resume": "Crédit à la consommation : le 20 novembre, ce n'est pas seulement un changement de texte, c'est un changement d'entretien.\n\nCe que prévoit la réforme (ordonnance n° 2025-880, applicable aux contrats signés à partir du 20 novembre 2026) : champ élargi aux crédits de 0 à 100 000 € (mini-crédits et paiements fractionnés de moins de 3 mois inclus), publicité accompagnée d'une mise en garde, analyse de solvabilité même pour un petit découvert, préavis de 2 mois pour réduire un découvert sans date de fin, réévaluation avant une hausse significative d'un crédit renouvelable, délai raisonnable avant toute procédure en cas d'impayé. Le délai de rétractation reste de 14 jours.\n\nNotre lecture : ce sont moins des produits nouveaux que des moments de vérité nouveaux dans la relation client : l'offre de découvert, la hausse d'une réserve, la gestion d'un incident de paiement. C'est là que se jouera la qualité du conseil.\n\nQuestion pour vos équipes : vos conseillers savent-ils expliquer ces nouveaux droits, et tracer l'analyse de solvabilité, dès le premier petit découvert ?\n\nSources : Selectra, « Ce qui change en novembre 2026 » (30/10/2026) : https://selectra.info/finance/actualites/marche/ce-qui-change-novembre-2026-credit-decouvert ; Banque de France, crédits aux particuliers, septembre 2026 (conso 5,8 Md€, taux 6,09 %) : https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2026-09\nStatut : texte adopté, en vigueur le 20/11/2026. Revérifier les chiffres et le détail sur Légifrance avant publication.",
+   "priorite": "moyenne",
+   "statut": "brouillon — à valider avant publication (texte adopté, en vigueur le 20/11/2026)",
+   "impact": "Contenu de positionnement crédit conso / protection du consommateur.",
+   "populations": "Banques de détail, conseillers clientèle.",
+   "besoin_formation": "Réforme du crédit à la consommation 20/11/2026.",
+   "opportunite": "Capsule « Crédit conso : ce qui change le 20 novembre » (cf. regl-20261110-01).",
+   "source_label": "Selectra (30/10/2026) ; Banque de France",
+   "source_url": "https://selectra.info/finance/actualites/marche/ce-qui-change-novembre-2026-credit-decouvert",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-11-10_PostLinkedIn_Credit-conso-20-novembre.md"
   }
  ]
 }
