@@ -8261,6 +8261,23 @@
       "source_label": "Communiqué BPCE — 03/11/2026",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/03/3394616/0/fr/bpce-resultats-du-3e-trimestre-et-des-9-mois-2026.html",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-11_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261111-01",
+      "agent": "editorial",
+      "date": "2026-11-11",
+      "ajout": "2026-11-11",
+      "titre": "Post LinkedIn — Cyberattaque chez Crédit Mutuel Arkéa : la porte d'entrée était un prestataire (brouillon à valider)",
+      "resume": "Brouillon de post à partir de actu-20261111-01 : rappel des faits (attaque confirmée le 04/11/2026 via la plateforme d'un prestataire, ≥ 133 M$, enquête du parquet de Paris) et lecture DORA sur le risque prestataires TIC et les réflexes des équipes au-delà des fonctions risques.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — faits presse, enquête en cours ; DORA en application depuis le 17/01/2025",
+      "impact": "Notoriété Sabatier sur DORA / risque opérationnel",
+      "populations": "Réseau LinkedIn : banques, assureurs, fonctions risques et conformité",
+      "besoin_formation": "DORA appliqué aux métiers (détection, escalade, documentation d'incident)",
+      "opportunite": "Ouvrir la conversation commerciale sur un module DORA métiers",
+      "source_label": "Revue Banque — 05/11/2026",
+      "source_url": "https://www.revue-banque.fr/regulation-et-risques/cybersecurite/credit-mutuel-arkea-frappe-par-une-cyberattaque-FF26896003",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-11_PostLinkedIn_Cyberattaque-prestataire-DORA.md"
     }
   ]
 }
