@@ -8448,6 +8448,23 @@
       "source_label": "Revue Banque — 12/11/2026",
       "source_url": "https://www.revue-banque.fr/metiers/paiements/iso-20022-l-epc-reporte-sa-decision-sur-la-fin-des-adresses-non-structurees-dans-sepa-OO26934578",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-14_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261114-01",
+      "agent": "editorial",
+      "date": "2026-11-14",
+      "ajout": "2026-11-14",
+      "titre": "Post LinkedIn — Assurance emprunteur : la substitution se joue désormais sur le calendrier (brouillon à valider)",
+      "resume": "Brouillon de post à partir de l'avis CCSF du 10/11/2026 (publié le 12/11) : point de contact unique, guide de substitution commun, prise d'effet à E+2. Angle : l'enjeu passe du droit à l'exécution (dossier complet, délai, date d'effet), source de réclamations. Question aux équipes réseau.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — non publié",
+      "impact": "Contenu de visibilité sur la relation client crédit / assurance emprunteur",
+      "populations": "Conseillers crédit immobilier, back-offices, assureurs emprunteur",
+      "besoin_formation": "Substitution d'assurance emprunteur : process et discours client",
+      "opportunite": "Appui commercial pour la capsule « Substitution d'assurance emprunteur »",
+      "source_label": "Banque de France / CCSF — 12/11/2026",
+      "source_url": "https://www.banque-france.fr/fr/communiques-de-presse/assurance-emprunteur-le-ccsf-adopte-un-avis-visant-fluidifier-et-securiser-le-processus-de",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-14_PostLinkedIn_Substitution-assurance-emprunteur-CCSF.md"
     }
   ]
 }
