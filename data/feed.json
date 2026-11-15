@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-11-14",
+    "derniere_maj": "2026-11-15",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -8465,6 +8465,57 @@
       "source_label": "Banque de France / CCSF — 12/11/2026",
       "source_url": "https://www.banque-france.fr/fr/communiques-de-presse/assurance-emprunteur-le-ccsf-adopte-un-avis-visant-fluidifier-et-securiser-le-processus-de",
       "fichier": "Base_de_connaissances/11_Editorial/2026-11-14_PostLinkedIn_Substitution-assurance-emprunteur-CCSF.md"
+    },
+    {
+      "id": "regl-20261115-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-11-04",
+      "ajout": "2026-11-15",
+      "titre": "Cass. 1re civ., 4 nov. 2026 (n° 24-10.518) — assurance emprunteur : c'est à la banque de prouver son conseil sur une franchise ITT de 180 jours",
+      "resume": "Emprunteur adhérent à l'assurance de groupe d'une caisse régionale (assureur CNP) ; en arrêt de travail, une franchise de 180 jours lui est opposée. La CA de Pau l'avait débouté faute de preuve que la franchise était inadaptée. Cassation : le débiteur de l'obligation d'information et de conseil doit prouver son exécution ; la perte de chance est réparable sans prouver qu'un meilleur contrat aurait été obtenu. Renvoi devant la CA d'Agen. La franchise n'est pas jugée illégale en soi.",
+      "priorite": "moyenne",
+      "statut": "Arrêt rendu (non publié au Bulletin selon la source) — jurisprudence constante ; décision non vérifiée sur Judilibre",
+      "impact": "Traçabilité du conseil sur l'adéquation des garanties (ITT, franchise, quotité) : seule défense de la banque en contentieux",
+      "populations": "Conseillers crédit immobilier, directeurs d'agence, conformité, assureurs emprunteur",
+      "besoin_formation": "Devoir de conseil en assurance emprunteur : adéquation des garanties et preuve du conseil",
+      "opportunite": "Cas pratique « La franchise de 180 jours » pour les modules DCI / assurance emprunteur",
+      "source_label": "Kohen Avocats (analyse de l'arrêt Cass. 1re civ. 04/11/2026)",
+      "source_url": "https://kohenavocats.com/devoir-conseil-banque-assurance-emprunteur-franchise-180-jours-perte-de-chance-cassation-4-novembre-2026/",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-15_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20261115-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-10-27",
+      "ajout": "2026-11-15",
+      "titre": "EIOPA — staff paper : intégrer les sciences comportementales dans la supervision des pratiques commerciales (assurance emprunteur bancaire et vente d'IBIP en cas d'étude)",
+      "resume": "Document des services de l'EIOPA (27/10/2026), non contraignant, pour les superviseurs. Quatre piliers : évaluer les résultats pour le consommateur (santé financière), comprendre ses comportements réels, intervenir au niveau marché/produit/distribution, combiner les méthodes de collecte. Cas illustratifs : protection gap CatNat, assurance protection crédit vendue par les banques, processus de vente des produits d'investissement fondés sur l'assurance.",
+      "priorite": "moyenne",
+      "statut": "Staff paper — aucune nouvelle exigence",
+      "impact": "Supervision « outcome-based » attentive au parcours de décision réel du client, notamment en bancassurance ; prolonge la logique value for money",
+      "populations": "Bancassureurs, conseillers épargne/assurance vie, concepteurs de parcours digitaux, conformité",
+      "besoin_formation": "Biais comportementaux du client dans l'acte de vente ; conception de parcours loyaux",
+      "opportunite": "Module « Biais du client et devoir de conseil : ce que le superviseur va regarder »",
+      "source_label": "EIOPA — 27/10/2026",
+      "source_url": "https://www.eiopa.europa.eu/eiopa-staff-paper-sets-out-four-pillar-approach-integrating-behavioral-insights-conduct-business-2026-10-27_en",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-15_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20261115-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-11-13",
+      "ajout": "2026-11-15",
+      "titre": "Hameçonnage : la faute de la victime exclut aussi l'indemnisation par le Fonds de garantie (Cass. 2e civ., 5 nov. 2026, n° 25-12.778)",
+      "resume": "Piégé par un faux courriel « assurance maladie », un client transmet identifiants, numéro de carte et codes de sécurité. Après le refus de sa banque, il demande l'indemnisation du FGTI via la CIVI. Les juges retiennent une faute de la victime au vu des signaux d'alerte (expéditeur non identifié, fautes, codes servant à des paiements, montants incohérents, libellé étranger) ; la Cour de cassation confirme. La décision ne tranche pas la responsabilité de la banque.",
+      "priorite": "moyenne",
+      "statut": "Arrêt rendu (rapporté par MoneyVox le 13/11/2026)",
+      "impact": "Discours client sur la fraude et le remboursement ; à articuler avec la CJUE du 15/10 et le futur PSR",
+      "populations": "Conseillers clientèle particuliers, services réclamations, équipes fraude",
+      "besoin_formation": "Fraude au paiement : règles de remboursement et signaux d'hameçonnage à expliquer au client",
+      "opportunite": "Support de sensibilisation clientèle « Les 5 signaux que le juge a relevés »",
+      "source_label": "MoneyVox — 13/11/2026",
+      "source_url": "https://www.moneyvox.fr/banque/actualites/111233/fraude-bancaire-le-fonds-de-garantie-ne-prend-pas-automatiquement-le-relais-de-votre-banque",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-15_Brief-actualite.md"
     }
   ]
 }
