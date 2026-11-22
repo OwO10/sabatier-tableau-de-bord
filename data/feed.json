@@ -8754,6 +8754,23 @@
    "source_label": "BCE (communiqué, version FR) — 18/11/2026",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.fr.pdf",
    "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-22_Brief-actualite.md"
+  },
+  {
+   "id": "editorial-20261122-01",
+   "agent": "editorial",
+   "date": "2026-11-22",
+   "ajout": "2026-11-22",
+   "titre": "Post LinkedIn — Faux placement : la banque doit alerter, pas enquêter (Cass. com., 18/11/2026) (brouillon à valider)",
+   "resume": "Brouillon de post à partir de l'arrêt de la chambre commerciale du 18/11/2026 (n° 25-14.815, F-B) : la banque qui a mis en garde son client avant un virement vers un faux placement n'avait pas à enquêter sur le bénéficiaire. Angle : la protection tient à une alerte donnée et prouvée ; l'enjeu de formation se déplace vers les réflexes au guichet (repérer, mettre en garde, tracer).",
+   "priorite": "moyenne",
+   "statut": "Brouillon à valider — arrêt de cassation publié, renvoi CA Orléans",
+   "impact": "Prise de parole sur la prévention de la fraude au faux placement en agence",
+   "populations": "Réseau LinkedIn : directions réseaux, conformité, fraude et formation des banques de détail",
+   "besoin_formation": "Repérer un faux placement, formuler et tracer une mise en garde avant virement",
+   "opportunite": "Support d'appel pour le module « Fraude au faux placement : alerter, tracer, se protéger » (regl-20261122-01)",
+   "source_label": "Kohen Avocats — 19/11/2026",
+   "source_url": "https://kohenavocats.fr/2026/11/19/virement-faux-placement-banque-mise-en-garde-responsabilite-cassation-18-novembre-2026/",
+   "fichier": "Base_de_connaissances/11_Editorial/2026-11-22_PostLinkedIn_Faux-placement-alerter-pas-enqueter.md"
   }
  ]
 }
