@@ -8890,6 +8890,23 @@
       "source_label": "Lefebvre Dalloz Formation — programme 2027",
       "source_url": "https://formation.lefebvre-dalloz.fr/sites/default/files/pdf_training/2027/12462_prog.pdf",
       "fichier": "Base_de_connaissances/09_Veille/opportunites/2026-11-23_Opportunites.md"
+    },
+    {
+      "id": "editorial-20261123-01",
+      "agent": "editorial",
+      "date": "2026-11-23",
+      "ajout": "2026-11-23",
+      "titre": "Post LinkedIn — Une alerte donnée ailleurs ne remplace pas une déclaration de soupçon (CE, 17/11/2026) (brouillon à valider)",
+      "resume": "Brouillon de post à partir de la décision du Conseil d'État du 17/11/2026 (n° 503350) : radiation d'une commissaire aux comptes confirmée, notamment pour absence de DS à Tracfin et défaut de formation ; mise en regard de la mesure judiciaire visant la succursale italienne de Revolut. Angle : la DS est une obligation autonome, la formation LCB-FT tracée (décret 2026-310) est la preuve attendue.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — décision CE définitive ; chiffres de la newsletter à confirmer",
+      "impact": "Prise de parole LCB-FT auprès des réseaux bancaires et assureurs vie",
+      "populations": "Réseau LinkedIn : conformité, LCB-FT, directions réseaux et formation",
+      "besoin_formation": "Déclaration de soupçon : circuit, trace, formation individualisée",
+      "opportunite": "Support d'appel pour le cas pratique « Déclarer, pas seulement signaler » (opp-20261123-01)",
+      "source_label": "Conseil d'État — 17/11/2026",
+      "source_url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2026-11-17/503350",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-23_PostLinkedIn_Declaration-de-soupcon-ne-se-delegue-pas.md"
     }
   ]
 }
