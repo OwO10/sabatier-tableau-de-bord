@@ -8941,6 +8941,23 @@
       "source_label": "MoneyVox — 23/11/2026",
       "source_url": "https://www.moneyvox.fr/votre-argent/actualites/111372/ce-qui-change-en-decembre-nouveaute-boursobank-les-3-infos-argent-du-jour",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-24_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261124-01",
+      "agent": "editorial",
+      "date": "2026-11-24",
+      "ajout": "2026-11-24",
+      "titre": "Post LinkedIn — Quand l'assureur fait défaut, le conseil continue (FWU Life Insurance Lux, ACPR 18/11/2026) (brouillon à valider)",
+      "resume": "Brouillon de post à partir du communiqué ACPR du 18/11/2026 sur FWU Life Insurance Lux : déclaration de créance avant le 31/01/2028, héritiers concernés, environ 30 000 contrats en France. Angle : l'échéance lointaine est un risque ; recenser, vérifier, prévenir les héritiers ; le choix du porteur de risque fait partie du conseil.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — liquidation en cours ; chiffre de 30 000 contrats à confirmer",
+      "impact": "Prise de parole auprès des CGP et distributeurs d'assurance vie",
+      "populations": "Réseau LinkedIn : CGP, courtiers vie, banque privée, conformité",
+      "besoin_formation": "Défaillance d'un assureur et sélection des porteurs de risque",
+      "opportunite": "Support d'appel pour une capsule « Quand l'assureur fait défaut »",
+      "source_label": "ACPR / MoneyVox-AFP — 18/11/2026",
+      "source_url": "https://www.moneyvox.fr/assurance-vie/actualites/111297/assurance-vie-luxembourgeoise-les-clients-leses-par-la-faillite-de-fwu-life-insurance-lux-appeles-a-se-manifester",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-24_PostLinkedIn_FWU-defaillance-assureur-accompagner-le-client.md"
     }
   ]
 }
