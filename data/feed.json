@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-11-23",
+    "derniere_maj": "2026-11-24",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -8907,6 +8907,40 @@
       "source_label": "Conseil d'État — 17/11/2026",
       "source_url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2026-11-17/503350",
       "fichier": "Base_de_connaissances/11_Editorial/2026-11-23_PostLinkedIn_Declaration-de-soupcon-ne-se-delegue-pas.md"
+    },
+    {
+      "id": "regl-20261124-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-11-18",
+      "ajout": "2026-11-24",
+      "titre": "FWU Life Insurance Lux (en liquidation) : l'ACPR appelle assurés et bénéficiaires à déclarer leur créance avant le 31/01/2028",
+      "resume": "Communiqué ACPR du 18/11/2026 relayant l'avis du CAA luxembourgeois du 11/11 : les clients et bénéficiaires de FWU Life Insurance Lux (liquidation prononcée le 31/01/2025) doivent déclarer leur créance auprès du liquidateur ; date butoir impérative 31/01/2028, toute créance non déclarée est exclue. Aucune garantie de remboursement intégral. Héritiers concernés. Environ 30 000 contrats en France.",
+      "priorite": "moyenne",
+      "statut": "Procédure de liquidation en cours — délai fixé par le tribunal (31/01/2028)",
+      "impact": "Clients d'un assureur vie en LPS à recenser et accompagner ; question de la diligence sur les porteurs de risque étrangers",
+      "populations": "CGP, courtiers vie, conseillers patrimoniaux, services successions",
+      "besoin_formation": "Défaillance d'un assureur : procédure, délais, information des clients et héritiers ; sélection des partenaires (DDA, gouvernance produit)",
+      "opportunite": "Capsule « Quand l'assureur fait défaut : accompagner le client et sécuriser son conseil »",
+      "source_label": "ACPR / MoneyVox-AFP — 18/11/2026",
+      "source_url": "https://www.moneyvox.fr/assurance-vie/actualites/111297/assurance-vie-luxembourgeoise-les-clients-leses-par-la-faillite-de-fwu-life-insurance-lux-appeles-a-se-manifester",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-24_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20261124-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-11-23",
+      "ajout": "2026-11-24",
+      "titre": "BoursoBank change d'identité et vise 14 millions de clients d'ici 2029 ; Revolut dépasse 8 millions de clients en France",
+      "resume": "Selon MoneyVox (23/11/2026), BoursoBank (groupe Société Générale) adopte un nouveau logo avec une campagne de 16 000 affiches ; elle revendique 9,4 millions de clients et vise 14 millions d'ici 2029. Revolut a dépassé 8 millions de clients en France. Pression accrue des banques en ligne sur la clientèle particuliers des réseaux.",
+      "priorite": "moyenne",
+      "statut": "Information d'entreprise (communication commerciale)",
+      "impact": "Concurrence accrue sur la clientèle particuliers des réseaux d'agences en contraction",
+      "populations": "Conseillers clientèle particuliers, directions réseaux",
+      "besoin_formation": "Valeur ajoutée du conseil humain face aux banques en ligne : épargne, crédit, patrimoine",
+      "opportunite": "Argument pour le parcours « Conseiller en réseau en mutation » (opp-20261109-01)",
+      "source_label": "MoneyVox — 23/11/2026",
+      "source_url": "https://www.moneyvox.fr/votre-argent/actualites/111372/ce-qui-change-en-decembre-nouveaute-boursobank-les-3-infos-argent-du-jour",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-24_Brief-actualite.md"
     }
   ]
 }
