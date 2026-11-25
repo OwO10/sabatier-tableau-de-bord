@@ -9026,6 +9026,23 @@
       "source_label": "Infonet — 06/11/2026 (sources syndicales non nommées)",
       "source_url": "https://infonet.fr/actualite/levees-de-fonds/societe-generale-reforme-reseau/",
       "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-25_Brief-actualite.md"
+    },
+    {
+      "id": "editorial-20261125-01",
+      "agent": "editorial",
+      "date": "2026-11-25",
+      "ajout": "2026-11-25",
+      "titre": "Post LinkedIn — Livret A : distinguer le client qui arbitre de celui qui s'appauvrit (décollecte octobre 2026) (brouillon à valider)",
+      "resume": "Brouillon de post à partir des chiffres Caisse des dépôts du 24/11/2026 : -2,62 Md€ en octobre, -9,54 Md€ sur dix mois, pire cumul depuis 2009. Angle : deux mouvements (arbitrage vers l'assurance vie / tension budgétaire) appellent deux réponses (adéquation / repérage de fragilité, en lien avec le nouveau régime du découvert) ; ne pas présenter le taux de février 2027 comme acquis.",
+      "priorite": "moyenne",
+      "statut": "Brouillon à valider — statistiques publiées ; taux de février 2027 = projection",
+      "impact": "Prise de parole auprès des réseaux bancaires et CGP sur le conseil en épargne",
+      "populations": "Réseau LinkedIn : directions réseau, conseillers particuliers, CGP, formation",
+      "besoin_formation": "Conseil en épargne de précaution ; repérage de la fragilité financière",
+      "opportunite": "Support d'appel pour une capsule « Épargne de précaution : arbitrage ou fragilité ? »",
+      "source_label": "Cercle de l'Épargne (données Caisse des dépôts) — 24/11/2026",
+      "source_url": "https://cercledelepargne.com/livre-a-une-huitieme-decollecte-en-2026",
+      "fichier": "Base_de_connaissances/11_Editorial/2026-11-25_PostLinkedIn_Livret-A-decollecte-epargne-de-precaution.md"
     }
   ]
 }
