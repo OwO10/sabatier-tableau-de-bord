@@ -1,7 +1,7 @@
 {
   "meta": {
     "titre": "Sabatier Formation — Intelligence métier",
-    "derniere_maj": "2026-11-24",
+    "derniere_maj": "2026-11-25",
     "agents": {
       "veille-reglementaire": {
         "num": 1,
@@ -8958,6 +8958,74 @@
       "source_label": "ACPR / MoneyVox-AFP — 18/11/2026",
       "source_url": "https://www.moneyvox.fr/assurance-vie/actualites/111297/assurance-vie-luxembourgeoise-les-clients-leses-par-la-faillite-de-fwu-life-insurance-lux-appeles-a-se-manifester",
       "fichier": "Base_de_connaissances/11_Editorial/2026-11-24_PostLinkedIn_FWU-defaillance-assureur-accompagner-le-client.md"
+    },
+    {
+      "id": "regl-20261125-01",
+      "agent": "veille-reglementaire",
+      "date": "2026-11-12",
+      "ajout": "2026-11-25",
+      "titre": "Cass. com., 12 nov. 2026 (n° 25-10.038, publié au Bulletin) — une garantie commerciale couvrant un aléa extérieur au bien est une opération d'assurance",
+      "resume": "Un distributeur de pneumatiques vendait une « garantie » remboursant le pneu en cas de crevaison, choc ou vandalisme. La chambre commerciale juge qu'une garantie commerciale ne peut couvrir un événement aléatoire extérieur au bien vendu : c'est une opération d'assurance réservée aux entreprises agréées, dont l'exercice sans agrément constitue une concurrence déloyale. Cassation partielle, renvoi CA Versailles.",
+      "priorite": "moyenne",
+      "statut": "Arrêt rendu (cassation partielle) — solution visant la rédaction antérieure à l'ordonnance du 29/09/2021 selon le commentaire, à vérifier",
+      "impact": "Frontière garantie commerciale / assurance affinitaire ; risque d'exercice illégal de l'assurance et de concurrence déloyale",
+      "populations": "Assureurs IARD, distributeurs d'assurance affinitaire, bancassurance (offres packagées), conformité",
+      "besoin_formation": "Qualifier une opération d'assurance ; assurance affinitaire et obligations DDA",
+      "opportunite": "Module court / cas pratique « Garantie, extension ou assurance ? »",
+      "source_label": "Cour de cassation (ch. com.) — 12/11/2026 ; commentaire Kohen Avocats 14/11/2026",
+      "source_url": "https://www.courdecassation.fr/decision/6af561136c2e17781288f031",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-25_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "regl-20261125-02",
+      "agent": "veille-reglementaire",
+      "date": "2026-11-19",
+      "ajout": "2026-11-25",
+      "titre": "EBA — Risk Assessment Report automne 2026 : banques résilientes (CET1 16,2 %, NPL ~1,8 %), vigilance sur crédit conso, PME, immobilier commercial et cyber",
+      "resume": "L'EBA publie son rapport d'évaluation des risques d'automne : CET1 moyen 16,2 % en juin 2026, marge de capital 4,7 % (≈ -10 pb sur un an), NPL stable à ~1,8 %, crédit aux autres institutions financières +18,5 % sur un an. Points de vigilance : crédit à la consommation, PME, immobilier commercial, cybermenaces et pression des dettes souveraines.",
+      "priorite": "moyenne",
+      "statut": "Rapport de surveillance (non normatif)",
+      "impact": "Signal de supervision sur la qualité du crédit conso au moment où la réforme du crédit à la consommation (20/11/2026) renforce l'évaluation de solvabilité",
+      "populations": "Banques de détail : risques, crédit, conformité, directions réseau",
+      "besoin_formation": "Lecture des indicateurs de risque ; octroi responsable du crédit à la consommation",
+      "opportunite": "Contenu de contexte pour les parcours crédit conso et risques",
+      "source_label": "EBA — communiqué du 19/11/2026",
+      "source_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-continue-display-resilience-amid-sovereign-debt-pressures-borrower-vulnerabilities-and",
+      "fichier": "Base_de_connaissances/09_Veille/reglementaire/2026-11-25_Veille-reglementaire_Synthese.md"
+    },
+    {
+      "id": "actu-20261125-01",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-11-24",
+      "ajout": "2026-11-25",
+      "titre": "Livret A : 8e décollecte de l'année (-2,62 Md€ en octobre), cumul -9,54 Md€ sur dix mois, pire niveau depuis 2009 ; LDDS et LEP aussi en retrait",
+      "resume": "Selon la Caisse des dépôts, le Livret A perd 2,62 Md€ en octobre, le LDDS 940 M€ et le LEP 1,51 Md€. Cumul janvier-octobre : Livret A -9,54 Md€, LDDS -2,54 Md€, LEP -4,96 Md€. Facteurs : taxe foncière, compléments d'IR, inflation à 3,4 %, rendement réel négatif, collecte record de l'assurance vie. Le Cercle de l'Épargne projette un Livret A à 2,6 % et un LEP à 3,1 % au 1er février 2027 (projection, non officielle).",
+      "priorite": "moyenne",
+      "statut": "Statistiques publiées (24/11/2026) ; taux de février 2027 = projection",
+      "impact": "Arbitrages livrets / fonds euros / PER à expliquer aux clients ; hausse probable des taux réglementés en février",
+      "populations": "Conseillers clientèle particuliers des réseaux bancaires, CGP",
+      "besoin_formation": "Conseil en épargne en période d'inflation ; découverte et allocation livrets / assurance vie",
+      "opportunite": "Capsule « Expliquer le Livret A de février 2027 et arbitrer l'épargne de précaution »",
+      "source_label": "Cercle de l'Épargne (données Caisse des dépôts) — 24/11/2026",
+      "source_url": "https://cercledelepargne.com/livre-a-une-huitieme-decollecte-en-2026",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-25_Brief-actualite.md"
+    },
+    {
+      "id": "actu-20261125-02",
+      "agent": "actualite-banque-assurance",
+      "date": "2026-11-06",
+      "ajout": "2026-11-25",
+      "titre": "Société Générale : projet de regroupement d'environ 148 points de vente, dont une quarantaine d'agences, d'ici fin 2027 (information de presse)",
+      "resume": "D'après Infonet (06/11/2026), des projets présentés aux représentants du personnel les 4-5/11 prévoient de ramener le réseau de 1 769 à ~1 620 points de vente, dont une quarantaine d'agences de plein exercice fermées à partir du T2 2027, ~40 postes de directeurs d'agence supprimés et le transfert de l'édition des prêts immobiliers vers les agences. Pas de départ contraint annoncé ; pas de communiqué de la banque cité.",
+      "priorite": "surveillance",
+      "statut": "Projet présenté au personnel — non confirmé par communiqué officiel",
+      "impact": "Transformation du réseau : portefeuilles élargis, crédit immobilier traité en agence, management d'agences à distance",
+      "populations": "Conseillers et directeurs d'agence, conseillers crédit immobilier, RH réseau",
+      "besoin_formation": "Accompagnement des transformations de réseau ; montée en compétence crédit immobilier ; management multi-sites",
+      "opportunite": "Offre d'accompagnement des réseaux en transformation (directeurs et adjoints)",
+      "source_label": "Infonet — 06/11/2026 (sources syndicales non nommées)",
+      "source_url": "https://infonet.fr/actualite/levees-de-fonds/societe-generale-reforme-reseau/",
+      "fichier": "Base_de_connaissances/09_Veille/actualite/2026-11-25_Brief-actualite.md"
     }
   ]
 }
